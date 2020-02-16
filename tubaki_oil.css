@@ -1,0 +1,400 @@
+h2, h3, h4 {
+  clear: both; }
+
+#tubaki_oili {
+  margin: 0;
+  padding: 0;
+  width: 700px; }
+
+#tubaki_oili h2 {
+  margin-bottom: 24px; }
+
+#tubaki_oili .detail_box {
+  margin: 0;
+  padding: 0; }
+
+#tubaki_oili .detail_box .photo_right {
+  margin: 0 0 0 15px;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+  width: 265px; }
+
+#tubaki_oili .detail_box .detail_left {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 410px; }
+
+#tubaki_oili .detail_box .detail_left ul {
+  margin: 0;
+  padding: 0; }
+
+#tubaki_oili .detail_box .detail_left ul li {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style-type: none; }
+
+#tubaki_oili .detail_box .detail_left ul.care {
+  margin: 30px 0 0 0;
+  padding: 0;
+  text-align: center; }
+
+#tubaki_oili .detail_box .detail_left ul.care li {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style-type: none; }
+
+#tubaki_oili .detail_inner {
+  margin: 0 0 0 10px;
+  padding: 0; }
+
+#tubaki_oili .section_box {
+  margin: 0 0 30px 0; }
+
+#tubaki_oili .staff_box {
+  border: 1px solid #a98448;
+  background-color: #f6f6f1;
+  padding: 9px 12px 9px 20px;
+  margin: 25px 0 25px 0;
+  height: 151px; }
+
+#tubaki_oili .staff_box .staff_left {
+  float: left;
+  margin: 10px 30px 0 0;
+  width: 65px; }
+
+#tubaki_oili .staff_box .staff_middle {
+  float: left;
+  margin: 10px 26px 0 0;
+  width: 392px; }
+
+#tubaki_oili .staff_box .staff_middle span {
+  font-weight: 700;
+  font-size: 110%;
+  padding: 0 0 10px 0; }
+
+#tubaki_oili .staff_box .staff_right {
+  float: left;
+  width: 150px; }
+
+#tubaki_oili .herb_box h3.herb {
+  padding: 0;
+  margin: 0 0 -10px 0; }
+
+#tubaki_oili .herb_box .box_middle {
+  background-image: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/bg_herb.gif);
+  padding: 25px 23px 0 23px;
+  margin: 0;
+  width: 654px; }
+
+#tubaki_oili .herb_box .box_middle .oil_box_l {
+  border: 2px solid #ba9c6b;
+  float: left;
+  margin: 0 11px 15px 0;
+  background-color: #fff;
+  width: 206px; }
+
+#tubaki_oili .herb_box .box_middle .oil_box_r {
+  border: 2px solid #ba9c6b;
+  float: right;
+  margin: 0 0 15px 0;
+  background-color: #fff;
+  width: 206px; }
+
+#tubaki_oili .herb_box .box_middle .oil_box_noimg {
+  margin: 0;
+  padding: 12px 0 0 0;
+  width: 210px;
+  float: right; }
+
+#tubaki_oili .herb_box .box_middle .oil_box_l .inner, #tubaki_oili .herb_box .box_middle .oil_box_r .inner {
+  border: 1px solid #d4c1a3;
+  padding: 15px;
+  background-color: #fff;
+  margin: 3px;
+  height: 250px; }
+
+#tubaki_oili .herb_box .box_middle .oil_box_l .inner ul, #tubaki_oili .herb_box .box_middle .oil_box_r .inner ul {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+#tubaki_oili .herb_box .box_middle .oil_box_l .inner ul li, #tubaki_oili .herb_box .box_middle .oil_box_r .inner ul li {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style-type: none; }
+
+#tubaki_oili .herb_box .box_bottom {
+  background-image: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/bg_box_bottom.gif);
+  margin: 0 0 20px 0;
+  padding: 0;
+  height: 10px; }
+
+#tubaki_oili h3.biyo_oil {
+  margin: 0 0 15px 0; }
+
+#tubaki_oili h3.method {
+  margin: 0 0 15px 0; }
+
+#tubaki_oili h3.media {
+  margin: 0 0 15px 0; }
+
+#tubaki_oili h3.staff {
+  margin: 0 0 10px 0; }
+
+#tubaki_oili h3.aroma {
+  padding: 0;
+  margin: 0; }
+
+#tubaki_oili h3.power_up {
+  margin: 0 0 15px 0; }
+
+#tubaki_oili .method_box {
+  margin: 0;
+  padding: 0;
+  width: 700px; }
+
+#tubaki_oili .method_box ul {
+  margin: 0 30px 0 30px;
+  padding: 0;
+  text-align: center; }
+
+#tubaki_oili .method_box ul li.method_l {
+  margin: 0 20px 0 0;
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  width: 200px; }
+
+#tubaki_oili .method_box ul li.method_r {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+  width: 200px;
+  margin: 0; }
+
+#tubaki_oili .method_box ul li.method_l ul, #tubaki_oili .method_box ul li.method_r ul {
+  margin: 0;
+  padding: 0; }
+
+#tubaki_oili .method_box ul li.method_l ul li, #tubaki_oili .method_box ul li.method_r ul li {
+  margin: 0 0 12px 0;
+  padding: 0;
+  list-style-type: none; }
+
+* html #tubaki_oil .herb_box h3.herb {
+  padding: 0;
+  margin: 0; }
+
+* html #tubaki_oil .herb_box .box_middle {
+  background-image: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/bg_herb.gif);
+  padding: 25px 20px 0 20px;
+  margin: 0;
+  width: 650px; }
+
+.power_up_box {
+  margin: 30px 0 10px 0; }
+
+.power_up_box .reason_l {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 400px; }
+
+.power_up_box .reason_l ul {
+  margin: 0;
+  padding: 0; }
+
+.power_up_box .reason_l ul li {
+  margin: 0 0 15px 10px;
+  padding: 0;
+  list-style-type: none; }
+
+.power_up_box .reason_l ul li.line {
+  margin: 5px 0 15px 0 !important;
+  padding: 0;
+  list-style-type: none; }
+
+.power_up_box .reason_r {
+  float: right;
+  margin: 0;
+  width: 280px; }
+
+#media table {
+  width: 700px; }
+
+#media table tr .bg_red {
+  background-color: #ac1700;
+  color: #fff; }
+
+#media table tr .bg_red1 {
+  background-color: #cd7466;
+  color: #fff;
+  font-weight: 700; }
+
+#media table tr .bg_grey {
+  background-color: #e5e3e5; }
+
+#media table tr th {
+  width: 220px;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #e5e3e5;
+  padding: 19px 15px 19px 15px;
+  color: #333; }
+
+#media table tr th .th_text {
+  display: block;
+  float: left;
+  padding-right: 5px; }
+
+#media table tr td, #media table tr th {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff; }
+
+#media table tr td {
+  vertical-align: middle;
+  background-color: #f7f7f7;
+  padding: 17px; }
+
+#media .table_tit {
+  padding: 5px 15px 5px 15px; }
+
+#media .new_oil {
+  clear: both;
+  overflow: hidden; }
+
+#media .new_oil h3.tl {
+  margin: 0 0 9px 0;
+  padding: 0;
+  height: 36px; }
+
+#media .new_oil .reason {
+  margin: 0 0 15px 13px; }
+
+#media .new_oil_l {
+  width: 400px;
+  float: left;
+  margin: 0 19px 25px 0; }
+
+#media .new_oil_r {
+  width: 281px;
+  float: left;
+  margin-bottom: 25px;
+  padding-top: 14px; }
+
+#media .tl {
+  font-size: 114%;
+  font-weight: 700;
+  margin: 0 0 12px 3px; }
+
+#media p.no01 {
+  margin: 0 0 10px 10px;
+  background: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/ic_no01.jpg) no-repeat left 0.3em;
+  padding: 0 20px 0 23px;
+  line-height: 160%; }
+
+#media p.no02 {
+  margin: 0 0 0 10px;
+  background: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/ic_no02.jpg) no-repeat left 0.3em;
+  padding: 0 20px 0 23px;
+  line-height: 160%; }
+
+#media p.no01 span, #media p.no02 span {
+  background: #ff6;
+  padding: 1px 2px;
+  margin: 0 1px; }
+
+#media .filter_box {
+  width: 380px;
+  margin-left: 10px;
+  padding: 15px 0;
+  border-top: 1px dotted #d3d4ce;
+  border-bottom: 1px dotted #d3d4ce; }
+
+.line_box01 {
+  clear: both;
+  margin-bottom: 27px; }
+
+.text_box {
+  clear: both;
+  margin: 30px 0 20px 0;
+  text-align: center; }
+
+.left_img img {
+  float: left;
+  clear: left;
+  margin: 0 10px 0 0;
+  padding: 0; }
+
+.right_img img {
+  float: right;
+  clear: right;
+  margin: 0 0 10px 15px;
+  padding: 0; }
+
+.clear {
+  clear: both;
+  line-height: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.clear hr {
+  display: none; }
+
+.arrow_box {
+  clear: both;
+  text-align: center;
+  margin-bottom: 19px; }
+
+.section {
+  clear: both;
+  margin-bottom: 30px; }
+
+.center {
+  text-align: center; }
+
+.space {
+  margin: 10px 0 10px 0; }
+
+.space_t {
+  margin: 10px 0 0 0; }
+
+.space_b {
+  margin: 0 0 10px 0; }
+
+.space_img {
+  margin: 0 0 20px 0; }
+
+.imbox {
+  line-height: 1px;
+  font-size: 1px; }
+
+.mb10 {
+  margin-bottom: 10px; }
+
+.mb11 {
+  margin-bottom: 11px; }
+
+.mb12 {
+  margin-bottom: 12px; }
+
+.mb14 {
+  margin-bottom: 12px; }
+
+.mb15 {
+  margin-bottom: 15px; }
+
+.mb18 {
+  margin-bottom: 18px; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
+.mb37 {
+  margin-bottom: 37px; }

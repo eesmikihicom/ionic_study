@@ -1,0 +1,16 @@
+button {
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -webkit-appearance: button;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+button::-webkit-search-decoration {
+    display: none;
+}
+
+button:focus {
+    outline-offset: -2px;
+}

@@ -1,0 +1,112 @@
+/*font*/
+.size11 {
+    font-size: 11px;
+    *font-size: 10px;
+}
+
+.size12 {
+    font-size: 12px;
+    *font-size: 10px;
+}
+
+.size14 {
+    font-size: 14px;
+    *font-size: 12px;
+}
+
+.size16 {
+    font-size: 16px;
+    *font-size: 14px;
+}
+
+.size18 {
+    font-size: 18px;
+    font-size: 16px;
+}
+
+.small {
+    font-size: 11px;
+    *font-size: 9px;
+    line-height: 1.5;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nomal {
+    font-weight: normal
+}
+
+//font-color
+.red {
+    color: #d11;
+}
+
+.red_need {
+    color: #d11;
+    font-size: 12px;
+    *font-size: 11px;
+    display: block;
+    float: left;
+    height: 5px;
+    width: 10px;
+    line-height: 0px;
+    padding-top: 10px;
+    font-family: MS Pゴシック;
+    font-weight: normal;
+}
+
+.blue {
+    color: #49a0d6
+}
+
+.green {
+    color: #8AA727;
+}
+
+.yellow a:link,
+.yellow a:visited {
+    color: #960;
+    text-decoration: none;
+}
+
+.yellow a:hover {
+    color: #960;
+    text-decoration: underline;
+}
+
+a.red:link,
+a.red:visited {
+    color: #FF1E1E;
+    text-decoration: none;
+}
+
+a.red:hover {
+    color: #FF1E1E;
+    text-decoration: underline;
+}
+
+.orange {
+    color: #F15038;
+}
+
+.grey {
+    color: #666
+}
+
+.text_right {
+    .gray {
+        a {
+
+            &:link,
+            &:visited {
+                color: #999
+            }
+        }
+    }
+}
+
+.grey1 {
+    color: #999
+}

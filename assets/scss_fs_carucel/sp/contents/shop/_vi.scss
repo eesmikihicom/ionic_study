@@ -1,0 +1,93 @@
+#vi-sp {
+    min-width: 100%;
+
+    .slick-slider {
+        li {
+            background-size: cover;
+            background-position: center center;
+
+            a {
+                display: block;
+                height: 100vw;
+            }
+        }
+
+        .slick-arrow {
+            position: absolute;
+            left: 30px;
+            border: none;
+            background-color: transparent;
+            color: transparent;
+            padding: 0;
+            cursor: pointer;
+            z-index: 2;
+            width: 28px;
+            height: 43px;
+            background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &.slick-next {
+            left: auto;
+            right: 30px;
+            width: 28px;
+            height: 43px;
+            background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+            background-position: 0 -68px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        &.slick-disabled {
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+            opacity: 0;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 22px;
+            left: 0;
+            right: 0;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                width: auto;
+                padding: 0;
+                margin: 0 3px;
+
+                button {
+                    border: none;
+                    background-color: #e6e6e6;
+                    color: transparent;
+                    height: 5px;
+                    width: 27px;
+                    padding: 0;
+                    cursor: pointer;
+                }
+
+                &.slick-active button {
+                    background-color: #991f1f;
+                }
+            }
+        }
+
+    }
+
+}

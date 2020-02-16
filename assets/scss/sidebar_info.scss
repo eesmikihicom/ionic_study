@@ -1,0 +1,125 @@
+@import 'foundation/mixin';
+
+/* WP お知らせ カラー */
+$postGreen:#7fa74b;
+$postRed:#b21816;
+$postBlue:#579ddb;
+$postYellow:#b18500;
+
+/* WP お知らせ tag */
+@mixin tip_bc($borderColor, $bgColor) {
+    font-size: 0.7rem;
+    border: 1px solid $borderColor;
+    padding: 1px 8px;
+    border-radius: 50px;
+    background: $bgColor;
+    margin-right: 5px;
+}
+
+#leftNews {
+    margin-bottom: 38px;
+
+    dl {
+        dt {
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        dd {
+            font-size: 1.125rem;
+            line-height: 1.4;
+            border-bottom: #ddd 1px dotted;
+            background-size: 4px auto;
+            padding-bottom: 8px;
+            margin-bottom: 14px;
+
+            a {
+                font-size: 0.85rem;
+                line-height: 1.55;
+            }
+        }
+    }
+
+    .all {
+        text-align: right;
+        font-size: 0.85rem;
+    }
+
+    .newsDate {
+        padding-right: 5px;
+        margin-right: 5px;
+        font-size: 0.75rem;
+        display: inline-block;
+    }
+
+}
+
+.cat_tips {
+    color: #fff !important;
+    font-size: 0.7rem;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    @include transition_all(.3s, linear);
+
+    &.prod_info {
+        @include tip_bc($postGreen, $postGreen);
+    }
+
+    &.important {
+        @include tip_bc($postRed, $postRed);
+    }
+
+    &.info {
+        @include tip_bc($postBlue, $postBlue);
+    }
+
+    &.events {
+        @include tip_bc($postYellow, $postYellow);
+    }
+
+    &.others {
+        @include tip_bc(rgb(156, 156, 156), rgb(223, 223, 223));
+        color: #333;
+    }
+
+    &:hover {
+        //background: #ddd;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+}
+
+.news_area {
+    dd {
+        a {
+            display: block;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #leftNews {
+        h2 {
+            width: 63.5px;
+            height: 15px;
+            background-image: url(images/common/replace-s747fe062c7.png);
+            background-position: 0 -1775px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto 16px;
+            padding-bottom: 5px;
+        }
+    }
+}

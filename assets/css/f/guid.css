@@ -1,0 +1,68 @@
+/* compiled from ./scss/letter.scss */
+
+
+.fs-l-pageMain{
+	margin-left:0;
+}
+.guidList span{
+    width: 200px;
+    box-sizing: content-box;
+}
+span.anchor {
+    position: relative;
+    top: -140px;
+    display: block;
+}
+a.text_link_red{
+    color: #996600;;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:link, a:visited {
+    color: rgb(51, 51, 51);
+}
+a.text_link_red {
+    color: #996600;
+}
+
+.content_title {
+    display: block;
+    height: 40px;
+    width: 700px;
+    background: url("https://kazurasei.itembox.design/item/images/common/line03.jpg") left bottom no-repeat;
+}
+.guid_box h4 {
+    padding-left: 25px;
+    background-image: url("https://kazurasei.itembox.design/item/images/common/icon_line.jpg");
+    background-repeat: no-repeat;
+    background-position: 2px center;
+	font-size: 16px;
+}
+#news_list dd {
+	width: 700px;
+	float: left;
+	padding:20px 0;
+	border-bottom:1px dotted #ccc;
+}
+#news_list dd .news_date {
+	font-size: 12px;
+	*font-size: 10px;
+	padding-left: 10px;
+	width: 100px;
+	display: block;
+	float: left;
+}
+#news_list dd .news_text {
+	background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat left 6px;
+	padding-left: 20px;
+	display: block;
+	float: left;
+}
+.content_box1, .content_box2{
+	box-sizing: content-box;
+}
+#content_box3{
+	box-sizing: content-box;
+}

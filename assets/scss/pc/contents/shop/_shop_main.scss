@@ -1,0 +1,655 @@
+.top-contents-area {
+    display: block;
+}
+
+#topRecommend {
+    .topRecommend-inner {
+        padding: 45px 0 15px;
+        width: 1180px;
+        margin: 0 auto;
+
+        h2 {
+            margin-bottom: 14px;
+
+            &.seasonal {
+                width: 231px;
+                height: 27.5px;
+                background-position: 0 -1853px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+
+                &#seasonal {
+                    background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+                }
+            }
+
+            &.new {
+                width: 110.5px;
+                height: 27.5px;
+                background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+                background-position: 0 -1704px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+
+        ul {
+            margin-bottom: 20px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            -moz-justify-content: space-between;
+            justify-content: space-between;
+
+            li {
+                width: 180px;
+                margin-bottom: 20px;
+
+                figure {
+                    text-align: center;
+                    border: 1px solid #ededed;
+                    padding: 9px 0;
+                    margin-bottom: 12px;
+
+                    img {
+                        max-width: 160px;
+                        vertical-align: bottom;
+                        -moz-transition: opacity 0.2s linear;
+                        -o-transition: opacity 0.2s linear;
+                        -webkit-transition: opacity 0.2s linear;
+                        transition: opacity 0.2s linear;
+                        backface-visibility: hidden;
+
+                        &:hover {
+                            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                            opacity: 0.7;
+                            text-decoration: inherit;
+                        }
+                    }
+                }
+
+                figcaption {
+                    h3 {
+                        font-size: 12px;
+                        line-height: 1.5;
+                        font-weight: normal;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+        .fs-c-productListCarousel {
+            margin-bottom: 20px;
+
+            .fs-c-productListCarousel__ctrl {
+                display: none !important;
+            }
+
+            .fs-c-productListCarousel__list__item {
+                flex-basis: 180px;
+                max-width: 180px;
+                min-width: 180px;
+                margin: 0 8px;
+                display: flex !important;
+                flex-direction: column;
+                min-height: 300px;
+                height: 100%;
+
+                .fs-c-productListItem__image {
+                    box-shadow: 0 0 0 #cccccc inset;
+                    @include transition_all(.2s, linear);
+
+                    &:hover {
+                        box-shadow: 0 0 10px #cccccc inset;
+                    }
+                }
+
+                .fs-c-productListItem {
+                    //&__imageContainer{
+
+                    //}
+                    &__image {
+                        text-align: center;
+                        border: 1px solid #ededed;
+                        padding: 9px 0;
+                        margin-bottom: 5px;
+                        min-height: 180px;
+
+                        &__image {
+                            max-width: 160px;
+                            margin: auto;
+                        }
+                    }
+
+                    &__productName {
+                        font-size: .8125rem;
+                        line-height: 1.5;
+                        font-weight: normal;
+                    }
+
+                    &__control {
+                        display: none;
+                    }
+
+                    &__prices {
+                        margin-top: auto;
+                        margin-bottom: 10px;
+
+                        .fs-c-productPrice {
+                            &__main {
+                                font-size: 0.75rem;
+
+                                &__price {
+                                    font-size: 1rem;
+                                    font-weight: bold;
+                                }
+                            }
+
+                            &__addom {
+                                font-size: 10px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .fs-c-productPrice:not(.fs-c-productPrice--listed) {
+        .fs-c-productPrice__main__price {
+            color: #991f1f;
+        }
+    }
+}
+
+#topBanner {
+    .topBanner-inner {
+        padding: 25px 0 56px;
+        margin: 0 auto;
+        width: 1110px;
+
+        .slick-slider {
+            li {
+                width: 370px;
+                padding: 0 15px;
+
+                a {
+                    display: block;
+                    -moz-transition: opacity 0.2s linear;
+                    -o-transition: opacity 0.2s linear;
+                    -webkit-transition: opacity 0.2s linear;
+                    transition: opacity 0.2s linear;
+                    backface-visibility: hidden;
+
+                    &:hover {
+                        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                        opacity: 0.7;
+                        text-decoration: inherit;
+                    }
+
+                    img {
+                        width: 340px;
+                    }
+                }
+            }
+
+            .slick-arrow {
+                position: absolute;
+                left: -30px;
+                border: none;
+                background-color: transparent;
+                color: transparent;
+                padding: 0;
+                cursor: pointer;
+                width: 18.5px;
+                height: 29px;
+                background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+                background-position: 0 -186px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                top: calc(50% - 19px);
+                transform: translateY(-50%);
+
+                &.slick-next {
+                    left: auto;
+                    right: -30px;
+                    width: 18.5px;
+                    height: 29px;
+                    background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+                    background-position: 0 -265px;
+                    background-repeat: no-repeat;
+                    -moz-background-size: 840px auto;
+                    -o-background-size: 840px auto;
+                    -webkit-background-size: 840px auto;
+                    background-size: 840px auto;
+                    text-indent: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+                &.slick-disabled {
+                    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+                    opacity: 0;
+                }
+            }
+
+            .slick-track {
+                .slick-slide {
+                    img {
+                        width: 340px;
+                    }
+
+                    figcaption {
+                        display: none;
+                    }
+                }
+            }
+
+            .slick-dots {
+                text-align: center;
+                margin: 15px auto 0;
+                justify-content: center;
+
+
+                li {
+                    display: inline-block;
+                    width: auto;
+                    padding: 0;
+                    margin: 0 3px;
+
+                    button {
+                        border: none;
+                        background-color: #e6e6e6;
+                        color: transparent;
+                        height: 4px;
+                        width: 20px;
+                        padding: 0;
+                        cursor: pointer;
+
+                        &::before {
+                            content: "";
+                            font-size: 0px;
+                        }
+                    }
+
+                    &.slick-active {
+                        button {
+                            background-color: #991f1f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.topRanking {
+    padding: 30px 0 18px;
+    background-color: #f2ecda;
+    margin-bottom: 60px;
+
+    .topRanking-inner {
+        margin: 0 auto;
+        width: 1180px;
+
+        h3 {
+            width: 247px;
+            height: 21.5px;
+            background-position: 0 -1781.5px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto 15px;
+            background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+        }
+    }
+
+    .slick-list {
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #ded4b9;
+            border-radius: 7px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #f2ecda;
+        }
+    }
+
+    .slick-slider {
+        counter-reset: ranking;
+
+        li {
+            width: 220px;
+            padding: 10px 10px;
+            position: relative;
+
+            &:before {
+                counter-increment: ranking;
+                content: counter(ranking);
+                display: block;
+                position: absolute;
+                z-index: 2;
+                top: 7px;
+                left: 7px;
+                width: 32px;
+                height: 36px;
+                background: url('../images/common/ranking_bg_01.png') center center no-repeat;
+                background-size: 32px auto;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                padding: 5px 3px 0 0;
+                color: white;
+                font-style: italic;
+                text-align: center;
+                font-weight: bold;
+                font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+                font-size: 0.85rem;
+                line-height: 1rem;
+            }
+
+            &:nth-child(n + 4):before {
+                background: url('../images/common/ranking_bg_02.png') center center no-repeat;
+                background-size: 32px auto;
+            }
+
+            a {
+                display: block;
+
+                figure {
+                    background-color: white;
+                    padding: 10px;
+                    margin-bottom: 10px;
+
+                    img {
+                        width: 180px;
+                        -moz-transition: opacity 0.2s linear;
+                        -o-transition: opacity 0.2s linear;
+                        -webkit-transition: opacity 0.2s linear;
+                        transition: opacity 0.2s linear;
+                        backface-visibility: hidden;
+
+                        &:hover {
+                            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                            opacity: 0.7;
+                            text-decoration: inherit;
+                        }
+                    }
+                }
+
+                figcaption {
+                    font-size: 12px;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        .slick-arrow {
+            position: absolute;
+            left: -30px;
+            border: none;
+            background-color: transparent;
+            color: transparent;
+            padding: 0;
+            cursor: pointer;
+            width: 18.5px;
+            height: 29px;
+            background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+            background-position: 0 -186px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            top: 85px;
+
+            &.slick-next {
+                left: auto;
+                right: -30px;
+                width: 18.5px;
+                height: 29px;
+                background-image: url('../images/common/replace-s5a9ec3ddcb.png');
+                background-position: 0 -265px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            &.slick-disabled:hover {
+                filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5);
+                opacity: 0.5;
+            }
+        }
+    }
+
+}
+
+
+.topRanking_slider {
+    .fs-c-productListCarousel {
+        position: relative;
+        justify-content: space-between;
+
+        &__ctrl {
+            display: block !important;
+            background: #ded4b9;
+            min-width: 30px;
+            flex-basis: 30px;
+
+            &--prev {
+                left: 10px;
+                border-radius: 5px 2px 2px 5px;
+            }
+
+            &--next {
+                right: 10px;
+                border-radius: 2px 5px 5px 2px;
+            }
+
+            .fs-c-button--carousel {
+                font-size: 2rem;
+                height: 200px;
+
+                &:before {
+                    color: #5a4305;
+                }
+            }
+        }
+
+        &__list {
+            width: 1070px;
+
+            &__item {
+                flex-basis: 120px !important;
+                max-width: 120px !important;
+                min-width: 120px !important;
+                margin: 0 4px !important;
+            }
+
+            &__itemTrack {
+                // .slick-list {
+                //     overflow-x: scroll;
+
+                //     &::-webkit-scrollbar {
+                //         width: 7px;
+                //         height: 7px;
+                //     }
+
+                //     &::-webkit-scrollbar-thumb {
+                //         background: #ded4b9;
+                //         border-radius: 7px;
+                //     }
+
+                //     &::-webkit-scrollbar-track {
+                //         background: #f2ecda;
+                //     }
+                // }
+
+                .slick-track {
+                    counter-reset: ranking;
+                    // width: 2200px !important;
+                    // transform: none !important;
+                    // transition: initial !important;
+
+                    .slick-slide {
+                        width: 140px;
+                        padding: 10px 10px;
+                        position: relative;
+
+                        &:before {
+                            counter-increment: ranking;
+                            content: counter(ranking);
+                            display: block;
+                            position: absolute;
+                            z-index: 2;
+                            top: 7px;
+                            left: 7px;
+                            width: 32px;
+                            height: 36px;
+                            background: url('../images/common/ranking_bg_01.png') center center no-repeat;
+                            background-size: 32px auto;
+                            -moz-box-sizing: border-box;
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                            padding: 1px 3px 0 0;
+                            color: white;
+                            font-style: italic;
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+                        }
+
+                        &:nth-child(n + 4):before {
+                            background: url('../images/common/ranking_bg_02.png') center center no-repeat;
+                            background-size: 32px auto;
+                        }
+
+                        a {
+                            display: block;
+
+                            figure {
+                                background-color: white;
+                                padding: 10px;
+                                margin-bottom: 10px;
+
+                                img {
+                                    width: 180px;
+                                    -moz-transition: opacity 0.2s linear;
+                                    -o-transition: opacity 0.2s linear;
+                                    -webkit-transition: opacity 0.2s linear;
+                                    transition: opacity 0.2s linear;
+                                    backface-visibility: hidden;
+
+                                    &:hover {
+                                        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                                        opacity: 0.7;
+                                        text-decoration: inherit;
+                                    }
+                                }
+                            }
+
+                            figcaption {
+                                font-size: 12px;
+                                line-height: 1.6;
+                            }
+                        }
+
+                        .fs-c-productListItem {
+                            &__productName {
+                                font-size: .8125rem;
+                                line-height: 1.5;
+                                font-weight: normal;
+                            }
+
+                            &__image {
+                                a {
+                                    background: #fff;
+                                    padding: 10px;
+                                }
+                            }
+
+                            &__prices {
+                                display: none;
+                            }
+
+                            &__control {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#kanzashiRanking .topRanking-inner h3 {
+    background-image: url('/pc/common/img/replace-2.png');
+}
+
+#postContents {
+    &.main-fs {
+        margin: 0 0 30px;
+        padding: 15px 20px;
+        background: olive;
+    }
+}
+
+/*--- 商品マーク 詳細 ----*/
+// .newItem,
+// .recommendItem,
+// .limitedItem {
+// }

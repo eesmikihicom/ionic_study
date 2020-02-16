@@ -1,0 +1,76 @@
+#privacy_box {
+    ol {
+        list-style-type: decimal;
+        padding-left: 25px;
+    }
+
+    li {
+        list-style-type: decimal;
+        padding-bottom: 15px;
+    }
+}
+
+.privacy_litit {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.access_logo {
+    padding: 40px 0 15px;
+
+    img {
+        width: 280px;
+        height: auto;
+    }
+}
+
+#access_list {
+    width: 700px;
+    float: left;
+
+    dd {
+        border-top: dotted 1px #CCC;
+        float: left;
+        display: block;
+        padding: 10px 0;
+        display: block;
+        float: left;
+    }
+
+    .access_list_tit {
+        display: block;
+        padding: 0 0 0 10px;
+        width: 110px;
+        font-weight: bold;
+        color: #666;
+        float: left;
+    }
+
+    .access_list_text {
+        display: block;
+        width: 580px;
+        float: left;
+    }
+}
+
+.access_shop,
+.access_map {
+    padding: 4px;
+    float: left;
+    height: 240px;
+    width: 335px;
+    border: 1px solid #CCC;
+}
+
+.access_shop {
+    margin-right: 10px;
+}
+
+#access_gotoppage {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 270px;
+    height: 20px;
+}

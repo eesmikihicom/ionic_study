@@ -1,0 +1,39 @@
+.link_kiyora:hover img {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -ms-filter: "alpha( opacity=80 )";
+}
+
+.text_left {
+    color: #666;
+    text-align: left;
+    width: 200px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text_right {
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 290px;
+}
+
+.write {
+    width: 700px;
+    float: left;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.post_btn {
+    float: left;
+    width: 700px;
+    padding-top: 10px;
+}
+
+.red2 {
+    color: #AC1700;
+}

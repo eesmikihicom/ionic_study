@@ -1,0 +1,9 @@
+
+
+
+/*------------------------------------------------------------
+	law
+------------------------------------------------------------*/
+table.lawTable{width: 100%; border-top: solid 1px #DEDDD9;}
+table.lawTable td{border-bottom: solid 1px #DEDDD9; padding: 15px 0;}
+table.lawTable tr td:nth-of-type(odd){width: 30%; padding-right: 1em;}

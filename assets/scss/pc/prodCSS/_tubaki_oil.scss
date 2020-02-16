@@ -1,0 +1,545 @@
+h2,
+h3,
+h4 {
+    clear: both;
+}
+
+#tubaki_oili {
+    margin: 0;
+    padding: 0;
+    width: 700px;
+
+    h2 {
+        margin-bottom: 24px;
+    }
+
+    .detail_box {
+        margin: 0;
+        padding: 0;
+
+        .photo_right {
+            margin: 0 0 0 15px;
+            padding: 0;
+            float: right;
+            list-style-type: none;
+            width: 265px;
+        }
+
+        .detail_left {
+            margin: 0;
+            padding: 0;
+            float: left;
+            width: 410px;
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin: 0 0 20px 0;
+                    padding: 0;
+                    list-style-type: none;
+                }
+
+                &.care {
+                    margin: 30px 0 0 0;
+                    padding: 0;
+                    text-align: center;
+
+                    li {
+                        margin: 20px 0 0 0;
+                        padding: 0;
+                        list-style-type: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .detail_inner {
+        margin: 0 0 0 10px;
+        padding: 0;
+    }
+
+    .section_box {
+        margin: 0 0 30px 0;
+    }
+
+    .staff_box {
+        border: 1px solid #A98448;
+        background-color: #F6F6F1;
+        padding: 9px 12px 9px 20px;
+        margin: 25px 0 25px 0;
+        height: 151px;
+
+        .staff_left {
+            float: left;
+            margin: 10px 30px 0 0;
+            width: 65px;
+        }
+
+        .staff_middle {
+            float: left;
+            margin: 10px 26px 0 0;
+            width: 392px;
+
+            span {
+                font-weight: bold;
+                font-size: 110%;
+                padding: 0 0 10px 0;
+            }
+        }
+
+        .staff_right {
+            float: left;
+            width: 150px;
+
+        }
+
+    }
+
+    .herb_box {
+        h3 {
+            &.herb {
+                padding: 0;
+                margin: 0 0 -10px 0;
+            }
+        }
+
+        .box_middle {
+            background-image: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/bg_herb.gif);
+            padding: 25px 23px 0 23px;
+            margin: 0;
+            width: 654px;
+
+            .oil_box_l {
+                border: 2px solid #BA9C6B;
+                float: left;
+                margin: 0 11px 15px 0;
+                background-color: #FFFFFF;
+                width: 206px;
+            }
+
+            .oil_box_r {
+                border: 2px solid #BA9C6B;
+                float: right;
+                margin: 0 0 15px 0;
+                background-color: #FFFFFF;
+                width: 206px;
+            }
+
+            .oil_box_noimg {
+                margin: 0;
+                padding: 12px 0 0 0;
+                width: 210px;
+                float: right;
+            }
+
+            .oil_box_l,
+            .oil_box_r {
+                .inner {
+                    border: 1px solid #D4C1A3;
+                    padding: 15px;
+                    background-color: #FFFFFF;
+                    margin: 3px;
+                    height: 250px;
+
+                    ul {
+                        margin: 0;
+                        padding: 0;
+                        text-align: center;
+
+                        li {
+                            margin: 0 0 10px 0;
+                            padding: 0;
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .box_bottom {
+            background-image: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/bg_box_bottom.gif);
+            margin: 0 0 20px 0;
+            padding: 0;
+            height: 10px;
+        }
+    }
+
+    h3 {
+        &.biyo_oil {
+            margin: 0 0 15px 0;
+        }
+
+        &.method {
+            margin: 0 0 15px 0;
+        }
+
+        &.media {
+            margin: 0 0 15px 0;
+        }
+
+        &.staff {
+            margin: 0 0 10px 0;
+        }
+
+        &.aroma {
+            padding: 0;
+            margin: 0;
+        }
+
+        &.power_up {
+            margin: 0 0 15px 0;
+        }
+
+    }
+
+    .method_box {
+        margin: 0;
+        padding: 0;
+        width: 700px;
+
+        ul {
+            margin: 0 30px 0 30px;
+            padding: 0;
+            text-align: center;
+
+            li {
+                &.method_l {
+                    margin: 0 20px 0 0;
+                    padding: 0;
+                    float: left;
+                    list-style-type: none;
+                    width: 200px;
+                }
+
+                &.method_r {
+                    margin: 0;
+                    padding: 0 0 0 0;
+                    float: right;
+                    list-style-type: none;
+                    width: 200px;
+                    margin: 0;
+                }
+
+                &.method_r,
+                &.method_l {
+                    ul {
+                        margin: 0;
+                        padding: 0;
+
+                        li {
+                            margin: 0 0 12px 0;
+                            padding: 0;
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+* html {
+    #tubaki_oil {
+        .herb_box {
+            h3 {
+                &.herb {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+
+            .box_middle {
+                background-image: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/bg_herb.gif);
+                padding: 25px 20px 0 20px;
+                margin: 0;
+                width: 650px;
+            }
+        }
+    }
+}
+
+*:first-child+html {
+    #tubaki_oil {
+        .herb_box {
+            h3 {
+                &.herb {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+.power_up_box {
+    margin: 30px 0 10px 0;
+
+    .reason_l {
+        float: left;
+        margin: 0 20px 0 0;
+        width: 400px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin: 0 0 15px 10px;
+                padding: 0;
+                list-style-type: none;
+
+                &.line {
+                    margin: 5px 0 15px 0 !important;
+                    padding: 0;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+
+    .reason_r {
+        float: right;
+        margin: 0;
+        width: 280px;
+    }
+}
+
+#media {
+    table {
+        width: 700px;
+
+        tr {
+            .bg_red {
+                background-color: #AC1700;
+                color: #FFF;
+            }
+
+            .bg_red1 {
+                background-color: #CD7466;
+                color: #FFF;
+                font-weight: bold;
+            }
+
+            .bg_grey {
+                background-color: #E5E3E5;
+            }
+
+            th {
+                width: 220px;
+                text-align: left;
+                vertical-align: middle;
+                background-color: #E5E3E5;
+                padding: 19px 15px 19px 15px;
+                color: #333;
+
+                .th_text {
+                    display: block;
+                    float: left;
+                    padding-right: 5px;
+                }
+            }
+
+            th,
+            td {
+                border-right: 1px solid #FFF;
+                border-bottom: 1px solid #FFF;
+
+            }
+
+            td {
+                vertical-align: middle;
+                background-color: #F7F7F7;
+                padding: 17px;
+            }
+        }
+    }
+
+    .table_tit {
+        padding: 5px 15px 5px 15px;
+    }
+
+    .new_oil {
+        clear: both;
+        overflow: hidden;
+
+        h3 {
+            &.tl {
+                margin: 0 0 9px 0;
+                padding: 0;
+                height: 36px;
+            }
+        }
+
+        .reason {
+            margin: 0 0 15px 13px;
+        }
+    }
+
+    .new_oil_l {
+        width: 400px;
+        float: left;
+        margin: 0 19px 25px 0;
+    }
+
+    .new_oil_r {
+        width: 281px;
+        float: left;
+        margin-bottom: 25px;
+        padding-top: 14px;
+    }
+
+    .tl {
+        font-size: 114%;
+        font-weight: bold;
+        margin: 0 0 12px 3px;
+    }
+
+    p {
+        &.no01 {
+            margin: 0 0 10px 10px;
+            background: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/ic_no01.jpg) no-repeat left 0.3em;
+            padding: 0 20px 0 23px;
+            line-height: 160%;
+        }
+
+        &.no02 {
+            margin: 0 0 0 10px;
+            background: url(https://kazurasei.itembox.design/item/images/f/pc/product_detail_img/100000071/ic_no02.jpg) no-repeat left 0.3em;
+            padding: 0 20px 0 23px;
+            line-height: 160%;
+        }
+
+        &.no01,
+        &.no02 {
+            span {
+                background: #FFFF66;
+                padding: 1px 2px;
+                margin: 0 1px;
+            }
+        }
+    }
+
+    .filter_box {
+        width: 380px;
+        margin-left: 10px;
+        padding: 15px 0;
+        border-top: 1px dotted #D3D4CE;
+        border-bottom: 1px dotted #D3D4CE;
+    }
+}
+
+.line_box01 {
+    clear: both;
+    margin-bottom: 27px;
+}
+
+.text_box {
+    clear: both;
+    margin: 30px 0 20px 0;
+    text-align: center;
+}
+
+.left_img img {
+    float: left;
+    clear: left;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+.right_img img {
+    float: right;
+    clear: right;
+    margin: 0 0 10px 15px;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.clear hr {
+    display: none;
+}
+
+.arrow_box {
+    clear: both;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.section {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.space {
+    margin: 10px 0 10px 0;
+}
+
+.space_t {
+    margin: 10px 0 0 0;
+}
+
+.space_b {
+    margin: 0 0 10px 0;
+}
+
+.space_img {
+    margin: 0 0 20px 0;
+}
+
+.imbox {
+    line-height: 1px;
+    font-size: 1px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb11 {
+    margin-bottom: 11px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.mb14 {
+    margin-bottom: 12px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb18 {
+    margin-bottom: 18px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb37 {
+    margin-bottom: 37px;
+}

@@ -1,0 +1,109 @@
+/* --------------------------------------------------------------------------------
+	共通クラス
+-------------------------------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+br.clear {
+    display: block;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    height: 0;
+    border: none;
+    visibility: hidden;
+    font-size: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    min-height: 1%;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+/* --------------------------------------------------------------------------------
+	デバイスごとの表示・非表示
+-------------------------------------------------------------------------------- */
+.device-sp {
+    display: none;
+}
+
+.device-sp-inline {
+    display: none;
+}
+
+.device-pc {
+    display: block;
+}
+
+.device-pc-inline {
+    display: inline;
+}
+
+/* --------------------------------------------------------------------------------
+	その他共通
+-------------------------------------------------------------------------------- */
+button {
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -webkit-appearance: button;
+    appearance: button;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+button::-webkit-search-decoration {
+    display: none;
+}
+
+button:focus {
+    outline-offset: -2px;
+}
+
+//list
+ol,
+ul {
+    list-style: none;
+}
+
+//table
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+}
+
+//a link
+a {
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: #333;
+        //-webkit-tap-highlight-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+    }
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+}

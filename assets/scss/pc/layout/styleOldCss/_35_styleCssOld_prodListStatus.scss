@@ -1,0 +1,22 @@
+.product_list_status {
+    .product_status {
+        border-radius: 2px;
+        text-align: center;
+        margin: 8px 10px 3px 10px;
+        padding: 2px 0;
+        font-size: 12px;
+        color: white;
+    }
+
+    .wait {
+        background-color: #8AA642;
+    }
+
+    .out_of_stock {
+        background-color: #B3B3B3;
+    }
+
+    .tel {
+        background-color: #A69543;
+    }
+}

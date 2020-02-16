@@ -1,0 +1,230 @@
+#btn_fix,
+#btn_send,
+#btn_check,
+#btn_reg,
+#btn_out,
+#btn_outno,
+#btn_close {
+    width: 120px;
+    height: 30px;
+    float: left;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 120px;
+        height: 30px;
+    }
+}
+
+#btn_post {
+    width: 120px;
+    height: 28px;
+    float: left;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 120px;
+        height: 28px;
+    }
+}
+
+
+
+#btn_out {
+    padding: 0 0 0 10px;
+}
+
+#btn_outno {
+    padding: 0 0 0 220px;
+}
+
+#btn_close {
+    padding: 0 0 0 280px;
+}
+
+#btn_login,
+#btn_user,
+#btn_guest,
+#btn_buyback,
+#btn_new,
+#btn_buy,
+#btn_checkout,
+#btn_buyback,
+#btn_back,
+#btn_next,
+#btn_logout_com {
+    width: 160px;
+    height: 30px;
+    float: left;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 160px;
+        height: 30px;
+    }
+}
+
+.btn_order {
+    width: 160px;
+    height: 30px;
+    float: left;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 160px;
+        height: 30px;
+    }
+}
+
+#btn_login {
+    padding: 15px 70px 0 70px;
+}
+
+#btn_buyback {
+    padding: 50px 260px 30px 270px;
+}
+
+#btn_buy,
+#btn_back {
+    padding: 0 110px 0 0;
+}
+
+#btn_del {
+    display: block;
+    width: 60px;
+    height: 20px;
+    float: left;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+#btn_addto {
+    width: 170px;
+    height: 23px;
+    float: right;
+    margin-top: 2px;
+    *margin-top: 5px;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 170px;
+        height: 20px;
+    }
+}
+
+.btn_home {
+    display: block;
+    width: 110px;
+    height: 20px;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 110px;
+        height: 20px;
+    }
+}
+
+#btn_item {
+    display: block;
+    float: right;
+    width: 190px;
+    height: 40px;
+    padding: 8px 10px 0 0;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 190px;
+        height: 40px;
+    }
+}
+
+#item_btn2 {
+    display: block;
+    width: 240px;
+    height: 40px;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 240px;
+        height: 40px;
+    }
+}
+
+
+@mixin btn_mx($name) {
+    ##{$name} {
+        a {
+
+            &:link,
+            &:visited {
+                background: url("https://kazurasei.itembox.design/item/images/common/#{$name}.jpg") no-repeat left top;
+            }
+
+            &:hover {
+                background: url("https://kazurasei.itembox.design/item/images/common/#{$name}.jpg") no-repeat left bottom;
+                display: block;
+            }
+
+        }
+    }
+}
+
+@mixin btn_mx_class($name) {
+    .#{$name} {
+        a {
+
+            &:link,
+            &:visited {
+                background: url("https://kazurasei.itembox.design/item/images/common/#{$name}.jpg") no-repeat left top;
+            }
+
+            &:hover {
+                background: url("https://kazurasei.itembox.design/item/images/common/#{$name}.jpg") no-repeat left bottom;
+                display: block;
+            }
+
+        }
+    }
+}
+
+$btn_nameList:btn_fix,
+btn_send,
+btn_check,
+btn_reg,
+btn_out,
+btn_outno,
+btn_close,
+btn_login,
+btn_user,
+btn_guest,
+btn_buyback,
+btn_new,
+btn_buy,
+btn_checkout,
+btn_buyback,
+btn_back,
+btn_next,
+btn_logout_com,
+btn_del,
+btn_addto,
+btn_item,
+item_btn2;
+
+@each $name in $nameList {
+    @include btn_mx($name);
+}
+
+@include btn_mx_class(btn_home);

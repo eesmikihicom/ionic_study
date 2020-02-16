@@ -1,0 +1,90 @@
+@charset "utf-8";
+select {
+	-webkit-appearance: menulist;/* ベンダープレフィックス(Google Chrome、Safari用) */
+	-moz-appearance: menulist; /* ベンダープレフィックス(Firefox用) */
+	appearance: menulist; /* 標準のスタイルを無効にする */
+}
+/* select要素のデザインを無効にする（IE用） */
+::-ms-expand {
+	display: block;
+}
+#contacts_list table {
+	width: 700px;
+}
+#contacts_list .table_tit {
+	padding: 5px 15px 5px 15px;
+}
+#contacts_list table tr th .th_text {
+	display: block;
+	float: left;
+	padding-right: 5px;
+}
+#contacts_list table th, #contacts_list table td {
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+}
+#contacts_list table th {
+	width: 230px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #E5E3E5;
+	padding: 12px;
+	color: #666;
+}
+#contacts_list table td {
+	vertical-align: middle;
+	background-color: #F7F7F7;
+	padding: 10px;
+}
+#contacts_list table tr .bg_red {
+	background-color: #AC1700;
+	color: #FFF;
+}
+#contacts_list table tr .bg_red1 {
+	background-color: #CD7466;
+	color: #FFF;
+}
+#contacts_list table tr .bg_grey {
+	background-color: #E5E3E5;
+}
+#contacts_list .contact_text select {
+	height: 20px;
+	font-size: 12px;
+ *font-size:11px;
+}
+#contacts_list .input_text {
+	width: 280px;
+	height: 15px;
+}
+#contacts_list .input_area {
+	width: 390px;
+	height: 120px;
+	margin-bottom: 10px;
+	font-size: 12px;
+ *font-size:11px;
+}
+#contacts_area_text {
+	display: block;
+	width: 395px;
+	padding: 5px 0 10px 0;
+}
+#contacts_list .contact_text {
+	display: block;
+	width: 100%;
+	float: left;
+}
+#contacts_list #contents_btn #btn01 {
+	width: 700px;
+	margin: 0 0 0 290px;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+}
+#contacts_list #contents_btn #btn01 input[type="image"] {
+	position: absolute;
+	top: 0;
+}
+#contacts_list #contents_btn #btn01:hover input[type="image"] {
+	position: absolute;
+	top: -30px;
+}

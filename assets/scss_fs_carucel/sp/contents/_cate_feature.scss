@@ -1,0 +1,326 @@
+#topFeatures {
+    margin-bottom: 15px;
+    border-top: 1px solid #ccc;
+    padding: 25px 15px 0;
+
+    h2 {
+        width: 33.5px;
+        height: 25.5px;
+        background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+        background-position: 0 -1901.5px;
+        background-repeat: no-repeat;
+        -moz-background-size: 840px auto;
+        -o-background-size: 840px auto;
+        -webkit-background-size: 840px auto;
+        background-size: 840px auto;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        padding-bottom: 5px;
+        border-bottom: solid 1px #999;
+    }
+
+    ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -7.5px;
+
+        li {
+            width: calc(50% - 15px);
+            margin: 0 7.5px 20px;
+
+            .video {
+                width: 100%;
+                height: 25.1vw;
+                position: relative;
+                margin-bottom: 10px;
+
+                iframe {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+            }
+
+            a {
+                display: block;
+                -moz-transition: opacity 0.2s linear;
+                -o-transition: opacity 0.2s linear;
+                -webkit-transition: opacity 0.2s linear;
+                transition: opacity 0.2s linear;
+                backface-visibility: hidden;
+
+                &:hover {
+                    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                    opacity: 0.7;
+                    text-decoration: inherit;
+                }
+
+                figure {
+                    margin-bottom: 10px;
+                    line-height: 0;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                figcaption {
+                    h3 {
+                        font-size: 14px;
+                        font-weight: bold;
+                        line-height: 1.5;
+                        color: #4c4c4c;
+                        margin-bottom: 7px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 1.4;
+                        color: #808080;
+                    }
+                }
+            }
+        }
+    }
+
+    .all {
+        text-align: right;
+        font-size: 13px;
+    }
+}
+
+#topCategories {
+    border-top: 1px solid #ccc;
+    padding: 25px 15px 0;
+
+    h2 {
+        width: 111px;
+        height: 25px;
+        background-image: url("https://kazurasei.itembox.design/item/images/common/replaces-s4879ce7107.png");
+        background-position: 0 -1735px;
+        background-repeat: no-repeat;
+        -moz-background-size: 840px auto;
+        -o-background-size: 840px auto;
+        -webkit-background-size: 840px auto;
+        background-size: 840px auto;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 auto 10px;
+        padding-bottom: 5px;
+        border-bottom: solid 1px #999;
+    }
+
+    ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -7.5px 30px;
+
+        li {
+            width: calc((100% - 0px) / 3);
+            padding: 0 7.5px;
+            box-sizing: border-box;
+
+            a {
+                display: block;
+                -moz-transition: opacity 0.2s linear;
+                -o-transition: opacity 0.2s linear;
+                -webkit-transition: opacity 0.2s linear;
+                transition: opacity 0.2s linear;
+
+                &:hover {
+                    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                    opacity: 0.7;
+                    text-decoration: inherit;
+                }
+
+                figure {
+                    padding: 10px 10px 7px;
+                    box-sizing: border-box;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                figcaption h3 {
+                    font-size: 10px;
+                    font-weight: normal;
+                    line-height: 1.5;
+                    color: #4c4c4c;
+                }
+            }
+        }
+    }
+}
+
+#topSearch {
+    padding: 0px 15px 35px;
+    width: 100%;
+    margin: 0 auto;
+    top: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    h3 {
+        display: none;
+    }
+
+    .keyword {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
+        background-color: #f2ecda;
+        box-sizing: border-box;
+        padding: 40px 25px !important;
+        height: 65px !important;
+        margin: 0 -20px;
+
+        div {
+            max-width: 350px;
+            width: 100%;
+            background-color: white;
+            position: relative;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            padding: 5px;
+            box-sizing: border-box;
+            line-height: 1;
+
+            .search-box {
+                max-width: 340px;
+                width: auto;
+
+                input[type="text"] {
+                    border: none;
+                    width: calc(100% - 30px);
+                    background-color: transparent;
+
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+
+                button {
+                    position: absolute;
+                    color: transparent;
+                    cursor: pointer;
+                    top: 11px;
+                    right: 14px;
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+                    background-position: 0 -916.5px;
+                    background-repeat: no-repeat;
+                    -moz-background-size: 840px auto;
+                    -o-background-size: 840px auto;
+                    -webkit-background-size: 840px auto;
+                    background-size: 840px auto;
+                    text-indent: 200%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+    .others .keyword {
+        padding: 20px 15px;
+        height: 75px;
+
+        &>div {
+            border-radius: 6px;
+            border: 1px solid #999;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+            padding: 8px 10px;
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+#contents-inner {
+    #contents {
+        padding: 35px 15px 75px;
+        width: 100%;
+        margin: 0 auto;
+        top: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        //*zoom: 1;
+
+        //&.news {
+        //    border-bottom: 1px solid #ccc;
+        //    padding: 30px 15px 0;
+        //}
+
+        //&.features {
+        //    border-bottom: 1px solid #ccc;
+        //    padding: 25px 15px 0;
+        //}
+
+        //&.categories {
+        //    padding: 25px 15px 0;
+        //}
+
+        &.others {
+            padding: 0 15px;
+        }
+    }
+
+    .others_link {
+        width: 100%;
+
+        ul {
+            display: flex;
+            margin: 0 -8px;
+
+            li {
+                padding: 0 8px;
+                width: calc(50% - 0px);
+
+                a {
+                    display: block;
+
+                    img {
+                        max-width: 100%;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+body {
+  background-color: #fff;
+}
+
+.fs-l-main {
+  margin-top: 50px;
+}
+
+.contents-access img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.contents-access .ttl {
+  padding: 15px;
+  box-shadow: none;
+}
+
+.contents-access .ttl--top {
+  background: #ededed;
+}
+
+.contents-access .ttl--bottom {
+  background: #f3ece0;
+}
+
+.contents-access .ttl h1 {
+  padding: 0 0 0 15px;
+  color: #333;
+}
+
+.contents-access .ttl--top h1 {
+  border-left: solid 5px #991f1f;
+  padding: 0 15px;
+  color: #333;
+}
+
+.contents-access .ttl--bottom h1 {
+  border-left: solid 3px #996600;
+}
+
+.contents-access .store-ttl {
+  padding: 0 0 3px 40px;
+  background: url(https://kazurasei.itembox.design/item/images/f/access-device/ico_voice.png) no-repeat;
+  background-size: 25px;
+  margin-bottom: 15px;
+}
+
+.contents-access .access_img {
+  margin-bottom: 20px;
+}
+
+.contents-access .lawTable {
+  margin-bottom: 20px;
+}
+
+.contents-access .lawTable td {
+  font-size: 14px !important;
+}
+
+.law table.lawTable tr td:nth-of-type(odd) {
+  width: 24%;
+}
+
+.contents-access .map {
+  margin-bottom: 50px;
+}
+
+.contents-access .iframe {
+  width: 100%;
+}
+
+.contents-access .iframe {
+  width: 100%;
+}
+
+.contents-access .store-subttl {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contents-access .attention {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contents-access .link-btn {
+  width: calc(600*100vw/750);
+  margin: 25px auto 30px;
+}
+
+/*------------------------------------------------------------
+	law
+------------------------------------------------------------*/
+table.lawTable {
+  width: 100%;
+  border-top: solid 1px #DEDDD9;
+}
+
+table.lawTable td {
+  border-bottom: solid 1px #DEDDD9;
+  padding: 15px 0;
+}
+
+table.lawTable tr td:nth-of-type(odd) {
+  width: 30%;
+  padding-right: 1em;
+}
+
+#access .spBox {
+  padding: 30px 15px;
+}

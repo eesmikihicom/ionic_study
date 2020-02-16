@@ -1,0 +1,24 @@
+/* ------ SP Style -------- */
+@import "fs/fs_base";
+
+@import "layout/layout";
+@import "layout/gnav";
+@import "layout/prod_box";
+@import "layout/rec_prod";
+
+@import "elements/header";
+@import "elements/sidebar";
+@import "elements/footer";
+
+@import "object/button";
+@import "object/bannerArea";
+@import "object/searchArrow";
+
+@import "contents/shop/vi";
+@import "contents/shop/shop_main";
+@import "contents/cate_feature";
+@import "contents/freepage";
+
+
+//WP 記事用 スタイル
+@import "contents/wp";

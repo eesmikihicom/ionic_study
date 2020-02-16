@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@import "pc/fs/fs_base";
+
+@media screen and (max-width: 800px) {
+    @import "sp/fs/fs_base";
+}

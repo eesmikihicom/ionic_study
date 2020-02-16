@@ -1,0 +1,71 @@
+.vi {
+    width: 740px;
+
+    .img {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        border-bottom: 0;
+        width: 738px;
+        height: 298px;
+
+        div {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    ul.button {
+        display: none;
+
+        li {
+            float: left;
+
+            a {
+                display: block;
+                height: 66px;
+
+                @for $value from 1 to 6 {
+                    &.s0#{$value} {
+                        background: url("images/common/img_vi0#{$value}_s_off.jpg") 0 0 no-repeat;
+                        width: 148px;
+                    }
+                }
+
+                @for $value from 1 to 6 {
+                    &.s0#{$value}:hover {
+                        background: url("images/common/img_vi0#{$value}_s_off.jpg") 0 0 no-repeat;
+                    }
+                }
+
+                &.active {
+                    @for $value from 1 to 6 {
+                        &.s0#{$value} {
+                            background: url("images/common/img_vi0#{$value}_s_on.jpg") 0 0 no-repeat;
+                        }
+                    }
+                }
+
+                img {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    .active {
+        filter: alpha(opacity=100) !important;
+        -moz-opacity: 1 !important;
+        opacity: 1 !important;
+    }
+}
+
+.vibottom {
+    margin-bottom: 20px;
+}
+
+.vibottom ul li {
+    float: left;
+}

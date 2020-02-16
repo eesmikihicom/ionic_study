@@ -1,0 +1,116 @@
+/*-------------------------- header --------------------------*/
+#header {
+    #logo {
+        float: left;
+        position: relative;
+        top: 0px;
+        left: -5px;
+    }
+
+    .left {
+        width: 745px;
+    }
+
+    #menu {
+        width: 570px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    #welcome {
+        text-align: right;
+        line-height: 35px;
+        padding-right: 30px;
+        font-size: 10px;
+        *font-size: 9px;
+        color: #666;
+    }
+
+    #top_contacts {
+        float: right;
+    }
+
+    #menu {
+        ul {
+            float: right;
+
+            li {
+                float: left;
+            }
+        }
+    }
+
+    #nav {
+        margin-left: 5px;
+        height: 35px;
+        width: 740px;
+        float: right;
+
+        ul li {
+            float: left;
+        }
+    }
+}
+
+#header #nav ul #search {
+    background-image: url("https://kazurasei.itembox.design/item/images/common/top_nav05.jpg");
+    background-repeat: no-repeat;
+    width: 151px;
+    height: 35px;
+    padding: 8px 0 0 11px;
+    float: left;
+}
+
+#header #nav ul #search input {
+    width: 150px;
+    *width: 145px;
+    height: 15px;
+    *height: 12px;
+    border: none;
+}
+
+
+
+#top_regist,
+#top_login,
+#top_mypage,
+#top_basket,
+#top_page,
+#top_service,
+#top_contact,
+#top_product,
+#top_search,
+#top_logout {
+    text-indent: -9999px;
+}
+
+@mixin top_link($id, $image_name, $h, $w) {
+    ##{$id} a {
+
+        &:link,
+        &:visited {
+            background-image: url("https://kazurasei.itembox.design/item/images/common/#{$image_name}.jpg");
+            display: block;
+            height: $h;
+            width: $w;
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+
+        &:hover {
+            background: url("https://kazurasei.itembox.design/item/images/common/#{$image_name}..jpg") no-repeat left bottom;
+        }
+    }
+}
+
+@include top_link(top_regist, menu01, 34px, 110px);
+@include top_link(top_login, menu02, 34px, 84px);
+@include top_link(top_logout, menu05, 34px, 84px);
+@include top_link(top_mypage, menu03, 34px, 84px);
+@include top_link(top_basket, menu04, 34px, 115px);
+@include top_link(top_page, nav_top, 35px, 136px);
+@include top_link(top_page, nav_top, 35px, 136px);
+@include top_link(top_service, nav_use, 35px, 135px);
+@include top_link(top_contact, nav_con, 35px, 135px);
+@include top_link(top_product, nav_pro, 35px, 135px);
+@include top_link(top_search, nav_ser, 35px, 37px);

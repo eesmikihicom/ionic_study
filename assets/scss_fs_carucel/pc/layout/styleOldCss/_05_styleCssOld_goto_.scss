@@ -1,0 +1,29 @@
+.gotop {
+    width: 700px;
+    height: 19px;
+    float: left;
+    margin: 20px 0 20px 0;
+    text-indent: -9999px;
+
+    a {
+        display: block;
+        width: 120px;
+        height: 19px;
+        float: right;
+
+        &:link,
+        &:visited {
+            display: block;
+            width: 120px;
+            height: 19px;
+            background: url("images/common/gtop.jpg") no-repeat left top;
+        }
+
+        &:hover {
+            display: block;
+            width: 120px;
+            height: 19px;
+            background: url("images/common/gtop.jpg") no-repeat left bottom;
+        }
+    }
+}

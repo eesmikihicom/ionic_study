@@ -1,0 +1,306 @@
+#contentsLeft {
+    width: 100%;
+    padding: 30px 15px 20px;
+
+    ul {
+        li {
+            margin-bottom: 28px;
+
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}
+
+#leftCategories {
+    margin-bottom: 38px;
+
+    h2 {
+        width: 300px;
+        height: 26px;
+        background-image: url("../images/common/replace-s747fe062c7.png");
+        background-position: 0 -957.5px;
+        background-repeat: no-repeat;
+        -moz-background-size: 840px auto;
+        -o-background-size: 840px auto;
+        -webkit-background-size: 840px auto;
+        background-size: 840px auto;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    ul {
+        li {
+            background: url('../images/common-device/line_01.png') left bottom repeat-x;
+            background-size: 4px auto;
+
+            a {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -moz-align-items: center;
+                align-items: center;
+                padding: 10px 0;
+
+                figure {
+                    width: 54px;
+                    text-align: center;
+                    margin-right: 15px;
+
+                    img {
+                        width: 42px;
+                    }
+                }
+
+                figcaption {
+                    -webkit-box-flex: 1;
+                    -webkit-flex: 1;
+                    -moz-box-flex: 1;
+                    -moz-flex: 1;
+                    -ms-flex: 1;
+                    flex: 1;
+
+                    h3 {
+                        font-size: 13px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+#leftNews {
+    margin-bottom: 0px;
+
+    h2 {
+        width: 63.5px;
+        height: 25px;
+        background-image: url("../images/common/replace-s747fe062c7.png");
+        background-position: 0 -1775px;
+        background-repeat: no-repeat;
+        -moz-background-size: 840px auto;
+        -o-background-size: 840px auto;
+        -webkit-background-size: 840px auto;
+        background-size: 840px auto;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 auto 16px;
+        padding-bottom: 5px;
+        border-bottom: solid 1px #999;
+    }
+
+    dl {
+        display: block;
+        margin-bottom: 30px;
+
+        dt {
+            font-size: 0.8rem;
+            margin-bottom: 3px;
+            width: 77px;
+        }
+
+        dd {
+            font-size: 14px;
+            line-height: 1.5;
+            padding-left: 10px;
+        }
+    }
+
+    .all {
+        text-align: center;
+
+        a {
+            display: block;
+            padding: 10px 15px;
+            font-size: 0.875rem;
+            border: #ddd solid 1px;
+            border-radius: 4px;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+    }
+}
+
+#leftGuide {
+    margin-bottom: 38px;
+
+    h2 {
+        width: 300px;
+        height: 29.5px;
+        background-image: url("../images/common/replace-s747fe062c7.png");
+        background-position: 0 -1055.5px;
+        background-repeat: no-repeat;
+        -moz-background-size: 840px auto;
+        -o-background-size: 840px auto;
+        -webkit-background-size: 840px auto;
+        background-size: 840px auto;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .tel {
+        border: 1px solid #ccc;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 15px 0;
+        text-align: center;
+        margin-bottom: 20px;
+
+        h3 {
+            font-size: 12px;
+            font-weight: normal;
+            color: #4c4c4c;
+            margin-bottom: 10px;
+        }
+
+        .freedial {
+            width: 230px;
+            height: 22px;
+            background-image: url("../images/common/replace-s747fe062c7.png");
+            background-position: 0 -1008.5px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto 8px;
+        }
+
+        .hour {
+            font-size: 12px;
+            color: #4c4c4c;
+        }
+    }
+
+    .util {
+        margin-bottom: 35px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        justify-content: space-between;
+
+        li {
+            margin-bottom: 4px;
+
+            a {
+                display: inline-block;
+                background-color: #595959;
+                color: white;
+                padding: 17px 0;
+                -moz-border-radius: 3px;
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                text-align: center;
+                font-size: 13px;
+                -moz-transition: all 0.1s linear;
+                -o-transition: all 0.1s linear;
+                -webkit-transition: all 0.1s linear;
+                transition: all 0.1s linear;
+                width: 148px;
+
+                &:hover {
+                    background-color: #3b3b3b;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .banners {
+        padding-bottom: 15px;
+
+        li {
+            margin-bottom: 15px;
+
+            a {
+                -moz-transition: opacity 0.2s linear;
+                -o-transition: opacity 0.2s linear;
+                -webkit-transition: opacity 0.2s linear;
+                transition: opacity 0.2s linear;
+                backface-visibility: hidden;
+
+                &:hover {
+                    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+                    opacity: 0.5;
+                    text-decoration: inherit;
+                }
+            }
+        }
+    }
+
+    .sns {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        justify-content: center;
+
+        li {
+            a {
+                display: block;
+                padding: 78px 0 0;
+                width: 92px;
+                text-align: center;
+                color: #4c4c4c;
+                font-size: 12px;
+                -moz-transition: opacity 0.2s linear;
+                -o-transition: opacity 0.2s linear;
+                -webkit-transition: opacity 0.2s linear;
+                transition: opacity 0.2s linear;
+                backface-visibility: hidden;
+
+                &:hover {
+                    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+                    opacity: 0.5;
+                    text-decoration: inherit;
+                }
+
+                &.facebook {
+                    background: url('../images/common-device/icon_facebook.png') center top no-repeat;
+                    background-size: 68px auto;
+                }
+
+                &.twitter {
+                    background: url('../images/common-device/icon_twitter.png') center top no-repeat;
+                    background-size: 68px auto;
+                }
+
+                &.instagram {
+                    background: url('../images/common-device/icon_instagram.png') center top no-repeat;
+                    background-size: 68px auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.money {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.monimg {
+    float: left;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.mon_text {
+    color: #DD1112;
+    line-height: 1.5;
+}
+
+
+
+#evaluation_list {
+    float: left;
+    width: 700px;
+    border-top: 1px solid #CCC;
+    color: #666;
+}
+
+#evaluation_list dd {
+    float: left;
+    width: 663px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    padding: 20px 20px 20px 15px;
+}
+
+.evaluation_tit {
+    display: block;
+    float: left;
+    width: 608px;
+    line-height: 30px;
+    background: url("https://kazurasei.itembox.design/item/images/common/icon_flower.jpg") no-repeat;
+    padding-left: 50px;
+    color: #666;
+}
+
+.evaluation_list_text {
+    display: block;
+    float: left;
+    width: 643px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.evaluation_star {
+    padding-right: 30px;
+    color: #666;
+    float: left;
+    display: block;
+    width: 400px;
+    background-color: #F1F3E6;
+}
+
+.evaluation_star_text {
+    display: block;
+    float: left;
+    padding: 12px 8px 6px 8px;
+    line-height: 1;
+}
+
+.evaluation_star_img {
+    display: block;
+    float: left;
+    padding: 8px 6px 6px 6px;
+}

@@ -1,0 +1,22 @@
+#delivery_notice {
+    margin-top: 10px;
+
+    ul {
+        display: block;
+        float: left;
+        width: 700px;
+
+        li {
+            display: block;
+            float: left;
+            padding-bottom: 10px;
+            width: 680px;
+            list-style-type: none;
+            background-image: url("https://kazurasei.itembox.design/item/images/common/icon_disc.jpg");
+            padding-left: 15px;
+            background-repeat: no-repeat;
+            background-position: 6px 8px;
+            *background-position: 6px 5px;
+        }
+    }
+}

@@ -1,0 +1,1291 @@
+@charset "UTF-8";
+
+
+/* --------------------------------------------------------------------------------
+	fs-l-main
+-------------------------------------------------------------------------------- */
+.fs-l-main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+}
+
+/* --------------------------------------------------------------------------------
+	fs-l-pageMain
+-------------------------------------------------------------------------------- */
+.fs-l-pageMain {
+   max-width: none;
+}
+
+
+.fs-c-heading--page{
+	display:none;
+}
+
+
+
+/* ================================================== *
+ *    compass
+ * ================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  min-width: 1140px;
+}
+@media (max-width: 740px) {
+  html {
+    min-width: 0;
+  }
+}
+
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #2e2e2e;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+strong {
+  font-weight: bold;
+}
+
+label {
+  cursor: pointer;
+}
+
+input, select, textarea, label, a {
+  outline: none;
+}
+
+select:focus::-ms-value {
+  background: transparent;
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+sup,
+sub {
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  position: relative;
+  font-size: 0.75em;
+}
+
+sup {
+  bottom: .75ex;
+}
+
+sub {
+  top: .5ex;
+}
+
+@media (min-width: 740px), print {
+  .hidden-pc {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) {
+  .hidden-sp {
+    display: none;
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1040px;
+}
+@media (max-width: 740px) {
+  .container {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+#wrapper {
+  position: relative;
+}
+
+#vi {
+  height: 50%;
+  height: 50vh;
+  max-height: 620px;
+  background: url("https://kazurasei.itembox.design/item/images/f/recruit/vi.jpg") center center no-repeat;
+  background-size: cover;
+  margin-bottom: 85px;
+}
+@media (max-width: 740px) {
+  #vi {
+    height: 20%;
+    height: 20vh;
+    margin-bottom: 40px;
+  }
+}
+
+header .container {
+  position: relative;
+  padding-right: 270px;
+}
+@media (max-width: 740px) {
+  header .container {
+    padding-right: 0;
+  }
+}
+header .container h1 {
+  margin-bottom: 80px;
+  width: 220px;
+  height: 40px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -368px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 740px) {
+  header .container h1 {
+    margin: 0 auto 40px;
+    width: 175px;
+    height: 32px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -475px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+header .container h2 {
+  position: absolute;
+  right: 60px;
+  top: 15px;
+  width: 158px;
+  height: 470px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: -220px -368px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 740px) {
+  header .container h2 {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 271px;
+    height: 71px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -586px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+header .container .lead {
+  margin: 0 0 0 100px;
+}
+@media (max-width: 740px) {
+  header .container .lead {
+    margin: 20px 0 0;
+  }
+}
+header .container .lead p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2.25;
+  margin-bottom: 2em;
+}
+@media (max-width: 740px) {
+  header .container .lead p {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-bottom: 1.5em;
+  }
+}
+header.requireHead .container {
+  padding: 85px 65px 0;
+}
+@media (max-width: 740px) {
+  header.requireHead .container {
+    padding: 45px 0 0;
+  }
+}
+
+.confirmBtn {
+  padding: 60px 0 100px;
+}
+@media (max-width: 740px) {
+  .confirmBtn {
+    padding: 30px 0 50px;
+  }
+}
+.confirmBtn .container p a {
+  width: 374px;
+  height: 56px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -838px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  -webkit-backface-visibility: hidden;
+}
+.confirmBtn .container p a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  text-decoration: inherit;
+}
+@media (max-width: 740px) {
+  .confirmBtn .container p a {
+    width: 262px;
+    height: 39px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -507px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.points .container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media (max-width: 740px) {
+  .points .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.points .container:before {
+  content: '';
+  width: 28px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 95px;
+}
+@media (max-width: 740px) {
+  .points .container:before {
+    width: 14px;
+    height: 14px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    margin-bottom: 45px;
+  }
+}
+.points .container h2 {
+  margin: 55px auto 95px;
+}
+@media (max-width: 740px) {
+  .points .container h2 {
+    margin: 45px auto 45px;
+  }
+}
+.points .container h2.worth {
+  width: 432px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -86px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 740px) {
+  .points .container h2.worth {
+    width: 261px;
+    height: 17px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -150px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.points .container h2.charm {
+  width: 292px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: -230px -172px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 740px) {
+  .points .container h2.charm {
+    width: 176px;
+    height: 16px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -134px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.points .container h3 {
+  margin: 55px 0 55px;
+}
+@media (max-width: 740px) {
+  .points .container h3 {
+    margin: 35px auto 25px;
+  }
+}
+.points .container h3.item {
+  width: 182px;
+  height: 22px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 740px) {
+  .points .container h3.item {
+    width: 122px;
+    height: 14px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: -42px 0;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.points .container h3.staff {
+  width: 230px;
+  height: 22px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -172px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 740px) {
+  .points .container h3.staff {
+    width: 154px;
+    height: 14px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -167px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.points .container p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2.25;
+  margin-bottom: 2em;
+}
+@media (max-width: 740px) {
+  .points .container p {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-bottom: 1.5em;
+  }
+}
+.points .container .unit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+@media (max-width: 740px) {
+  .points .container .unit {
+    display: block;
+  }
+}
+.points .container .unit figure {
+  padding-left: 55px;
+}
+@media (max-width: 740px) {
+  .points .container .unit figure {
+    padding: 0 15px 0 0;
+    float: left;
+  }
+  .points .container .unit figure img {
+    width: 130px;
+  }
+}
+.points .container .unit figcaption {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0;
+  -moz-box-flex: 1;
+  -moz-flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
+}
+@media (max-width: 740px) {
+  .points .container .unit:nth-child(2n) figure {
+    padding: 0 0 0 15px;
+    float: right;
+  }
+}
+.points .container .voice {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+@media (max-width: 740px) {
+  .points .container .voice {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.points .container .voice:last-of-type {
+  margin-bottom: 30px;
+}
+@media (max-width: 740px) {
+  .points .container .voice:last-of-type {
+    margin-bottom: 15px;
+  }
+}
+.points .container .voice.reverse {
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.points .container .voice.reverse figure {
+  padding-left: 55px;
+}
+@media (max-width: 740px) {
+  .points .container .voice.reverse figure {
+    padding: 20px 0 5px 20px;
+  }
+}
+.points .container .voice.reverse figcaption {
+  margin-left: 80px;
+}
+@media (max-width: 740px) {
+  .points .container .voice.reverse figcaption {
+    margin-left: 0;
+  }
+}
+.points .container .voice figure {
+  padding-top: 20px;
+}
+@media (max-width: 740px) {
+  .points .container .voice figure {
+    padding: 20px 0 5px 20px;
+    float: right;
+  }
+  .points .container .voice figure img {
+    width: 130px;
+  }
+}
+.points .container .voice figcaption {
+  margin-left: 70px;
+  position: relative;
+  padding: 35px 0 0 40px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0;
+  -moz-box-flex: 1;
+  -moz-flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
+}
+@media (max-width: 740px) {
+  .points .container .voice figcaption {
+    margin-left: 0;
+    padding: 15px 0 0 20px;
+  }
+}
+.points .container .voice figcaption:before {
+  content: '';
+  display: block;
+  width: 55px;
+  height: 120px;
+  border-left: 1px solid #f9ccd1;
+  border-top: 1px solid #f9ccd1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 740px) {
+  .points .container .voice figcaption:before {
+    width: 25px;
+    height: 60px;
+  }
+}
+.points .container .voice figcaption p {
+  margin-bottom: 0;
+}
+
+.company {
+  background-color: #f9f2d5;
+  padding: 75px 0 70px;
+}
+@media (max-width: 740px) {
+  .company {
+    padding: 35px 0 35px;
+  }
+}
+.company .container {
+  padding: 0 110px;
+}
+@media (max-width: 740px) {
+  .company .container {
+    padding: 0;
+  }
+}
+.company .container h2 {
+  width: 128px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: -182px -200px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto 60px;
+}
+@media (max-width: 740px) {
+  .company .container h2 {
+    width: 78px;
+    height: 17px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: -155px -100px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto 30px;
+  }
+}
+.company .container table tr:last-child th, .company .container table tr:last-child td {
+  border: none;
+}
+.company .container table tr th {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  padding: 20px 10px 20px 0;
+  border-bottom: 1px solid #dcd4b1;
+  width: 20%;
+  vertical-align: top;
+}
+@media (max-width: 740px) {
+  .company .container table tr th {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.69231;
+    display: block;
+    padding: 10px 5px 0 0;
+    width: auto;
+    border-bottom: none;
+    font-weight: bold;
+  }
+}
+.company .container table tr td {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  padding: 20px 0 0;
+  border-bottom: 1px solid #dcd4b1;
+}
+@media (max-width: 740px) {
+  .company .container table tr td {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.69231;
+    display: block;
+    padding: 5px 0 0;
+  }
+}
+.company .container table tr td p {
+  margin-bottom: 20px;
+}
+@media (max-width: 740px) {
+  .company .container table tr td p {
+    margin-bottom: 10px;
+  }
+}
+
+.apply {
+  padding: 70px 0 50px;
+}
+@media (max-width: 740px) {
+  .apply {
+    padding: 35px 0 25px;
+  }
+}
+.apply .container .inner {
+  padding: 0 200px;
+}
+@media (max-width: 740px) {
+  .apply .container .inner {
+    padding: 0;
+  }
+}
+.apply .container h2 {
+  width: 128px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: -352px -268px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto 60px;
+}
+@media (max-width: 740px) {
+  .apply .container h2 {
+    width: 78px;
+    height: 17px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: -64px -117px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto 30px;
+  }
+}
+.apply .container ul.norm {
+  margin: 0 20px 55px;
+}
+@media (max-width: 740px) {
+  .apply .container ul.norm {
+    margin: 0 0 25px;
+  }
+}
+.apply .container ul.norm li {
+  position: relative;
+  padding-left: 25px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2.25;
+}
+@media (max-width: 740px) {
+  .apply .container ul.norm li {
+    padding-left: 20px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+}
+.apply .container ul.norm li:before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: -432px -86px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+@media (max-width: 740px) {
+  .apply .container ul.norm li:before {
+    width: 13px;
+    height: 13px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: -225px -43px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    top: 6px;
+  }
+}
+.apply .container .note {
+  border: 1px solid #f9ccd1;
+  padding: 30px 30px;
+}
+@media (max-width: 740px) {
+  .apply .container .note {
+    padding: 15px;
+  }
+}
+.apply .container .note ul li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 2.28571;
+  letter-spacing: 1px;
+}
+@media (max-width: 740px) {
+  .apply .container .note ul li {
+    padding-left: 15px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+}
+.apply .container .note ul li:before {
+  content: '・';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.process {
+  padding: 70px 0 50px;
+}
+@media (max-width: 740px) {
+  .process {
+    padding: 35px 0 25px;
+  }
+}
+.process .container h2 {
+  width: 194px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: -328px 0;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto 80px;
+}
+@media (max-width: 740px) {
+  .process .container h2 {
+    width: 117px;
+    height: 17px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: -142px -117px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto 40px;
+  }
+}
+.process .container figure {
+  text-align: center;
+}
+@media (max-width: 740px) {
+  .process .container figure img {
+    width: 100%;
+    max-width: 380px;
+  }
+}
+
+.requireTable .container {
+  padding-right: 65px;
+  padding-left: 65px;
+}
+@media (max-width: 740px) {
+  .requireTable .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.requireTable .container h2 {
+  width: 128px;
+  height: 28px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -234px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto 80px;
+}
+@media (max-width: 740px) {
+  .requireTable .container h2 {
+    width: 78px;
+    height: 17px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: -154px -167px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto 40px;
+  }
+}
+.requireTable .container table {
+  margin-bottom: 30px;
+}
+@media (max-width: 740px) {
+  .requireTable .container table {
+    margin-bottom: 15px;
+  }
+}
+.requireTable .container table tr:first-child th {
+  border-top: 1px solid #f9ccd1;
+}
+.requireTable .container table tr:first-child td {
+  border-top: 1px solid #323334;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr:first-child td {
+    border-top: none;
+  }
+}
+.requireTable .container table tr th {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  padding: 40px 20px 40px 0;
+  border-bottom: 1px solid #f9ccd1;
+  width: 145px;
+  vertical-align: top;
+  font-weight: bold;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr th {
+    display: block;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.57143;
+    padding: 20px 0 0 0;
+    border-bottom: none;
+  }
+}
+.requireTable .container table tr td {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  padding: 40px 0 20px 35px;
+  border-bottom: 1px solid #323334;
+  letter-spacing: 1px;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr td {
+    display: block;
+    width: auto;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.69231;
+    padding: 15px 0 10px;
+    border-bottom-color: #f9ccd1;
+  }
+}
+.requireTable .container table tr td p {
+  margin-bottom: 20px;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr td p {
+    margin-bottom: 10px;
+  }
+}
+.requireTable .container table tr td p span {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 2.14286;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr td p span {
+    font-size: 11px;
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+}
+.requireTable .container table tr td ul {
+  margin-bottom: 20px;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr td ul {
+    margin-bottom: 10px;
+  }
+}
+.requireTable .container table tr td ul li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 2.14286;
+  letter-spacing: 1px;
+}
+@media (max-width: 740px) {
+  .requireTable .container table tr td ul li {
+    padding-left: 15px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.69231;
+  }
+}
+.requireTable .container table tr td ul li:before {
+  content: '・';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.applyBtn {
+  padding: 60px 0 100px;
+}
+@media (max-width: 740px) {
+  .applyBtn {
+    padding: 30px 0 50px;
+  }
+}
+.applyBtn .container p a {
+  width: 374px;
+  height: 56px;
+  background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+  background-position: 0 -894px;
+  background-repeat: no-repeat;
+  -moz-background-size: 542px auto;
+  -o-background-size: 542px auto;
+  -webkit-background-size: 542px auto;
+  background-size: 542px auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  -webkit-backface-visibility: hidden;
+}
+.applyBtn .container p a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  text-decoration: inherit;
+}
+@media (max-width: 740px) {
+  .applyBtn .container p a {
+    width: 270px;
+    height: 40px;
+    background-image: url('https://kazurasei.itembox.design/item/images/f/recruit/replace-sa1833c7ef0.png');
+    background-position: 0 -546px;
+    background-repeat: no-repeat;
+    -moz-background-size: 271px auto;
+    -o-background-size: 271px auto;
+    -webkit-background-size: 271px auto;
+    background-size: 271px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+footer {
+  background-color: #333;
+  padding: 22px 30px;
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 740px) {
+  footer {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 22px 0 10px;
+  }
+}
+@media (max-width: 740px) {
+  footer nav {
+    padding-bottom: 10px;
+  }
+}
+footer nav ul li {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+@media (max-width: 740px) {
+  footer nav ul li {
+    display: block;
+    margin-left: 0;
+    font-size: 11px;
+    font-size: 1.1rem;
+    line-height: 1.36364;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+footer nav ul li:before {
+  content: '|';
+  color: #e5e5e5;
+  margin-right: 5px;
+  vertical-align: 1px;
+}
+@media (max-width: 740px) {
+
+  footer nav ul li:before {
+    content: none;
+  }
+}
+footer nav ul li a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+footer nav ul li:first-child {
+  margin-left: 0;
+}
+footer nav ul li:first-child:before {
+  content: none;
+}
+footer .copyright {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  color: white;
+  font-size: 12px;
+}
+@media (max-width: 740px) {
+  footer .copyright {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+footer nav ul li a:visited {
+    color: #e6e6e6;
+}

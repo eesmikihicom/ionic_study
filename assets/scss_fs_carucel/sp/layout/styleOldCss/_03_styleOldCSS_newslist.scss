@@ -1,0 +1,44 @@
+#news_list dd {
+    width: 700px;
+    float: left;
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+#news_list dd .news_date {
+    font-size: 12px;
+    *font-size: 10px;
+    padding-left: 10px;
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+#news_list dd .news_text {
+    background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat left 6px;
+    padding-left: 20px;
+    display: block;
+    float: left;
+}
+
+.news_title {
+    background: url("https://kazurasei.itembox.design/item/images/common/line02.jpg") no-repeat left bottom;
+    display: block;
+    width: 700px;
+}
+
+.news_contens {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.new_list,
+.money_list {
+    background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 1px 5px;
+    display: block;
+    padding-left: 20px;
+    width: 120px;
+    float: left;
+    text-align: left;
+}

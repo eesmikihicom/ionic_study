@@ -1,0 +1,146 @@
+.content_title {
+    background: url("https://kazurasei.itembox.design/item/images/common/line03.jpg") no-repeat left bottom;
+    display: block;
+    height: 40px;
+    width: 700px;
+}
+
+#news_list dd .content_text {
+    display: block;
+    float: left;
+}
+
+.content_tit {
+    font-size: 12px;
+    *font-size: 10px;
+    padding-left: 10px;
+    width: 200px;
+    display: block;
+    float: left;
+}
+
+.content_box1,
+.content_box2 {
+    float: left;
+    width: 298px;
+    background-color: #F7F7F7;
+    border: 1px solid #D3D3CE;
+    padding: 15px;
+}
+
+.content_box1 {
+    margin: 0 10px 0 15px;
+    *margin: 0 10px 0 10px;
+}
+
+.contents_list_box #guid_th td {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    background-color: #AC1700;
+    color: #fff;
+    font-size: 11px;
+    *font-size: 10px;
+}
+
+.contents_list_box #guid_tdname td {
+    text-align: center;
+    vertical-align: top;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 11px;
+    *font-size: 10px;
+    background-color: #CD7466;
+    color: #fff;
+}
+
+.contents_list_box .guid_tdmoney td {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: #666;
+    font-size: 11px;
+    *font-size: 10px;
+    background-color: #E5E3E5;
+}
+
+#conteng_guid ul {
+    display: block;
+    float: left;
+    width: 700px;
+}
+
+#conteng_guid li {
+    display: block;
+    float: left;
+    padding-bottom: 10px;
+    width: 680px;
+    list-style-type: none;
+    background-image: url("https://kazurasei.itembox.design/item/images/common/icon_disc.jpg");
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-position: 6px 8px;
+    *background-position: 6px 5px;
+}
+
+#content_box3 {
+    float: left;
+    width: 638px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    *margin-left: 8px;
+    background-color: #F7F7F7;
+    border: 1px solid #D3D4CE;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+#content_box3_img {
+    float: left;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.guid_btline {
+    float: left;
+    width: 700px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #CCC;
+}
+
+.guid_box h4 {
+    padding-left: 25px;
+    background-image: url("https://kazurasei.itembox.design/item/images/common/icon_line.jpg");
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+/* guid */
+.content_box4 {
+    background-color: #F7F7F7;
+    border: 1px solid #D3D3CE;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content_box4_ttl {
+    font-size: 15px;
+    padding-left: 1.5em;
+    background: url("https://kazurasei.itembox.design/item/images/common/guid_pdf_logo.png") no-repeat;
+    background-size: 20px;
+}
+
+.content_box4_txt {
+    font-size: 13px;
+
+    span {
+        font-size: 15px;
+    }
+}

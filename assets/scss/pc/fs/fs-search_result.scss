@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@media screen and (min-width: 960px) {
+    .fs-c-productList__list {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 25% 25% 25% 25%;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        @for $i from 0 to 200 {
+            &>** {
+                &:nth-child(#{$i+ 1}) {
+                    -ms-grid-column: $i%4+1;
+                    grid-column: $i%4+1;
+                    -ms-grid-row: floor($i/4)+1;
+                    grid-row: floor($i/4)+1;
+                }
+            }
+        }
+    }
+}

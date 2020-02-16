@@ -1,0 +1,40 @@
+.quotes {
+    float: left;
+    width: 690px;
+    text-align: center;
+    margin: 3px;
+    padding: 20px 3px;
+
+    a {
+        border: #ddd 1px solid;
+        color: #aaa;
+        padding: 5px 8px 5px 5px;
+        margin-right: 4px;
+        text-decoration: none;
+
+        &:hover,
+        &:active {
+            border: #a0a0a0 1px solid;
+            padding: 5px 8px 5px 5px;
+            margin-right: 4px;
+        }
+    }
+
+    span {
+        &.current {
+            border: #e0e0e0 1px solid;
+            padding: 5px 8px;
+            font-weight: bold;
+            COLOR: #aaa;
+            margin-right: 4px;
+            background-color: #f0f0f0;
+        }
+
+        &.disabled {
+            border: #f3f3f3 1px solid;
+            padding: 5px 8px;
+            color: #ccc;
+            margin-right: 2px;
+        }
+    }
+}

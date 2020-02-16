@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	inquiry
+------------------------------------------------------------*/
+table.inquiryTable {
+	text-align: left;
+	width: 100%;
+}
+table.inquiryTable th {
+	padding: 15px 0px;
+	position: relative;
+}
+table.inquiryTable tr:not(:first-child) th {
+	border-top: 1px solid #DEDED9;
+	padding-top: 30px;
+}
+table.inquiryTable td {
+	padding: 0 0 30px 0;
+}
+table.inquiryTable td select.full, table.inquiryTable td input.full, table.inquiryTable td textarea.full {
+	width: 100%;
+}
+table.inquiryTable td textarea {
+	height: 100px;
+}
+table.inquiryTable span {
+	display: inline-block;
+	width: 49%;
+}
+select {
+	-webkit-appearance: menulist;/* ベンダープレフィックス(Google Chrome、Safari用) */
+	-moz-appearance: menulist; /* ベンダープレフィックス(Firefox用) */
+	appearance: menulist; /* 標準のスタイルを無効にする */
+}
+/* select要素のデザインを無効にする（IE用） */
+::-ms-expand {
+	display: block;
+}
+.must:after {
+	content: "";
+	display: inline-block;
+	width: 43px;
+	height: 22px;
+	background: url(https://kazurasei.itembox.design/item/images/f/contacts-device/ico_must_01.png) no-repeat center;
+	-webkit-background-size: 43px;
+	-o-background-size: 43px;
+	background-size: 43px;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+.error-message {
+	background-color: #FEEDED;
+	display: block;
+	border: 1px solid #FCC;
+	line-height: 23px;
+	padding-left: 10px;
+	margin-top: 10px;
+	color: #DD1112;
+}
+.change-message {
+	background-color: #EDFEED;
+	display: block;
+	border: 1px solid #CCFFCC;
+	line-height: 23px;
+	padding-left: 10px;
+	margin-top: 10px;
+	color: #1BDE1A;
+}
+.name01 input[type="text"] {
+	width: 88%;
+}
+.name02 input[type="text"] {
+	width: 83%;
+}
+#contents_btn {
+	width: 100%;
+	padding: 4vw 0 0;
+	float: none;
+	margin: 0 0 20vh;
+}
+#contents_btn #btn01 {
+	width: 100%;
+	float: none;
+}
+#contents_btn #btn01 input[type="submit"] {
+	color: #ffffff;
+	width: 100%;
+	padding: 2vw 0;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dd1012+0,c3090a+51,a40000+100 */
+	background: #dd1012; /* Old browsers */
+	background: -moz-linear-gradient(top, #dd1012 0%, #c3090a 51%, #a40000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #dd1012 0%, #c3090a 51%, #a40000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #dd1012 0%, #c3090a 51%, #a40000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd1012', endColorstr='#a40000', GradientType=0 ); /* IE6-9 */
+}

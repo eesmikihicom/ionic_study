@@ -1,0 +1,76 @@
+#secCodePop {
+    border: 2px solid #287a91;
+    padding: 15px 15px 0;
+    width: 300px;
+    background-color: #e9f5f5;
+    position: absolute;
+    bottom: 30px;
+    display: none;
+
+    p {
+        margin-bottom: 15px;
+
+        &.image {
+            text-align: center;
+
+            img {
+                width: 260px;
+            }
+        }
+    }
+}
+
+.regCardTable {
+    margin: 45px 0 0;
+    width: 100%;
+
+    th.type {
+        background-color: #e5e3e5;
+        width: 100px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 30px 0;
+        border-bottom: 2px solid white;
+    }
+
+    td {
+        background-color: #f7f7f7;
+        vertical-align: middle;
+        padding: 30px 20px;
+        border-bottom: 2px solid white;
+        border-left: 1px solid white;
+        line-height: 1.8;
+
+        &.name {
+            white-space: nowrap;
+        }
+
+        &.until {
+            width: 280px;
+
+            .att {
+                color: #ff0000;
+            }
+        }
+
+        &.delete {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            a {
+                display: block;
+                width: 63px;
+                height: 30px;
+                background: url("https://kazurasei.itembox.design/item/images/common/btn_delete.png") no-repeat left top;
+                text-indent: -119988px;
+                overflow: hidden;
+                text-align: left;
+
+                &:hover {
+                    background-position: 0 bottom;
+                }
+            }
+        }
+
+    }
+}

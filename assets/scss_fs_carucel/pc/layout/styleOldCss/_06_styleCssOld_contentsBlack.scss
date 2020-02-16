@@ -1,0 +1,104 @@
+#contents_black {
+    color: #fff;
+    background-color: #4e4e4e;
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 11px;
+    *font-size: 9px;
+
+    dl {
+        &#payment table {
+            border: solid 1px #999999;
+            border-collapse: collapse;
+
+            th {
+                background: #666666;
+                text-align: left;
+                font-weight: normal;
+            }
+
+            td,
+            th {
+                border-right: 1px solid #999999;
+                border-collapse: collapse;
+                padding: 3px;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+
+        &#shipping {
+            a {
+                color: #ffffff;
+
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+
+            table {
+                border: solid 1px #999999;
+                border-collapse: collapse;
+
+                th {
+                    background: #666666;
+                    font-weight: normal;
+                }
+
+                td {
+                    text-align: center;
+                }
+
+                td.ttl,
+                th.ttl {
+                    border-right: 1px solid #999999;
+                    border-collapse: collapse;
+                    padding: 3px;
+                }
+            }
+        }
+
+        dt {
+            background: url("images/common/line01.jpg") no-repeat bottom;
+            line-height: 26px;
+            font-weight: bold;
+            font-size: 12px;
+            *font-size: 10px;
+        }
+    }
+
+    dd {
+        padding-top: 10px;
+        font-size: 11px;
+        *font-size: 9px;
+    }
+}
+
+.contents_black_box {
+    width: 734px;
+    float: left;
+}
+
+#doble_line {
+    background-color: #4E4E4E;
+    width: 734px;
+    float: left;
+    border: 2px solid #FFF;
+    padding-bottom: 30px;
+}
+
+.black_box1,
+.black_box2 {
+    display: block;
+    width: 331px;
+    float: left;
+    background-color: #4E4E4E;
+}
+
+.black_box1 {
+    padding: 5px 15px 15px 20px;
+}
+
+.black_box2 {
+    padding: 5px 20px 15px 15px;
+}

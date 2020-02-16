@@ -1,0 +1,19 @@
+#crumb_path {
+    width: 700px;
+    font-size: 11px;
+    *font-size: 9px;
+    float: left;
+    padding: 0 0 20px 0px;
+
+    strong {
+        font-weight: normal;
+        font-size: 11px;
+        *font-size: 9px;
+        color: #666;
+    }
+
+    a:link,
+    a:visited {
+        color: #960
+    }
+}

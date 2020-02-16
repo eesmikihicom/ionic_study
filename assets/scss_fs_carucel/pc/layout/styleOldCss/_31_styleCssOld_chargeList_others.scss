@@ -1,0 +1,48 @@
+#charge_list {
+    table {
+        width: 350px;
+        margin-top: 5px;
+
+        th {
+            background-color: #AC1700;
+            border-top: 1px solid #AC1700;
+            border-bottom: 1px solid #AC1700;
+            color: #FFFFFF;
+            font-size: 10px;
+            font-weight: normal;
+            padding: 1px 0px 1px 5px;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+        tr {
+            .first {
+                border-left: 1px solid #AC1700;
+            }
+
+            .last {
+                border-left: 1px solid #FFFFFF;
+                border-right: 1px solid #AC1700;
+            }
+
+        }
+
+        td {
+            border: 1px solid #D3D4CE;
+            padding: 0px;
+            vertical-align: middle;
+            font-size: 10px;
+        }
+    }
+}
+
+p#name_al {
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#swf_ad_b {
+    float: left;
+    margin: 10px 0 15px 0
+}

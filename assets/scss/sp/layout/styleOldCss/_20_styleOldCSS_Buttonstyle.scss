@@ -1,0 +1,39 @@
+.Buttonstyle {
+    width: 700px;
+
+    &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+    p {
+        width: 178px;
+        float: left;
+        margin: 5px;
+
+        a {
+            display: block;
+            padding: 10px;
+            border: 1px solid #cccccc;
+        }
+    }
+
+    a {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+        }
+    }
+
+    h3 {
+        margin-top: 20px;
+    }
+}
+
+#contents_left .Buttonstyle .noline {
+    border-bottom-style: none;
+}

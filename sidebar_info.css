@@ -1,0 +1,104 @@
+#leftNews {
+  margin-bottom: 38px; }
+
+#leftNews dl dt {
+  font-size: .85rem;
+  margin-bottom: 8px;
+  color: #333; }
+
+#leftNews dl dd {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  border-bottom: #ddd 1px dotted;
+  background-size: 4px auto;
+  padding-bottom: 8px;
+  margin-bottom: 14px; }
+
+#leftNews dl dd a {
+  font-size: .85rem;
+  line-height: 1.55; }
+
+#leftNews .all {
+  text-align: right;
+  font-size: .85rem; }
+
+#leftNews .newsDate {
+  padding-right: 5px;
+  margin-right: 5px;
+  font-size: .75rem;
+  display: inline-block; }
+
+.cat_tips {
+  color: #fff !important;
+  font-size: .7rem;
+  width: 80px;
+  text-align: center;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear; }
+
+.cat_tips.prod_info {
+  font-size: .7rem;
+  border: 1px solid #7fa74b;
+  padding: 1px 8px;
+  border-radius: 50px;
+  background: #7fa74b;
+  margin-right: 5px; }
+
+.cat_tips.important {
+  font-size: .7rem;
+  border: 1px solid #b21816;
+  padding: 1px 8px;
+  border-radius: 50px;
+  background: #b21816;
+  margin-right: 5px; }
+
+.cat_tips.info {
+  font-size: .7rem;
+  border: 1px solid #579ddb;
+  padding: 1px 8px;
+  border-radius: 50px;
+  background: #579ddb;
+  margin-right: 5px; }
+
+.cat_tips.events {
+  font-size: .7rem;
+  border: 1px solid #b18500;
+  padding: 1px 8px;
+  border-radius: 50px;
+  background: #b18500;
+  margin-right: 5px; }
+
+.cat_tips.others {
+  font-size: .7rem;
+  border: 1px solid #9c9c9c;
+  padding: 1px 8px;
+  border-radius: 50px;
+  background: #dfdfdf;
+  margin-right: 5px;
+  color: #333; }
+
+.cat_tips:hover {
+  opacity: .8;
+  text-decoration: none; }
+
+.news_area dd a {
+  display: block;
+  margin-bottom: 5px; }
+
+@media screen and (max-width: 800px) {
+  #leftNews h2 {
+    width: 63.5px;
+    height: 15px;
+    background-image: url(images/common/replace-s747fe062c7.png);
+    background-position: 0 -1775px;
+    background-repeat: no-repeat;
+    background-size: 840px auto;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto 16px;
+    padding-bottom: 5px; } }

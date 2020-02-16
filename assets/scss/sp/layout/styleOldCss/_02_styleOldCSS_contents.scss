@@ -1,0 +1,532 @@
+#contents {
+    position: relative;
+    top: -40px;
+}
+
+@mixin left_ad($num) {
+    .left_ad_#{$num} {
+        float: left;
+        height: 200px;
+        width: 180px;
+        text-indent: -9999px;
+        margin-bottom: 10px;
+
+        a {
+            display: block;
+            height: 200px;
+            width: 180px;
+
+            &:link,
+            &:visited {
+                background: url("https://kazurasei.itembox.design/item/images/common/left_#{$num}.jpg") no-repeat left top;
+            }
+
+            &:hover {
+                background: url("https://kazurasei.itembox.design/item/images/common/left_#{$num}.jpg") no-repeat left -200px;
+            }
+        }
+    }
+}
+
+#contents_left {
+    width: 300px;
+    float: left;
+    @include left_ad(01);
+    @include left_ad(02);
+    @include left_ad(03);
+    @include left_ad(04);
+
+    .left_list2 {
+        background-color: #FFF;
+        width: 298px;
+        float: left;
+        border-right: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        border-left: 1px solid #CCC;
+        margin-bottom: 10px;
+
+        dd {
+            background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 7px 13px;
+            border-bottom: 1px solid #ccc;
+            padding: 12px 0px 10px 25px;
+
+            a {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        a {
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+            }
+        }
+
+        a:hover,
+        dd:hover {
+            text-decoration: none;
+            color: #AC1700;
+            background-color: #FDF1F1;
+        }
+
+        .noline {
+            border-bottom-style: none;
+        }
+    }
+
+    .left_list3 {
+        background-color: #FFF;
+        width: 298px;
+        float: left;
+        border-top: 1px solid #CCC;
+        border-right: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        border-left: 1px solid #CCC;
+        margin-bottom: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+        dd {
+            border-bottom: 1px solid #ccc;
+            padding: 7px 0px 5px 25px;
+
+            a {
+                display: block;
+                width: 150px;
+            }
+        }
+
+        a {
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+            }
+
+        }
+
+        a:hover,
+        dd:hover {
+            text-decoration: none;
+            color: #AC1700;
+            background-color: #FDF1F1;
+        }
+
+        .noline {
+            border-bottom-style: none;
+        }
+    }
+}
+
+#contents_btn {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    float: left;
+    width: 700px;
+
+    #btn01 {
+        display: block;
+        width: 290px;
+        float: left;
+        height: 32px;
+    }
+
+    #btn02 {
+        display: block;
+        float: left;
+        height: 30px;
+        width: 120px;
+    }
+}
+
+
+.left_ad {
+    float: left;
+    width: 178px;
+    margin-bottom: 10px;
+}
+
+.left_list1 {
+    width: 178px;
+    float: left;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 11px;
+    *font-size: 9px;
+
+    dd {
+        background: url("https://kazurasei.itembox.design/item/images/common/icon01.jpg") no-repeat 7px 10px;
+        padding: 5px 10px 5px 25px;
+        display: block;
+        float: right;
+        width: 142px;
+    }
+}
+
+#more_list {
+    background-image: none;
+    text-align: right;
+    padding: 10px 10px 15px 0;
+    display: block;
+}
+
+#contents_list2 #more {
+    text-align: right;
+    padding: 5px 0;
+    display: block;
+    float: left;
+    width: 210px;
+    font-size: 11px;
+    *font-size: 9px;
+}
+
+
+#contents_list3 #more {
+    text-align: right;
+    padding: 5px 0;
+    display: block;
+    float: left;
+    width: 210px;
+    font-size: 11px;
+    *font-size: 9px;
+}
+
+
+#contents_left_now,
+#contents_left_now a {
+    background-color: #FDF1F1;
+    color: #AC1700;
+}
+
+#contents_main {
+    width: 740px;
+    float: left;
+    margin-left: 20px;
+}
+
+#swf_ad {
+    border: 1px solid #c8c8c8;
+    height: 298px;
+    width: 738px;
+}
+
+@mixin ad($num) {
+
+    .ad_0#{$num} {
+        height: 150px;
+        width: 230px;
+        text-indent: -9999px;
+
+        a {
+
+            &:link,
+            &:visited {
+                background: url("https://kazurasei.itembox.design/item/images/common/top_ad#{$num}.jpg") no-repeat left top;
+            }
+
+            &:hover {
+                background: url("https://kazurasei.itembox.design/item/images/common/top_ad#{$num}.jpg") no-repeat left -150px;
+            }
+        }
+    }
+}
+
+
+#contents_nav {
+    background-color: #fff;
+    border-left: 1px solid #d3d4ce;
+    border-right: 1px solid #d3d4ce;
+    float: left;
+    width: 700px;
+    padding-top: 20px;
+    padding-right: 19px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+
+    dl {
+        dd {
+            float: left;
+            padding-right: 5px;
+        }
+
+        #none {
+            padding-right: 0px;
+        }
+    }
+
+    a {
+        display: block;
+        height: 150px;
+        width: 230px;
+    }
+}
+
+#contents_white {
+    padding: 0px 18px 0px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d4ce;
+    border-left: 1px solid #d3d4ce;
+    border-right: 1px solid #d3d4ce;
+    margin-bottom: 30px;
+}
+
+
+@include ad(1);
+@include ad(2);
+@include ad(3);
+
+#contents_nav .ad_01,
+#contents_nav .ad_02,
+#contents_nav .ad_03 {
+    height: 150px;
+    width: 230px;
+    text-indent: -9999px;
+}
+
+.contents_list_box {
+    float: left;
+    width: 700px;
+}
+
+#contents_list1,
+#contents_list2,
+#contents_list3,
+#contents_list4 {
+    float: left;
+}
+
+#contents_list1 {
+    width: 465px;
+
+    p a {
+        display: block;
+        padding: 1px 0 5px 25px;
+        background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 5px 8px;
+    }
+}
+
+#contents_list2 {
+    width: 210px;
+    float: left;
+    margin-left: 25px;
+
+    dl {
+        border-top: 1px solid #d3d4ce;
+        border-left: 1px solid #d3d4ce;
+        border-right: 1px solid #d3d4ce;
+        width: 208px;
+        float: left;
+        margin-top: 2px;
+
+        dd {
+            height: 55px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #D3D4CE;
+            float: left;
+            width: 208px;
+
+            img {
+                float: left;
+                padding: 5px;
+                display: block;
+            }
+        }
+    }
+}
+
+
+.contents_list2_text {
+    float: left;
+    display: block;
+    font-size: 11px;
+    *font-size: 9px;
+    width: 110px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.contents_list2_img {
+    display: block;
+    float: left;
+    height: 55px;
+    width: 85px;
+}
+
+#contents_list3 {
+    width: 698px;
+    margin-top: 2px;
+    border: 1px solid #CCC;
+
+    dl {
+        float: left;
+
+        dd {
+            width: 118px;
+            float: left;
+            padding: 10px 10px 0px 10px;
+
+            img {
+                padding-left: 5px;
+            }
+        }
+
+        .noline {
+            border-right-style: none;
+        }
+    }
+}
+
+
+#contents_list4 .top_text,
+#contents_list3 .top_text {
+    width: 95px;
+    display: block;
+    background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 2px 15px;
+    font-size: 11px;
+    *font-size: 9px;
+    height: 62px;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#contents_list4 {
+    width: 698px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+
+    dl {
+        float: left;
+
+        dd {
+            width: 118px;
+            float: left;
+            padding: 10px 10px 0px 10px;
+
+            img {
+                padding-left: 5px;
+            }
+        }
+
+        .noline {
+            border-right-style: none;
+        }
+
+    }
+}
+
+#ad_11 {
+    text-indent: -9999px;
+    margin-top: 2px;
+
+    a {
+
+        &:link,
+        &:visited {
+            background: url("https://kazurasei.itembox.design/item/images/common/top_ad4.jpg") no-repeat left top;
+            display: block;
+            height: 127px;
+            width: 700px;
+        }
+
+        &:hover {
+            background: url("https://kazurasei.itembox.design/item/images/common/top_ad4.jpg") no-repeat left bottom;
+        }
+    }
+}
+
+#contents_black {
+    color: #fff;
+    background-color: #4e4e4e;
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 11px;
+    *font-size: 9px;
+}
+
+.contents_black_box {
+    width: 734px;
+    float: left;
+}
+
+#contents_black {
+    dl#payment {
+        table {
+            border: solid 1px #999999;
+            border-collapse: collapse;
+
+            th {
+                background: #666666;
+                text-align: left;
+                font-weight: normal;
+            }
+
+            td,
+            th {
+                border-right: 1px solid #999999;
+                border-collapse: collapse;
+                padding: 3px;
+                text-align: center;
+                vertical-align: middle;
+
+                .ttl {
+                    border-right: 1px solid #999999;
+                    border-collapse: collapse;
+                    padding: 3px;
+                }
+            }
+
+            td {
+                text-align: center;
+            }
+        }
+
+        a {
+            color: #ffffff;
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+
+    dl dt {
+        background: url("https://kazurasei.itembox.design/item/images/common/line01.jpg") no-repeat bottom;
+        line-height: 26px;
+        font-weight: bold;
+        font-size: 12px;
+        *font-size: 10px;
+    }
+
+    dd {
+        padding-top: 10px;
+        font-size: 11px;
+        *font-size: 9px;
+    }
+}
+
+.black_box1,
+.black_box2 {
+    display: block;
+    width: 331px;
+    float: left;
+    background-color: #4E4E4E;
+}
+
+.black_box1 {
+    padding: 5px 15px 15px 20px;
+}
+
+.black_box2 {
+    padding: 5px 20px 15px 15px;
+}

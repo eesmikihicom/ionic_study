@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "foundation/nomalize";
+@import "foundation/reset";
+@import "foundation/font";
+@import "foundation/common";
+@import "foundation/mixin";
+@import "foundation/wp_common";
+
+@import "pc/pc_style";
+
+@media screen and (max-width: 800px) {
+    @import "sp/sp_style";
+}

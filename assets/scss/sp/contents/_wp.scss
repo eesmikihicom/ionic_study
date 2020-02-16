@@ -1,0 +1,244 @@
+/* WP SP 記事用スタイル */
+/* wp_common override */
+
+
+
+
+#postContents {
+    margin: 0 0 20px;
+
+    .post_header,
+    .post_index_header {
+        margin: 10px auto 36px;
+        height: 32px;
+
+        h2 {
+            background-size: cover;
+            margin: auto;
+        }
+    }
+
+    .post_header {
+        width: 135px;
+
+        h2 {
+            width: 130px;
+        }
+    }
+
+    .post_index_header {
+        width: 116px;
+
+        h2 {
+            width: 116px;
+        }
+    }
+
+    article {
+        padding: 0 5px 25px;
+        margin: 0 0 20px;
+    }
+
+    h1 {
+        white-space: normal;
+        overflow: auto;
+    }
+}
+
+.post_info {
+    margin-bottom: 10px;
+
+    .article-date {
+        margin-right: 6px;
+        font-size: 0.75rem;
+    }
+
+    a {
+        font-size: 0.75rem !important;
+        width: 80px;
+        font-weight: normal;
+    }
+}
+
+.postLink {
+    a {
+        .text {
+            h2 {
+                font-size: 1rem;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+#contentsLeft {
+    padding: 30px 15px 50px;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+
+
+
+#postMain {
+    padding: 0 4px 20px;
+
+    .wp-block-image {
+        img {
+            height: auto;
+        }
+    }
+
+    .wp-block-quote {
+        color: #444;
+
+        cite {
+            font-size: 0.825rem;
+        }
+    }
+
+    .post_info {
+        margin: 0 -5px 27px;
+        padding: 0 7px 20px;
+        border-bottom: 1px #d0d0d0 solid;
+
+        .article-date {
+            margin-right: 5px;
+        }
+    }
+
+    h1 {
+        white-space: normal;
+        overflow: auto;
+        font-size: 1.3rem;
+        padding-left: 10px;
+        line-height: 1.4;
+        margin: 35px 0 15px;
+
+        &.post_title {
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            margin: 0 0 13px;
+            padding: 0;
+        }
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        border-left: #b21815 solid 7px;
+        padding-left: 11px;
+        line-height: 1.7rem;
+        margin: 35px 0 15px;
+    }
+
+    h3 {
+        height: auto;
+        font-size: 1.1rem;
+        padding-left: 10px;
+        line-height: 1.65rem;
+        margin: 35px 0 15px;
+    }
+
+    h4 {
+        height: auto;
+        font-size: 1.1rem;
+        padding-left: 13px;
+        line-height: 1.4rem;
+        margin: 35px 0 15px;
+    }
+
+    h5 {
+        font-size: 1rem;
+        padding-left: 14px;
+        line-height: 1.4;
+        margin: 35px 0 15px;
+    }
+
+    h6 {
+        margin: 35px 0 15px;
+        font-size: 1rem;
+    }
+
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    ol,
+    ul {
+        margin-bottom: 20px;
+
+        li {
+            margin-bottom: 12px;
+            font-size: 1rem;
+
+            &>ol {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    table {
+        font-size: 0.825rem;
+    }
+
+    nav {
+        &.post-navigation {
+
+            .nav-links {
+                flex-direction: column;
+
+                .nav-previous,
+                .nav-next {
+                    //flex: 1;
+                    flex-basis: auto;
+                    margin-left: 0;
+
+                    a {
+                        min-height: auto;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .nav-next {
+                    a {
+                        p {
+                            &:last-child {
+                                text-align: end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#leftNews {
+    h2 {
+        margin: 0 auto 35px;
+    }
+
+    dl {
+        dt {
+            width: auto;
+            padding: 0 5px;
+            margin-bottom: 8px;
+
+            .newsDate {
+                width: 70px;
+                font-size: 0.7rem;
+            }
+        }
+
+        dd {
+            padding: 0 5px 11px;
+            font-size: 1.125rem;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+#contents,
+.fs-l-main {
+    margin-top: 40px; //wpの時は135pxに
+}

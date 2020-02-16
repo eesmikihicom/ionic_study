@@ -1,0 +1,19 @@
+$setPrefix: -o-,
+-moz-,
+-webkit-,
+'';
+
+@mixin PropertySetPrefix($name, $value) {
+    @each $prefix in $setPrefix {
+        #{$prefix}#{$name}: $value;
+    }
+}
+
+@mixin transition_opacity($sec, $carve) {
+    @include PropertySetPrefix(transition, opacity $sec $carve);
+    backface-visibility: hidden;
+}
+
+@mixin transition_all($sec, $carve) {
+    @include PropertySetPrefix(transition, all $sec $carve);
+}

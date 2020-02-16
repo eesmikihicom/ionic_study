@@ -1,0 +1,32 @@
+/*brandingArea*/
+#brandingArea {
+    zoom: 100%;
+
+    &:after {
+        content: "";
+        clear: both;
+        height: 0;
+        display: block;
+        visibility: hidden;
+    }
+
+    img#voice {
+        float: left;
+    }
+
+    p.kodawari {
+        float: right;
+        width: 210px;
+
+        a {
+            height: 240px;
+            background: url("https://kazurasei.itembox.design/item/images/common/bnr_kodawari.jpg") 0 0;
+            text-indent: -9999px;
+            display: block;
+
+            &:hover {
+                background-position: 0px -240px;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+#ad_11 {
+    margin-top: 2px;
+    text-indent: -9999px;
+
+    a {
+
+        &:link,
+        &:visited {
+            background: url("images/common/top_ad4.jpg") no-repeat left top;
+            display: block;
+            height: 127px;
+            width: 700px;
+        }
+
+        &:hover {
+            background: url("images/common/top_ad4.jpg") no-repeat left bottom;
+        }
+    }
+}

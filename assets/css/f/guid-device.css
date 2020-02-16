@@ -1,0 +1,16 @@
+/* compiled from ./scss/letter.scss */
+
+.guidList li {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+#newsArea {
+    padding-bottom: 0px;
+}
+#newsArea .news a::after {
+    top: 0.5em;
+}
+a.text_link_red{
+    color: #996600;
+}

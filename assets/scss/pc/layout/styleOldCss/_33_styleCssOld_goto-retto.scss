@@ -1,0 +1,172 @@
+/*五島列島 goto-retto*/
+#goto-retto {
+    h2 {
+        margin-bottom: 8px;
+    }
+
+    h3 {
+        padding-bottom: 8px;
+        border-bottom: solid 3px #ac1700;
+        margin-bottom: 21px;
+    }
+
+    p.ttl {
+        font-weight: bold;
+        padding-bottom: 13px;
+        border-bottom: 1px dotted #b2b2b2;
+        margin-bottom: 13px;
+    }
+
+    .box {
+        margin-bottom: 34px;
+    }
+
+    .text-box {
+        width: 406px;
+    }
+
+    .l {
+        margin-right: 21px;
+        float: left;
+        display: inline;
+    }
+
+    .r {
+        margin-left: 21px;
+        float: right;
+        display: inline;
+    }
+
+    #content01 .r {
+        .sub {
+            zoom: 100%;
+            margin-top: 18px;
+
+            &:after {
+                content: "";
+                clear: both;
+                height: 0;
+                display: block;
+                visibility: hidden;
+            }
+
+            .subImg {
+                margin-right: 10px;
+                width: 206px;
+                float: left;
+                display: inline;
+            }
+
+            p.exp {
+                background: #fffcf3;
+                border: solid 1px #d3d4ce;
+                padding: 13px;
+                font-size: 10px;
+                float: right;
+                width: 162px;
+                display: inline;
+
+                span {
+                    color: #d42a19;
+                }
+            }
+        }
+    }
+
+    .subImg p.caption {
+        text-align: center;
+    }
+
+    /*maker*/
+    #maker {
+        background: #fffcf3;
+        border: solid 1px #d3d4ce;
+        padding: 13px;
+        margin-bottom: 34px;
+        zoom: 100%;
+
+        &:after {
+            content: "";
+            clear: both;
+            height: 0;
+            display: block;
+            visibility: hidden;
+        }
+
+        img.img {
+            float: left;
+            width: 289px;
+            display: inline;
+        }
+
+        .maker-exp {
+            width: 373px;
+            float: right;
+            display: inline;
+
+            &:after {
+                content: "";
+                clear: both;
+                height: 0;
+                display: block;
+                visibility: hidden;
+            }
+        }
+
+        dl {
+            float: left;
+            width: 251px;
+            margin-right: 13px;
+            display: inline;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #d42a19;
+            margin-bottom: 21px;
+        }
+    }
+
+    p.product-btn {
+        margin-bottom: 34px;
+    }
+
+    .box {
+        dl.exp {
+            margin-top: 21px;
+            background: #fffcf3;
+            border: solid 1px #d3d4ce;
+            padding: 8px;
+
+            dt {
+                font-weight: bold;
+                color: #d42a19;
+                margin-bottom: 8px;
+            }
+        }
+
+        &:after {
+            content: "";
+            clear: both;
+            height: 0;
+            display: block;
+            visibility: hidden;
+        }
+    }
+}
+
+* html {
+    #goto-retto {
+        .text-box {
+            width: 406px;
+        }
+
+        #content01 .r .sub p.exp {
+            width: 152px;
+        }
+
+        #maker dl {
+            width: 249px;
+        }
+    }
+}

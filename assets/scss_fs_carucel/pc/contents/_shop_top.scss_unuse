@@ -1,0 +1,480 @@
+/*-------------------------- header from style.css (old) --------------------------*/
+
+/* 必要ない？
+#contents {
+    position: relative;
+    top: -40px;
+}
+
+#contents_left {
+    width: 300px;
+    float: left;
+}
+
+#contents_btn {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    float: left;
+    width: 700px;
+
+    #btn01 {
+        display: block;
+        width: 290px;
+        float: left;
+        height: 32px;
+    }
+
+    #btn02 {
+        display: block;
+        float: left;
+        height: 30px;
+        width: 120px;
+    }
+}
+
+.left_ad {
+    float: left;
+    width: 178px;
+    margin-bottom: 10px;
+}
+
+
+
+#contents_left {
+    .left_ad_01 {
+        float: left;
+        height: 200px;
+        width: 180px;
+        text-indent: -9999px;
+        margin-bottom: 10px;
+        a {
+            display: block;
+            height: 200px;
+            width: 180px;
+            &:link,
+            &:visited {
+                background: url("images/common/left_01.jpg") no-repeat left top;
+            }
+            &:hover {
+                background: url("images/common/left_01.jpg") no-repeat left -200px;
+            }
+        }
+    }
+    .left_ad_02 {
+        float: left;
+        height: 200px;
+        width: 180px;
+        text-indent: -9999px;
+        margin-bottom: 10px;
+        a {
+            display: block;
+            height: 200px;
+            width: 180px;
+            &:link,
+            &:visited {
+                background: url("images/common/left_02.jpg") no-repeat left top;
+            }
+            &:hover {
+                background: url("images/common/left_02.jpg") no-repeat left -200px;
+            }
+        }
+    }
+
+    .left_ad_03 {
+        float: left;
+        height: 200px;
+        width: 180px;
+        text-indent: -9999px;
+        margin-bottom: 10px;
+        a {
+            display: block;
+            height: 200px;
+            width: 180px;
+
+            &:link,
+            &:visited {
+                background: url("images/common/left_03.jpg") no-repeat left top;
+            }
+
+            &:hover {
+                background: url("images/common/left_03.jpg") no-repeat left -200px;
+            }
+        }
+    }
+    .left_ad_04 {
+        float: left;
+        height: 200px;
+        width: 180px;
+        text-indent: -9999px;
+        margin-bottom: 10px;
+
+        a {
+            display: block;
+            height: 200px;
+            width: 180px;
+
+            &:link,
+            &:visited {
+                background: url("images/common/left_04.jpg") no-repeat left top;
+            }
+
+            &:hover {
+                background: url("images/common/left_04.jpg") no-repeat left -200px;
+            }
+        }
+    }
+}
+.left_list1 {
+    width: 178px;
+    float: left;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 11px;
+    *font-size: 9px;
+
+    dd {
+        background: url("images/common/icon01.jpg") no-repeat 7px 10px;
+        padding: 5px 10px 5px 25px;
+        display: block;
+        float: right;
+        width: 142px;
+    }
+}
+
+#more_list {
+    background-image: none;
+    text-align: right;
+    padding: 10px 10px 15px 0;
+    display: block;
+}
+
+#contents_list2 #more {
+    text-align: right;
+    padding: 5px 0;
+    display: block;
+    float: left;
+    width: 210px;
+    font-size: 11px;
+    *font-size: 9px;
+}
+
+.left_list2 {
+    background-color: #FFF;
+    width: 298px;
+    float: left;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    margin-bottom: 10px;
+
+    dd {
+        background: url("images/common/icon02.jpg") no-repeat 7px 13px;
+        border-bottom: 1px solid #ccc;
+        padding: 12px 0px 10px 25px;
+        &:hover {
+            text-decoration: none;
+            color: #AC1700;
+            background-color: #FDF1F1;
+        }
+        a {
+            display: block;
+            width: 100%;
+        }
+    }
+    a{
+        &:link,
+        &:visited {
+            text-decoration: none;
+        }
+        &:hover{
+            text-decoration: none;
+            color: #AC1700;
+            background-color: #FDF1F1;
+        }
+    }
+}
+
+
+#contents_left .left_list2 .noline {
+    border-bottom-style: none;
+}
+
+#contents_list3 #more {
+    text-align: right;
+    padding: 5px 0;
+    display: block;
+    float: left;
+    width: 210px;
+    font-size: 11px;
+    *font-size: 9px;
+}
+
+.left_list3 {
+    background-color: #FFF;
+    width: 298px;
+    float: left;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.left_list3 dd {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 0px 5px 25px;
+}
+
+.left_list3 a:link,
+.left_list3 a:visited {
+    text-decoration: none;
+}
+
+.left_list3 a:hover,
+.left_list3 dd:hover {
+    text-decoration: none;
+    color: #AC1700;
+    background-color: #FDF1F1;
+}
+
+.left_list3 dd a {
+    display: block;
+    width: 150px;
+}
+
+#contents_left .left_list3 .noline {
+    border-bottom-style: none;
+}
+
+#contents_left_now,
+#contents_left_now a {
+    background-color: #FDF1F1;
+    color: #AC1700;
+}
+
+#contents_main,
+.fs-l-pageMain {
+    width: 740px;
+    float: left;
+    margin-left: 20px;
+}
+
+#swf_ad {
+    border: 1px solid #c8c8c8;
+    height: 298px;
+    width: 738px;
+}
+
+#contents_nav {
+    background-color: #fff;
+    border-left: 1px solid #d3d4ce;
+    border-right: 1px solid #d3d4ce;
+    float: left;
+    width: 700px;
+    padding-top: 20px;
+    padding-right: 19px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+}
+
+#contents_white {
+    padding: 0px 18px 0px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d4ce;
+    border-left: 1px solid #d3d4ce;
+    border-right: 1px solid #d3d4ce;
+    margin-bottom: 30px;
+}
+
+#contents_nav dl dd {
+    float: left;
+    padding-right: 5px;
+}
+
+#contents_nav dl #none {
+    padding-right: 0px;
+}
+
+#contents_nav a {
+    display: block;
+    height: 150px;
+    width: 230px;
+}
+
+#contents_nav .ad_01,
+#contents_nav .ad_02,
+#contents_nav .ad_03 {
+    height: 150px;
+    width: 230px;
+    text-indent: -9999px;
+}
+
+.ad_01 a:link,
+.ad_01 a:visited {
+    background: url("images/common/top_ad1.jpg") no-repeat left top;
+}
+
+.ad_01 a:hover {
+    background: url("images/common/top_ad1.jpg") no-repeat left -150px;
+}
+
+.ad_02 a:link,
+.ad_02 a:visited {
+    background: url("images/common/top_ad2.jpg") no-repeat left top;
+}
+
+.ad_02 a:hover {
+    background: url("images/common/top_ad2.jpg") no-repeat left -150px;
+}
+
+.ad_03 a:link,
+.ad_03 a:visited {
+    background: url("images/common/top_ad3.jpg") no-repeat left top;
+}
+
+#contents_nav .ad_03 a:hover {
+    background: url("images/common/top_ad3.jpg") no-repeat left -150px;
+}
+
+.contents_list_box {
+    float: left;
+    width: 700px;
+}
+
+#contents_list1,
+#contents_list2,
+#contents_list3,
+#contents_list4 {
+    float: left;
+}
+
+#contents_list1 {
+    width: 465px;
+}
+
+#contents_list1 p a {
+    display: block;
+    padding: 1px 0 5px 25px;
+    background: url("images/common/icon02.jpg") no-repeat 5px 8px;
+}
+
+#contents_list2 {
+    width: 210px;
+    float: left;
+    margin-left: 25px;
+}
+
+#contents_list2 dl {
+    border-top: 1px solid #d3d4ce;
+    border-left: 1px solid #d3d4ce;
+    border-right: 1px solid #d3d4ce;
+    width: 208px;
+    float: left;
+    margin-top: 2px;
+}
+
+#contents_list2 dl dd {
+    height: 55px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D3D4CE;
+    float: left;
+    width: 208px;
+}
+
+#contents_list2 dl dd img {
+    float: left;
+    padding: 5px;
+    display: block;
+}
+
+.contents_list2_text {
+    float: left;
+    display: block;
+    font-size: 11px;
+    *font-size: 9px;
+    width: 110px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.contents_list2_img {
+    display: block;
+    float: left;
+    height: 55px;
+    width: 85px;
+}
+
+#contents_list3 {
+    width: 698px;
+    margin-top: 2px;
+    border: 1px solid #CCC;
+}
+
+#contents_list3 dl {
+    float: left;
+}
+
+#contents_list3 dl dd {
+    width: 118px;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+
+#contents_list3 dl dd img {
+    padding-left: 5px;
+}
+
+#contents_list3 dl .noline {
+    border-right-style: none;
+}
+
+#contents_list4 .top_text,
+#contents_list3 .top_text {
+    width: 95px;
+    display: block;
+    background: url("images/common/icon02.jpg") no-repeat 2px 15px;
+    font-size: 11px;
+    *font-size: 9px;
+    height: 62px;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#contents_list4 {
+    width: 698px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+
+#contents_list4 dl {
+    float: left;
+}
+
+#contents_list4 dl dd {
+    width: 118px;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+
+#contents_list4 dl dd img {
+    padding-left: 5px;
+}
+
+#contents_list4 dl .noline {
+    border-right-style: none;
+}
+
+*/
+
+/*-------------------------- contents from frame.css --------------------------*/

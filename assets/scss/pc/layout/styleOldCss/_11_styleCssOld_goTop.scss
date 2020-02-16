@@ -1,0 +1,43 @@
+#gotoppage {
+    width: 410px;
+    float: left;
+    box-sizing: content-box;
+    padding: 30px 20px 20px 270px;
+
+    a {
+
+        &:link,
+        &:visited {
+            color: #960;
+            text-decoration: underline;
+            font-size: 14px;
+            padding-left: 10px;
+        }
+
+        &:hover {
+            text-decoration: none
+        }
+    }
+}
+
+#goto_img {
+    display: block;
+    float: left;
+    box-sizing: content-box;
+    padding: 7px 5px 5px 5px;
+    width: 12px;
+
+    img {
+        display: block;
+        float: left;
+        max-width: none;
+        height: 12px;
+        width: 17px;
+    }
+}
+
+#goto_text {
+    display: block;
+    float: left;
+    width: 150px;
+}

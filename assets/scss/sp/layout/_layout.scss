@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+    background-image: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: visible;
+    line-height: 1.5;
+    padding-top: 0;
+    min-width: initial;
+
+    &.nonactive {
+        overflow: hidden;
+    }
+}
+
+_::-webkit-full-page-media,
+_:future,
+:root [type="hidden"],
+[type="text"],
+[type="search"],
+[type="tel"],
+[type="url"],
+[type="email"],
+[type="password"],
+[type="datetime"],
+[type="date"],
+[type="month"],
+[type="week"],
+[type="time"],
+[type="datetime-local"],
+[type="number"],
+select,
+textarea {
+    font-size: 1.2rem;
+}
+
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    width: 100%;
+    display: block;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+#wrap {
+    position: relative;
+}
+
+/********** プレースホルダー **********/
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+/* --------------------------------------------------------------------------------
+	デバイスごとの表示・非表示
+-------------------------------------------------------------------------------- */
+.device-sp {
+    display: block;
+}
+
+.device-sp-inline {
+    display: inline;
+}
+
+.device-pc {
+    display: none;
+}
+
+.device-pc-inline {
+    display: none;
+}
+
+/* --------------------------------------------------------------------------------
+	contents Area
+-------------------------------------------------------------------------------- */
+#contents,
+.fs-l-main {
+    //margin: 115px 0 0;
+    //margin: 0 auto 10vw;
+    padding: 0;
+    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: inherit;
+}
+
+#contents {
+    padding: 35px 15px 75px;
+    width: 100%;
+    margin: 0 auto;
+    top: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    *zoom: 1;
+
+    &.news {
+        border-bottom: 1px solid #ccc;
+        padding: 30px 15px 0;
+    }
+
+    &.features {
+        border-bottom: 1px solid #ccc;
+        padding: 25px 15px 0;
+    }
+
+    &.categories {
+        padding: 25px 15px 0;
+    }
+
+    &.others {
+        padding: 0px 15px 30px;
+    }
+}
+
+// #fs_CustomPage {
+//     .fs-l-pageMain {
+//         //margin-left: 40px;
+//         //width: 840px;
+//         float: none;
+//         width: 100%;
+//         margin: 0 auto;
+//         top: auto;
+//         box-sizing: border-box;
+//         overflow: hidden;
+//     }
+
+// }
+
+.fs-l-pageMain {
+    margin-left: 0 !important;
+    //width: 840px;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    top: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    >*:nth-child(2) {
+        padding: 0 15px;
+    }
+}
+
+
+section .announcement {
+    margin: 5vh 5vw;
+    text-align: center;
+}
+
+#infomation {
+    width: 100%;
+}

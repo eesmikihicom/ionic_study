@@ -1,0 +1,21 @@
+/*!
+Theme Name: kazurasei information
+Theme URI: https://www.kazurasei.co.jp/infomation/
+Description: for kazurasei
+Version: 1.0.0
+Text Domain: kazurasei-information
+*/
+
+//$alert-ios-button-group-flex-wrap : wrap;
+@charset "UTF-8";
+@import "foundation/nomalize";
+@import "foundation/reset";
+@import "foundation/font";
+@import "foundation/common";
+@import "foundation/mixin";
+@import "foundation/wp_common";
+@import "pc/pc_style_wp";
+
+@media screen and (max-width: 800px) {
+    @import "sp/sp_style_wp";
+}

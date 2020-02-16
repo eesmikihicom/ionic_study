@@ -1,0 +1,160 @@
+.customers_login {
+    padding: 0px 20px 0 20px;
+    float: left;
+    width: 303px;
+    height: 340px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #F7F7F7;
+    color: #666;
+
+    dl {
+        background-color: #CD7466;
+        height: 100px;
+        width: 270px;
+        padding: 10px 15px 20px 15px;
+
+        dt {
+            color: #FFF;
+        }
+    }
+
+    dd input {
+        height: 20px;
+        width: 265px;
+        display: block;
+    }
+}
+
+.customers_reg {
+    float: left;
+    width: 343px;
+    height: 340px;
+    border: 1px solid #CCC;
+    color: #666;
+
+    dd,
+    h3 {
+        display: block;
+        width: 313px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+    }
+
+    dd {
+
+        #btn_user,
+        #btn_guest {
+            padding: 20px 70px;
+        }
+
+    }
+}
+
+#customers_statute {
+    width: 668px;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 15px 15px 20px 15px;
+    color: #666;
+}
+
+.customers_statute_text {
+    padding-left: 10px;
+
+    input {
+        float: left;
+    }
+}
+
+#customers_end_box {
+    float: left;
+    border-bottom: 1px dotted #CCC;
+    width: 700px;
+}
+
+#customers_logout {
+    width: 170px;
+    height: 30px;
+    float: left;
+    text-indent: -9999px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    padding: 10px 64px 9px 64px;
+    text-align: center;
+}
+
+.customers_history {
+    padding: 5px 20px 15px 20px;
+    float: left;
+    width: 658px;
+    border: 1px solid #CCC;
+
+    dl {
+        width: 319px;
+        float: left;
+        display: block;
+        margin-right: 20px;
+
+        dt,
+        dd {
+            display: block;
+            float: left;
+            float: left;
+            width: 144px;
+            padding: 10px 0 10px 15px;
+            border-bottom: 1px dotted #CCC;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        dd {
+            color: #666;
+        }
+    }
+
+    .noline {
+        padding-bottom: 0px;
+        border-bottom-style: none;
+    }
+}
+
+.customers_tab {
+    table tr td {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .customers_info {
+        position: relative;
+    }
+
+    a {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat left center;
+        padding-left: 20px;
+        color: #960;
+    }
+
+}
+
+#customers_amount {
+    float: right;
+    width: 318px;
+    padding: 10px 17px;
+    border: 1px solid #CCC;
+
+    dl dd {
+        width: 318px;
+        display: block;
+        float: left;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}

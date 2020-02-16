@@ -1,0 +1,93 @@
+ <script type="text/javascript">
+     $(function () {
+         $.getJSON("https://www.kazurasei.co.jp/information/wp-json/wp/v2/posts?per_page=5", function (results) {
+             $.each(results, function (i, item) {
+                 var dateData = new Date(item.date);
+                 var yy = dateData.getFullYear();
+                 var mm = dateData.getMonth(dateData) + 1;
+                 var dd = dateData.getDate(dateData);
+                 //$("dl.info_list").append("<dt><span class='newsDate'>"+ yy +"."+ mm +"."+ dd +"</span></dt><dd><a href='"+ item.link +"'>" + item.title.rendered + "</a></dd>");
+                 $("ul.info_list").append("<li>test</li>");
+                 $("dl.info_list").append("<dt><span class='newsDate'>" + yy + "." + mm + "." + dd + "</span></dt><dd><a href='" + item.link + "'>" + item.title.rendered + "</a></dd>");
+             });
+         });
+     });
+ </script>
+ <section id="leftNews" class="news_area">
+     <h2>お知らせ</h2>
+     <ul class="info_list">
+     </ul>
+     <dl class="info_list">
+     </dl>
+     <div class="all">
+         <a href="https://www.kazurasei.co.jp">お知らせ一覧へ</a>
+     </div>
+ </section>
+
+
+
+
+ <div class="device-pc">
+     <div id="contents_main">
+         <div id="contents_white_sub">
+             <div class="news_title">
+                 <h2><img src="https://kazurasei.itembox.design/item/images/f/topics/topics_tit01.jpg" alt="お知らせ一覧"></h2>
+             </div>
+             <div class="news_contens">
+                 <p class="news_date grey">2019.10.3</p>
+                 <h2 class="bottom30">
+                     <font color="#ff0000"><b>【重要】</b></font>
+                     <font color="#ff0000"><span style="color:#FF0099"><b>ログインパスワード再設定のお願い</b></span></font>
+                 </h2>
+                 <div style="color:#333333;">平素より格別のご高配を賜り、厚く御礼申し上げます。<br>
+                     <br>
+                     システムリニューアルに伴い、会員の皆様にご登録いただいている会員情報は新システムへ安全に移設いたしました。パスワードはセキュリティの都合上、旧システムから引き継ぎを実施しておりません。以下の手順にて、<font color="#ff0000"><b>新たなパスワードを設定</b></font>いただきますよう、お願い申し上げます。<br>
+                     <br>
+                     以下の方法に従って再設定ください。<br><br>
+                     再設定が完了しますと、通常通りお買い物をお楽しみいただけます。<br>
+                     皆様にはお手数お掛けし大変申し訳ございませんが、ご了承いただきますよう何卒宜しくお願い申し上げます。<br>
+                     <br>
+                     <a href="/p/forgot-password" class="fs-c-textLink" style="color:blue;text-decoration:underline;">ログインパスワード再設定ページへ</a><br>
+
+                     <div style="text-align: center;padding-top: 30px;">
+                         <img src="{% items[/images/f/re_pw/about_re_pw.png] %}">
+                     </div>
+                 </div>
+             </div>
+             <div id="gotoppage"><span id="goto_img"><img src="https://kazurasei.itembox.design/item/images/f/common/icon03.jpg" alt=""></span><span id="goto_text"><a href="/f/shop">かづら清トップに戻る</a></span></div>
+         </div>
+     </div>
+     <!-- Contents_main -->
+ </div>
+ <!-- .device-pc -->
+
+ <div class="device-sp">
+     <section id="conts">
+         <div id="ttl">
+             <h1 class="txt14">お知らせ詳細</h1>
+         </div>
+         <div class="spBox mT30 contain">
+             <div class="news_contens">
+                 <p class="txtGrey txt11">2019.10.3</p>
+                 <h2 class="txt13 mB30">
+                     <font color="#ff0000"><b>【重要】</b></font>
+                     <font color="#ff0000"><span style="color:#FF0099"><b>ログインパスワード再設定のお願い</b></span></font>
+                 </h2>
+                 <div style="color:#333333;">平素より格別のご高配を賜り、厚く御礼申し上げます。<br>
+                     <br>
+                     システムリニューアルに伴い、会員の皆様にご登録いただいている会員情報は新システムへ安全に移設いたしました。パスワードはセキュリティの都合上、旧システムから引き継ぎを実施しておりません。以下の手順にて、<font color="#ff0000"><b>新たなパスワードを設定</b></font>いただきますよう、お願い申し上げます。<br>
+                     <br>
+                     以下の方法に従って再設定ください。<br><br>
+                     再設定が完了しますと、通常通りお買い物をお楽しみいただけます。<br>
+                     皆様にはお手数お掛けし大変申し訳ございませんが、ご了承いただきますよう何卒宜しくお願い申し上げます。<br>
+                     <br>
+                     <a href="/p/forgot-password" class="fs-c-textLink" style="color:blue;text-decoration:underline;">ログインパスワード再設定ページへ</a><br>
+                     <div style="text-align: center;padding-top: 30px;">
+                         <img src="{% items[/images/f/re_pw/about_re_pw.png] %}" style="width:100%;">
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+ </div>
+ <!-- .device-sp -->

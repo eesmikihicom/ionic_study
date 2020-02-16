@@ -1,0 +1,32 @@
+/* clear */
+.clear {
+    clear: both;
+    height: 1%;
+}
+
+.clr_both {
+    clear: both;
+    float: none;
+}
+
+.clr:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+    line-height: 0;
+}
+
+.clr {
+    display: inline-block;
+}
+
+/* no ie mac \*/
+* html .clr {
+    height: 1%;
+}
+
+.clr {
+    display: block;
+}

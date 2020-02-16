@@ -1,0 +1,142 @@
+#itemtop {
+    margin-bottom: 30px;
+
+    &_img {
+        display: block;
+        float: left;
+        padding-right: 30px;
+        width: 360px;
+    }
+
+    &_img img {
+        border: 1px solid #CCC;
+        display: block;
+        float: left;
+    }
+
+    &_imglist {
+        float: left;
+        width: 359px;
+        display: block;
+        border-left: 1px solid #CCC;
+        margin-top: 10px;
+
+        img {
+            padding: 2px;
+            border-top: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+            border-right: 1px solid #CCC;
+            border-left: 0 none #FFF;
+        }
+    }
+
+    &_right {
+        width: 310px;
+        display: block;
+        float: left;
+
+        .name {
+            display: block;
+            float: left;
+            width: 310px;
+            padding: 10px 0 20px 0;
+            border-bottom: 1px dotted #CCC;
+        }
+
+        h2 a {
+            display: block;
+            float: left;
+            width: 310px;
+            padding: 10px 0 20px 0;
+            border-bottom: 1px dotted #CCC;
+        }
+
+        p {
+            display: block;
+            float: left;
+            width: 310px;
+        }
+    }
+
+    &_text {
+        font-size: 110%;
+        padding: 10px 0;
+    }
+}
+
+#item_topbox {
+    border: 1px solid #CCC;
+    float: left;
+    width: 308px;
+    display: block;
+    margin: 5px 0;
+}
+
+#item_topsel {
+    display: block;
+    float: left;
+    padding: 19px 10px 18px 12px;
+    width: 81px;
+}
+
+#item_list1 {
+    border: 1px solid #CCC;
+    padding-bottom: 20px;
+    width: 698px;
+}
+
+#item_list1_tit1 {
+    width: 678px;
+    display: block;
+    padding: 10px;
+    height: 20px;
+    border-bottom: 1px dotted #CCC;
+}
+
+#item_list1_text {
+    padding: 10px 20px 0 20px;
+    display: block;
+    float: left;
+
+    #add {
+        display: block;
+        float: left;
+        padding: 50px 20px;
+    }
+}
+
+.item_list1_pro {
+    display: block;
+    width: 120px;
+    float: left;
+
+    img {
+        margin-bottom: 10px;
+    }
+}
+
+#item_list1_btn {
+    display: block;
+    float: right;
+    padding: 55px 0 0 40px;
+}
+
+#item_list2 {
+    padding-bottom: 30px;
+    float: left;
+    width: 700px;
+    font-size: 110%;
+}
+
+#item_list2_img {
+    border: 1px solid #CCC;
+    display: block;
+    float: left;
+}
+
+#item_list2_text {
+    display: block;
+    float: left;
+    padding: 10px 0 0 20px;
+    width: 474px;
+}

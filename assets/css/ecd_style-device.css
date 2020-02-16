@@ -1,0 +1,3387 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* margin bottom and top*/
+.bottom00 {
+  margin-bottom: 0px !important;
+}
+
+.bottom05 {
+  margin-bottom: 5px !important;
+}
+
+.bottom10 {
+  margin-bottom: 10px !important;
+}
+
+.bottom15 {
+  margin-bottom: 15px !important;
+}
+
+.bottom20 {
+  margin-bottom: 20px !important;
+}
+
+.bottom25 {
+  margin-bottom: 25px !important;
+}
+
+.bottom30 {
+  margin-bottom: 30px !important;
+}
+
+.bottom35 {
+  margin-bottom: 35px !important;
+}
+
+.bottom40 {
+  margin-bottom: 40px !important;
+}
+
+.bottom45 {
+  margin-bottom: 45px !important;
+}
+
+.top5 {
+  margin-top: 5px !important;
+}
+
+.top10 {
+  margin-top: 10px !important;
+}
+
+.top15 {
+  margin-top: 15px !important;
+}
+
+.top20 {
+  margin-top: 20px !important;
+}
+
+.top30 {
+  margin-top: 30px !important;
+}
+
+.top35 {
+  margin-top: 35px !important;
+}
+
+.top40 {
+  margin-top: 40px !important;
+}
+
+.right15 {
+  margin-left: 15px !important;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text_r {
+  text-align: right;
+}
+
+.text_l {
+  text-align: left;
+}
+
+.text_c {
+  text-align: center;
+}
+
+.posi_center {
+  text-align: center !important;
+}
+
+.posi_right {
+  text-align: right !important;
+}
+
+/*font*/
+.size11 {
+  font-size: 11px;
+  *font-size: 10px;
+}
+
+.size12 {
+  font-size: 12px;
+  *font-size: 10px;
+}
+
+.size14 {
+  font-size: 14px;
+  *font-size: 12px;
+}
+
+.size16 {
+  font-size: 16px;
+  *font-size: 14px;
+}
+
+.size18 {
+  font-size: 18px;
+  font-size: 16px;
+}
+
+.small {
+  font-size: 11px;
+  *font-size: 9px;
+  line-height: 1.5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nomal {
+  font-weight: normal;
+}
+
+.red {
+  color: #d11;
+}
+
+.red_need {
+  color: #d11;
+  font-size: 12px;
+  *font-size: 11px;
+  display: block;
+  float: left;
+  height: 5px;
+  width: 10px;
+  line-height: 0px;
+  padding-top: 10px;
+  font-family: MS Pゴシック;
+  font-weight: normal;
+}
+
+.blue {
+  color: #49a0d6;
+}
+
+.green {
+  color: #8AA727;
+}
+
+.yellow a:link,
+.yellow a:visited {
+  color: #960;
+  text-decoration: none;
+}
+
+.yellow a:hover {
+  color: #960;
+  text-decoration: underline;
+}
+
+a.red:link,
+a.red:visited {
+  color: #FF1E1E;
+  text-decoration: none;
+}
+
+a.red:hover {
+  color: #FF1E1E;
+  text-decoration: underline;
+}
+
+.orange {
+  color: #F15038;
+}
+
+.grey {
+  color: #666;
+}
+
+.text_right .grey a:link,
+.text_right .grey a:visited {
+  color: #999;
+}
+
+.grey1 {
+  color: #999;
+}
+
+/* clear */
+.clear {
+  clear: both;
+  height: 1%;
+}
+
+.clr_both {
+  clear: both;
+  float: none;
+}
+
+.clr:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0px;
+  line-height: 0;
+}
+
+.clr {
+  display: inline-block;
+}
+
+/* no ie mac \*/
+* html .clr {
+  height: 1%;
+}
+
+.clr {
+  display: block;
+}
+
+/* */
+/*------------------------------ style.css ----------------------------------*/
+
+/*-------------------------- header --------------------------*/
+
+
+#top_regist,
+#top_login,
+#top_mypage,
+#top_basket,
+#top_logout {
+  text-indent: -9999px;
+}
+
+#contents {
+  position: relative;
+  top: -40px;
+}
+
+#contents_left {
+  width: 300px;
+  float: left;
+}
+
+#contents_btn {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  float: left;
+  width: 700px;
+}
+
+#contents_btn #btn01 {
+  display: block;
+  width: 290px;
+  float: left;
+  height: 32px;
+}
+
+#contents_btn #btn02 {
+  display: block;
+  float: left;
+  height: 30px;
+  width: 120px;
+}
+
+.left_ad {
+  float: left;
+  width: 178px;
+  margin-bottom: 10px;
+}
+
+#contents_left .left_ad_01 {
+  float: left;
+  height: 200px;
+  width: 180px;
+  text-indent: -9999px;
+  margin-bottom: 10px;
+}
+
+.left_ad_01 a {
+  display: block;
+  height: 200px;
+  width: 180px;
+}
+
+.left_ad_01 a:link,
+.left_ad_01 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_01.jpg") no-repeat left top;
+}
+
+.left_ad_01 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_01.jpg") no-repeat left -200px;
+}
+
+#contents_left .left_ad_02 {
+  float: left;
+  height: 200px;
+  width: 180px;
+  text-indent: -9999px;
+  margin-bottom: 10px;
+}
+
+.left_ad_02 a {
+  display: block;
+  height: 200px;
+  width: 180px;
+}
+
+.left_ad_02 a:link,
+.left_ad_02 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_02.jpg") no-repeat left top;
+}
+
+.left_ad_02 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_02.jpg") no-repeat left -200px;
+}
+
+#contents_left .left_ad_03 {
+  float: left;
+  height: 200px;
+  width: 180px;
+  text-indent: -9999px;
+  margin-bottom: 10px;
+}
+
+.left_ad_03 a {
+  display: block;
+  height: 200px;
+  width: 180px;
+}
+
+.left_ad_03 a:link,
+.left_ad_03 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_03.jpg") no-repeat left top;
+}
+
+.left_ad_03 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_03.jpg") no-repeat left -200px;
+}
+
+#contents_left .left_ad_04 {
+  float: left;
+  height: 200px;
+  width: 180px;
+  text-indent: -9999px;
+  margin-bottom: 10px;
+}
+
+.left_ad_04 a {
+  display: block;
+  height: 200px;
+  width: 180px;
+}
+
+.left_ad_04 a:link,
+.left_ad_04 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_04.jpg") no-repeat left top;
+}
+
+.left_ad_04 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/left_04.jpg") no-repeat left -200px;
+}
+
+.left_list1 {
+  width: 178px;
+  float: left;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  background-color: #FFF;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 11px;
+  *font-size: 9px;
+}
+
+.left_list1 dd {
+  background: url("https://kazurasei.itembox.design/item/images/common/icon01.jpg") no-repeat 7px 10px;
+  padding: 5px 10px 5px 25px;
+  display: block;
+  float: right;
+  width: 142px;
+}
+
+#more_list {
+  background-image: none;
+  text-align: right;
+  padding: 10px 10px 15px 0;
+  display: block;
+}
+
+#contents_list2 #more {
+  text-align: right;
+  padding: 5px 0;
+  display: block;
+  float: left;
+  width: 210px;
+  font-size: 11px;
+  *font-size: 9px;
+}
+
+.left_list2 {
+  background-color: #FFF;
+  width: 298px;
+  float: left;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  margin-bottom: 10px;
+}
+
+.left_list2 dd {
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 7px 13px;
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0px 10px 25px;
+}
+
+.left_list2 a:link,
+.left_list2 a:visited {
+  text-decoration: none;
+}
+
+.left_list2 a:hover,
+.left_list2 dd:hover {
+  text-decoration: none;
+  color: #AC1700;
+  background-color: #FDF1F1;
+}
+
+.left_list2 dd a {
+  display: block;
+  width: 100%;
+}
+
+#contents_left .left_list2 .noline {
+  border-bottom-style: none;
+}
+
+#contents_list3 #more {
+  text-align: right;
+  padding: 5px 0;
+  display: block;
+  float: left;
+  width: 210px;
+  font-size: 11px;
+  *font-size: 9px;
+}
+
+.left_list3 {
+  background-color: #FFF;
+  width: 298px;
+  float: left;
+  border-top: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  margin-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.left_list3 dd {
+  border-bottom: 1px solid #ccc;
+  padding: 7px 0px 5px 25px;
+}
+
+.left_list3 a:link,
+.left_list3 a:visited {
+  text-decoration: none;
+}
+
+.left_list3 a:hover,
+.left_list3 dd:hover {
+  text-decoration: none;
+  color: #AC1700;
+  background-color: #FDF1F1;
+}
+
+.left_list3 dd a {
+  display: block;
+  width: 150px;
+}
+
+#contents_left .left_list3 .noline {
+  border-bottom-style: none;
+}
+
+#contents_left_now,
+#contents_left_now a {
+  background-color: #FDF1F1;
+  color: #AC1700;
+}
+
+#contents_main {
+  width: 740px;
+  float: left;
+  margin-left: 20px;
+}
+
+#swf_ad {
+  border: 1px solid #c8c8c8;
+  height: 298px;
+  width: 738px;
+}
+
+#contents_nav {
+  background-color: #fff;
+  border-left: 1px solid #d3d4ce;
+  border-right: 1px solid #d3d4ce;
+  float: left;
+  width: 700px;
+  padding-top: 20px;
+  padding-right: 19px;
+  padding-bottom: 20px;
+  padding-left: 19px;
+}
+
+#contents_white {
+  padding: 0px 18px 0px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #d3d4ce;
+  border-left: 1px solid #d3d4ce;
+  border-right: 1px solid #d3d4ce;
+  margin-bottom: 30px;
+}
+
+#contents_nav dl dd {
+  float: left;
+  padding-right: 5px;
+}
+
+#contents_nav dl #none {
+  padding-right: 0px;
+}
+
+#contents_nav a {
+  display: block;
+  height: 150px;
+  width: 230px;
+}
+
+#contents_nav .ad_01,
+#contents_nav .ad_02,
+#contents_nav .ad_03 {
+  height: 150px;
+  width: 230px;
+  text-indent: -9999px;
+}
+
+.ad_01 a:link,
+.ad_01 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad1.jpg") no-repeat left top;
+}
+
+.ad_01 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad1.jpg") no-repeat left -150px;
+}
+
+.ad_02 a:link,
+.ad_02 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad2.jpg") no-repeat left top;
+}
+
+.ad_02 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad2.jpg") no-repeat left -150px;
+}
+
+.ad_03 a:link,
+.ad_03 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad3.jpg") no-repeat left top;
+}
+
+#contents_nav .ad_03 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad3.jpg") no-repeat left -150px;
+}
+
+.contents_list_box {
+  float: left;
+  width: 700px;
+}
+
+#contents_list1,
+#contents_list2,
+#contents_list3,
+#contents_list4 {
+  float: left;
+}
+
+#contents_list1 {
+  width: 465px;
+}
+
+#contents_list1 p a {
+  display: block;
+  padding: 1px 0 5px 25px;
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 5px 8px;
+}
+
+#contents_list2 {
+  width: 210px;
+  float: left;
+  margin-left: 25px;
+}
+
+#contents_list2 dl {
+  border-top: 1px solid #d3d4ce;
+  border-left: 1px solid #d3d4ce;
+  border-right: 1px solid #d3d4ce;
+  width: 208px;
+  float: left;
+  margin-top: 2px;
+}
+
+#contents_list2 dl dd {
+  height: 55px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #D3D4CE;
+  float: left;
+  width: 208px;
+}
+
+#contents_list2 dl dd img {
+  float: left;
+  padding: 5px;
+  display: block;
+}
+
+.contents_list2_text {
+  float: left;
+  display: block;
+  font-size: 11px;
+  *font-size: 9px;
+  width: 110px;
+  height: 50px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.contents_list2_img {
+  display: block;
+  float: left;
+  height: 55px;
+  width: 85px;
+}
+
+#contents_list3 {
+  width: 698px;
+  margin-top: 2px;
+  border: 1px solid #CCC;
+}
+
+#contents_list3 dl {
+  float: left;
+}
+
+#contents_list3 dl dd {
+  width: 118px;
+  float: left;
+  padding: 10px 10px 0px 10px;
+  /*	border-right: 1px solid #D3D4CE;	*/
+}
+
+#contents_list3 dl dd img {
+  padding-left: 5px;
+}
+
+#contents_list3 dl .noline {
+  border-right-style: none;
+}
+
+#contents_list4 .top_text,
+#contents_list3 .top_text {
+  width: 95px;
+  display: block;
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 2px 15px;
+  font-size: 11px;
+  *font-size: 9px;
+  height: 62px;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#contents_list4 {
+  width: 698px;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+}
+
+#contents_list4 dl {
+  float: left;
+}
+
+#contents_list4 dl dd {
+  width: 118px;
+  float: left;
+  padding: 10px 10px 0px 10px;
+}
+
+#contents_list4 dl dd img {
+  padding-left: 5px;
+}
+
+#contents_list4 dl .noline {
+  border-right-style: none;
+}
+
+#ad_11 {
+  margin-top: 2px;
+  text-indent: -9999px;
+}
+
+#ad_11 {
+  margin-top: 2px;
+}
+
+#ad_11 a:link,
+#ad_11 a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad4.jpg") no-repeat left top;
+  display: block;
+  height: 127px;
+  width: 700px;
+}
+
+#ad_11 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/top_ad4.jpg") no-repeat left bottom;
+}
+
+.gotop {
+  width: 700px;
+  height: 19px;
+  float: left;
+  margin: 20px 0 20px 0;
+  text-indent: -9999px;
+}
+
+.gotop a {
+  display: block;
+  width: 120px;
+  height: 19px;
+  float: right;
+}
+
+.gotop a:link,
+.gotop a:visited {
+  display: block;
+  width: 120px;
+  height: 19px;
+  background: url("https://kazurasei.itembox.design/item/images/common/gtop.jpg") no-repeat left top;
+}
+
+.gotop a:hover {
+  display: block;
+  width: 120px;
+  height: 19px;
+  background: url("https://kazurasei.itembox.design/item/images/common/gtop.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#contents_black {
+  color: #fff;
+  background-color: #4e4e4e;
+  border: 1px solid #ccc;
+  float: left;
+  font-size: 11px;
+  *font-size: 9px;
+}
+
+.contents_black_box {
+  width: 734px;
+  float: left;
+}
+
+#doble_line {
+  background-color: #4E4E4E;
+  width: 734px;
+  float: left;
+  border: 2px solid #FFF;
+  padding-bottom: 30px;
+}
+
+.black_box1,
+.black_box2 {
+  display: block;
+  width: 331px;
+  float: left;
+  background-color: #4E4E4E;
+}
+
+.black_box1 {
+  padding: 5px 15px 15px 20px;
+}
+
+.black_box2 {
+  padding: 5px 20px 15px 15px;
+}
+
+#contents_black dl#payment table {
+  border: solid 1px #999999;
+  border-collapse: collapse;
+}
+
+#contents_black dl#payment table th {
+  background: #666666;
+  text-align: left;
+  font-weight: normal;
+}
+
+#contents_black dl#payment table td,
+#contents_black dl#payment table th {
+  border-right: 1px solid #999999;
+  border-collapse: collapse;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contents_black dl#shipping table {
+  border: solid 1px #999999;
+  border-collapse: collapse;
+}
+
+#contents_black dl#shipping a {
+  color: #ffffff;
+}
+
+#contents_black dl#shipping a:hover {
+  color: #ffffff;
+}
+
+#contents_black dl#shipping table th {
+  background: #666666;
+  font-weight: normal;
+}
+
+#contents_black dl#shipping table td {
+  text-align: center;
+}
+
+#contents_black dl#shipping table td.ttl,
+#contents_black dl#shipping table th.ttl {
+  border-right: 1px solid #999999;
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+#contents_black dl dt {
+  background: url("https://kazurasei.itembox.design/item/images/common/line01.jpg") no-repeat bottom;
+  line-height: 26px;
+  font-weight: bold;
+  font-size: 12px;
+  *font-size: 10px;
+}
+
+#contents_black dd {
+  padding-top: 10px;
+  font-size: 11px;
+  *font-size: 9px;
+}
+
+/* -------------- Sub ------------------ */
+#crumb_path {
+  width: 700px;
+  font-size: 11px;
+  *font-size: 9px;
+  float: left;
+  padding: 0 0 20px 0px;
+}
+
+#crumb_path strong {
+  font-weight: normal;
+  font-size: 11px;
+  *font-size: 9px;
+  color: #666;
+}
+
+#crumb_path a:link,
+#crumb_path a:visited {
+  color: #960;
+}
+
+#contents_white_sub {
+  background-color: #fff;
+  border: 1px solid #d3d4ce;
+  margin-bottom: 30px;
+  float: left;
+  padding-top: 30px;
+  padding-right: 18px;
+  padding-left: 18px;
+  width: 702px;
+}
+
+#news_list dd {
+  width: 700px;
+  float: left;
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+#news_list dd .news_date {
+  font-size: 12px;
+  *font-size: 10px;
+  padding-left: 10px;
+  width: 100px;
+  display: block;
+  float: left;
+}
+
+#news_list dd .news_text {
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat left 6px;
+  padding-left: 20px;
+  display: block;
+  float: left;
+}
+
+.quotes {
+  float: left;
+  width: 690px;
+  text-align: center;
+  margin: 3px;
+  padding: 20px 3px;
+}
+
+.quotes a {
+  border: #ddd 1px solid;
+  color: #aaa;
+  padding: 5px 8px 5px 5px;
+  margin-right: 4px;
+  text-decoration: none;
+}
+
+.quotes a:hover,
+.quotes a:active {
+  border: #a0a0a0 1px solid;
+  padding: 5px 8px 5px 5px;
+  margin-right: 4px;
+}
+
+.quotes span.current {
+  border: #e0e0e0 1px solid;
+  padding: 5px 8px;
+  font-weight: bold;
+  COLOR: #aaa;
+  margin-right: 4px;
+  background-color: #f0f0f0;
+}
+
+.quotes span.disabled {
+  border: #f3f3f3 1px solid;
+  padding: 5px 8px;
+  color: #ccc;
+  margin-right: 2px;
+}
+
+#gotoppage {
+  width: 410px;
+  float: left;
+  padding: 30px 20px 20px 270px;
+}
+
+#goto_img {
+  display: block;
+  float: left;
+  padding: 7px 5px 5px 5px;
+  width: 12px;
+}
+
+#goto_img img {
+  display: block;
+  float: left;
+  height: 12px;
+  width: 17px;
+}
+
+#goto_text {
+  display: block;
+  float: left;
+  width: 150px;
+}
+
+#gotoppage a:link,
+#gotoppage a:visited {
+  color: #960;
+  text-decoration: underline;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+#gotoppage a:hover {
+  text-decoration: none;
+}
+
+.news_title {
+  background: url("https://kazurasei.itembox.design/item/images/common/line02.jpg") no-repeat left bottom;
+  display: block;
+  width: 700px;
+}
+
+.news_contens {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px dotted #CCC;
+}
+
+.products_list_title {
+  float: left;
+  width: 700px;
+  margin-bottom: 30px;
+  border: solid 2px #ac1701;
+  border-width: 2px 0 0 0;
+}
+
+.products_list_title .categoryname {
+  background: #f3f3f1;
+  border: solid 1px #f3f3f1;
+  border-width: 0 1px 1px 1px;
+}
+
+.products_list_title .categoryname.type02 {
+  width: 700px;
+  height: 168px;
+}
+
+.products_list_title .categoryname.bg903096 {
+  background: url("https://kazurasei.itembox.design/item/images/common/category_titlebg_903096.jpg") no-repeat 0 0;
+}
+
+.products_list_title .categoryname.bg903097 {
+  background: url("https://kazurasei.itembox.design/item/images/common/category_titlebg_903097.jpg") no-repeat 0 0;
+}
+
+.products_list_title .categoryname.bg910014 {
+  background: url("https://kazurasei.itembox.design/item/images/common/category_titlebg_910014.jpg") no-repeat 0 0;
+}
+
+.products_list_title .categoryname.bg910015 {
+  background: url("https://kazurasei.itembox.design/item/images/common/category_titlebg_910015.jpg") no-repeat 0 0;
+}
+
+.products_list_title .categoryname.bg903106 {
+  background: url("https://kazurasei.itembox.design/item/images/common/category_titleimg_903106.jpg") no-repeat 0 0;
+}
+
+.products_list_title .categoryname img {
+  float: left;
+}
+
+.products_list_title .categoryname h2 {
+  padding-left: 210px;
+  padding-top: 52px;
+  font-size: 26px;
+  font-weight: normal;
+  color: #333;
+}
+
+.products_list_title .categoryname.type02 h2 {
+  padding-left: 30px;
+  color: #000;
+}
+
+.products_list_title .categoryname p {
+  padding-left: 30px;
+  margin-top: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
+.products_list_title p.categoryread {
+  line-height: 1.71;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  color: #333;
+}
+
+.products_list_title .categorycon {
+  margin-top: 20px;
+}
+
+.products_list_title .categorycon h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background: url("https://kazurasei.itembox.design/item/images/common/category_titleimg_ico_01.png") no-repeat left center;
+  line-height: 1.5;
+  padding: 0 0 0 23px;
+  margin-bottom: 15px;
+}
+
+.products_list_title .categorycon.style_903094_table {
+  padding: 10px 0;
+}
+
+.products_list_title .categorycon.style_903094_table .left {
+  width: 370px;
+}
+
+.products_list_title .categorycon.style_903094_table .right {
+  width: 310px;
+}
+
+.products_list_title .categorycon.style_903094_table table th {
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.products_list_title .categorycon.style_903094_table table td {
+  vertical-align: middle;
+  line-height: 1.8;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.products_list_title .categorycon.style_903094 {
+  padding-right: 250px;
+  background: url("//www.kazurasei.co.jp/pc/common/img/category_img_903094_01.jpg") right top no-repeat;
+}
+
+.products_list_title .categorycon.style_903094 ol {
+  line-height: 1.8;
+  list-style: decimal;
+  margin-left: 16px;
+}
+
+.products_list_title .categorycon.style_903094 a {
+  text-decoration: underline;
+}
+
+.products_list_title .categorycon.style_903094 a:hover {
+  text-decoration: none;
+}
+
+.products_list_title .categorycon p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.products_list_title .categorycon p .notice {
+  color: #666666;
+  font-size: 11px;
+}
+
+.link_kiyora:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "alpha( opacity=80 )";
+}
+
+.text_left {
+  color: #666;
+  text-align: left;
+  width: 200px;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text_right {
+  float: right;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 290px;
+}
+
+.new_list,
+.money_list {
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat 1px 5px;
+  display: block;
+  padding-left: 20px;
+  width: 120px;
+  float: left;
+  text-align: left;
+}
+
+#products_list {
+  border-left: 1px solid #D3D4CE;
+  border-top: 1px solid #D3D4CE;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+#products_list .items {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+}
+
+.items .item-box {
+  border-bottom: 1px solid #D3D4CE;
+  border-right: 1px solid #D3D4CE;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0 0 0px;
+  width: 174px;
+  height: 286px;
+}
+
+.items .item-box>a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.items .item-box img {
+  margin: 0;
+  padding: 25px;
+}
+
+.items .item-box .product_list_text {
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") 8px 3px no-repeat;
+  display: block;
+  font-size: 11px;
+  *font-size: 9px;
+  padding-left: 26px;
+  padding-right: 10px;
+}
+
+#rank_list {
+  border-bottom: 1px dotted #CCC;
+  padding-bottom: 40px;
+  float: left;
+  width: 700px;
+}
+
+#rank_list .rank_num {
+  height: 290px;
+  width: 295px;
+  float: left;
+  padding: 20px;
+  border-bottom: 1px dashed #CCC;
+}
+
+#rank_list .rank_num .rank_no {
+  height: 140px;
+  width: 50px;
+  display: block;
+  float: left;
+}
+
+#rank_list .rank_num .rank_product {
+  width: 220px;
+  padding-left: 25px;
+  display: block;
+  float: left;
+}
+
+#rank_list .rank_num h2 {
+  display: block;
+  float: left;
+  width: 295px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#rank_list .rank_num p {
+  width: 295px;
+  float: left;
+}
+
+#rank_list #rank_money img {
+  display: block;
+  float: left;
+  padding-right: 10px;
+}
+
+#rank_mgl40 {
+  margin-left: 30px;
+}
+
+#rank_list .rank_num.noline {
+  border-bottom-style: none;
+}
+
+#contacts_list table {
+  width: 700px;
+}
+
+#contacts_list .table_tit {
+  padding: 5px 15px 5px 15px;
+}
+
+#contacts_list table tr th .th_text {
+  display: block;
+  float: left;
+  padding-right: 5px;
+}
+
+#contacts_list table th,
+#contacts_list table td {
+  border-right: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+#contacts_list table th {
+  width: 230px;
+  text-align: left;
+  vertical-align: top;
+  background-color: #E5E3E5;
+  padding: 12px;
+  color: #666;
+}
+
+#contacts_list table td {
+  vertical-align: middle;
+  background-color: #F7F7F7;
+  padding: 10px;
+}
+
+#contacts_list table tr .bg_red {
+  background-color: #AC1700;
+  color: #FFF;
+}
+
+#contacts_list table tr .bg_red1 {
+  background-color: #CD7466;
+  color: #FFF;
+}
+
+#contacts_list table tr .bg_grey {
+  background-color: #E5E3E5;
+}
+
+#contacts_list .contact_text select {
+  height: 20px;
+  font-size: 12px;
+  *font-size: 11px;
+}
+
+#contacts_list .input_text {
+  width: 280px;
+  height: 15px;
+}
+
+#contacts_list .input_area {
+  width: 390px;
+  height: 120px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  *font-size: 11px;
+}
+
+#contacts_area_text {
+  display: block;
+  width: 395px;
+  padding: 5px 0 10px 0;
+}
+
+#contacts_list .contact_text {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+/* message */
+div.ok-message {
+  background-color: #EDFEED;
+  display: block;
+  border: 1px solid #CFC;
+  line-height: 23px;
+  font-size: 10px;
+  *font-size: 9px;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: #12DD11;
+}
+
+div.error-message {
+  background-color: #FEEDED;
+  display: block;
+  border: 1px solid #FCC;
+  line-height: 23px;
+  font-size: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: #DD1112;
+}
+
+#contacts_list .contact_text01 {
+  display: block;
+  width: 200px;
+  float: left;
+}
+
+#contacts_list table .contact_error {
+  height: 25px;
+  width: 385px;
+  background-color: #FEEDED;
+  display: block;
+  border: 1px solid #FCC;
+  line-height: 23px;
+  font-size: 10px;
+  *font-size: 9px;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: #DD1112;
+}
+
+#contacts_complete {
+  border-bottom: 1px dotted #CCC;
+  padding-bottom: 40px;
+}
+
+.content_title {
+  background: url("https://kazurasei.itembox.design/item/images/common/line03.jpg") no-repeat left bottom;
+  display: block;
+  height: 40px;
+  width: 700px;
+}
+
+#news_list dd .content_text {
+  display: block;
+  float: left;
+}
+
+.content_tit {
+  font-size: 12px;
+  *font-size: 10px;
+  padding-left: 10px;
+  width: 200px;
+  display: block;
+  float: left;
+}
+
+#itemtop {
+  margin-bottom: 30px;
+}
+
+#itemtop_img {
+  display: block;
+  float: left;
+  padding-right: 30px;
+  width: 360px;
+}
+
+#itemtop_img img {
+  border: 1px solid #CCC;
+  display: block;
+  float: left;
+}
+
+#itemtop_imglist {
+  float: left;
+  width: 359px;
+  display: block;
+  border-left: 1px solid #CCC;
+  margin-top: 10px;
+}
+
+#itemtop_imglist img {
+  padding: 2px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-left: 0 none #FFF;
+}
+
+#itemtop_right {
+  width: 310px;
+  display: block;
+  float: left;
+}
+
+#itemtop_right .name {
+  display: block;
+  float: left;
+  width: 310px;
+  padding: 10px 0 20px 0;
+  border-bottom: 1px dotted #CCC;
+}
+
+#itemtop_right h2 a {
+  display: block;
+  float: left;
+  width: 310px;
+  padding: 10px 0 20px 0;
+  border-bottom: 1px dotted #CCC;
+}
+
+#itemtop_right p {
+  display: block;
+  float: left;
+  width: 310px;
+}
+
+#itemtop_text {
+  font-size: 110%;
+  padding: 10px 0;
+}
+
+#item_topbox {
+  border: 1px solid #CCC;
+  float: left;
+  width: 308px;
+  display: block;
+  margin: 5px 0;
+}
+
+.money {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.monimg {
+  float: left;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+
+.mon_text {
+  color: #DD1112;
+  line-height: 1.5;
+}
+
+#item_topsel {
+  display: block;
+  float: left;
+  padding: 19px 10px 18px 12px;
+  width: 81px;
+}
+
+#item_list1 {
+  border: 1px solid #CCC;
+  padding-bottom: 20px;
+  width: 698px;
+}
+
+#item_list1_tit1 {
+  width: 678px;
+  display: block;
+  padding: 10px;
+  height: 20px;
+  border-bottom: 1px dotted #CCC;
+}
+
+#item_list1_text {
+  padding: 10px 20px 0 20px;
+  display: block;
+  float: left;
+}
+
+.item_list1_pro {
+  display: block;
+  width: 120px;
+  float: left;
+}
+
+.item_list1_pro img {
+  margin-bottom: 10px;
+}
+
+#item_list1_text #add {
+  display: block;
+  float: left;
+  padding: 50px 20px;
+}
+
+#item_list1_btn {
+  display: block;
+  float: right;
+  padding: 55px 0 0 40px;
+}
+
+#item_list2 {
+  padding-bottom: 30px;
+  float: left;
+  width: 700px;
+  font-size: 110%;
+}
+
+#item_list2_img {
+  border: 1px solid #CCC;
+  display: block;
+  float: left;
+}
+
+#item_list2_text {
+  display: block;
+  float: left;
+  padding: 10px 0 0 20px;
+  width: 474px;
+}
+
+#evaluation_list {
+  float: left;
+  width: 700px;
+  border-top: 1px solid #CCC;
+  color: #666;
+}
+
+#evaluation_list dd {
+  float: left;
+  width: 663px;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  padding: 20px 20px 20px 15px;
+}
+
+.evaluation_tit {
+  display: block;
+  float: left;
+  width: 608px;
+  line-height: 30px;
+  background: url("https://kazurasei.itembox.design/item/images/common/icon_flower.jpg") no-repeat;
+  padding-left: 50px;
+  color: #666;
+}
+
+.evaluation_list_text {
+  display: block;
+  float: left;
+  width: 643px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.evaluation_star {
+  padding-right: 30px;
+  color: #666;
+  float: left;
+  display: block;
+  width: 400px;
+  background-color: #F1F3E6;
+}
+
+.evaluation_star_text {
+  display: block;
+  float: left;
+  padding: 12px 8px 6px 8px;
+  line-height: 1;
+}
+
+.evaluation_star_img {
+  display: block;
+  float: left;
+  padding: 8px 6px 6px 6px;
+}
+
+.write {
+  width: 700px;
+  float: left;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+.post_btn {
+  float: left;
+  width: 700px;
+  padding-top: 10px;
+}
+
+#reviews_no1 {
+  padding: 20px 0 20px 0;
+  float: left;
+  width: 700px;
+}
+
+#reviews_img {
+  float: left;
+  border: 1px solid #CCC;
+  margin-right: 30px;
+  display: block;
+  width: 142px;
+  height: 142px;
+}
+
+#reviews_text1 {
+  display: block;
+  float: left;
+  padding: 10px 0 10px 0;
+  width: 520px;
+}
+
+.customers_login {
+  padding: 0px 20px 0 20px;
+  float: left;
+  width: 303px;
+  height: 340px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  background-color: #F7F7F7;
+  color: #666;
+}
+
+.customers_login dl {
+  background-color: #CD7466;
+  height: 100px;
+  width: 270px;
+  padding: 10px 15px 20px 15px;
+}
+
+.customers_login dl dt {
+  color: #FFF;
+}
+
+.customers_login dd input {
+  height: 20px;
+  width: 265px;
+  display: block;
+}
+
+.customers_reg {
+  float: left;
+  width: 343px;
+  height: 340px;
+  border: 1px solid #CCC;
+  color: #666;
+}
+
+.customers_reg dd,
+.customers_reg dd,
+.customers_reg h3 {
+  display: block;
+  width: 313px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+}
+
+.customers_reg dd #btn_user,
+.customers_reg dd #btn_guest {
+  padding: 20px 70px;
+}
+
+#customers_statute {
+  width: 668px;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 15px 15px 20px 15px;
+  color: #666;
+}
+
+.customers_statute_text {
+  padding-left: 10px;
+}
+
+.customers_statute_text input {
+  float: left;
+}
+
+#customers_end_box {
+  float: left;
+  border-bottom: 1px dotted #CCC;
+  width: 700px;
+}
+
+#customers_logout {
+  width: 170px;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  padding: 10px 64px 9px 64px;
+  text-align: center;
+}
+
+.customers_history {
+  padding: 5px 20px 15px 20px;
+  float: left;
+  width: 658px;
+  border: 1px solid #CCC;
+}
+
+.customers_history dl {
+  width: 319px;
+  float: left;
+  display: block;
+  margin-right: 20px;
+}
+
+.customers_history dl dt,
+.customers_history dl dd {
+  display: block;
+  float: left;
+  float: left;
+  width: 144px;
+  padding: 10px 0 10px 15px;
+  border-bottom: 1px dotted #CCC;
+}
+
+.customers_history dl dt {
+  font-weight: bold;
+}
+
+.customers_history dl dd {
+  color: #666;
+}
+
+.customers_history .noline {
+  padding-bottom: 0px;
+  border-bottom-style: none;
+}
+
+#contacts_list tr .time {
+  width: 90px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list tr .code {
+  width: 125px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list tr .pay,
+#contacts_list tr .total,
+#contacts_list tr .cate,
+#contacts_list tr .details {
+  width: 120px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list .products {
+  width: 305px;
+  padding-left: 12px;
+  padding-right: 0;
+}
+
+#contacts_list .bids,
+#contacts_list .amount {
+  width: 120px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list .num {
+  width: 80px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list tr .delivery {
+  width: 185px;
+  padding-left: 15px;
+  padding-right: 0;
+  vertical-align: middle;
+}
+
+#contacts_list td .text_num {
+  width: 60px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list td .text_num2 {
+  width: 80px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contacts_list #customers_sml_th th {
+  font-size: 11px;
+  *font-size: 9px;
+}
+
+.customers_tab table tr td {
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.customers_tab .customers_info {
+  position: relative;
+}
+
+.customers_tab .customers_info a {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  background: url("https://kazurasei.itembox.design/item/images/common/icon02.jpg") no-repeat left center;
+  padding-left: 20px;
+  color: #960;
+}
+
+#contacts_list table tr .red {
+  color: #D11;
+}
+
+#contacts_list table tr .customers_pro_img img {
+  display: block;
+  float: left;
+  height: 49px;
+  width: 49px;
+  border: 1px solid #D3D4CE;
+  margin-right: 10px;
+}
+
+#contacts_list table tr .text_l {
+  text-align: left;
+}
+
+#customers_amount {
+  float: right;
+  width: 318px;
+  padding: 10px 17px;
+  border: 1px solid #CCC;
+}
+
+#customers_amount dl dd {
+  width: 318px;
+  display: block;
+  float: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.cart_box {
+  float: left;
+  width: 698px;
+  margin-top: 5px;
+  background-color: #F7F7F7;
+  border: 1px solid #D3D4CE;
+}
+
+#cart_box_text {
+  display: block;
+  text-align: right;
+  background-color: #F7F7F7;
+  width: 550px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  float: left;
+}
+
+#cart_box_num {
+  text-align: right;
+  display: block;
+  padding: 10px;
+  width: 110px;
+  float: left;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #CCC;
+}
+
+#cart_confirm_box {
+  float: left;
+  width: 600px;
+  background-color: #F7F7F7;
+  margin: 0 48px;
+  text-align: center;
+  color: #AC1700;
+  padding: 25px 0;
+}
+
+#btn_fix,
+#btn_send,
+#btn_check,
+#btn_reg,
+#btn_out,
+#btn_outno,
+#btn_close {
+  width: 120px;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+}
+
+#btn_post {
+  width: 120px;
+  height: 28px;
+  float: left;
+  text-indent: -9999px;
+}
+
+#btn_fix a,
+#btn_send a,
+#btn_check a,
+#btn_reg a,
+#btn_out a,
+#btn_outno a,
+#btn_close a {
+  display: block;
+  width: 120px;
+  height: 30px;
+}
+
+#btn_post a {
+  display: block;
+  width: 120px;
+  height: 28px;
+}
+
+#btn_fix a:link,
+#btn_fix a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_fix.jpg") no-repeat left top;
+}
+
+#btn_fix a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_fix.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_send a:link,
+#btn_send a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_send.jpg") no-repeat left top;
+}
+
+#btn_send a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_send.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_check a:link,
+#btn_check a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_check.jpg") no-repeat left top;
+}
+
+#btn_check a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_check.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_post a:link,
+#btn_post a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_post.jpg") no-repeat left top;
+}
+
+#btn_post a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_post.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_reg a:link,
+#btn_reg a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_reg.jpg") no-repeat left top;
+}
+
+#btn_reg a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_reg.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_out a:link,
+#btn_out a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_out.jpg") no-repeat left top;
+}
+
+#btn_out a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_out.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_out {
+  padding: 0 0 0 10px;
+}
+
+#btn_outno a:link,
+#btn_outno a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_outno.jpg") no-repeat left top;
+}
+
+#btn_outno a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_outno.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_outno {
+  padding: 0 0 0 220px;
+}
+
+#btn_close a:link,
+#btn_close a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_close.jpg") no-repeat left top;
+}
+
+#btn_close a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_close.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_close {
+  padding: 0 0 0 280px;
+}
+
+#btn_login,
+#btn_user,
+#btn_guest,
+#btn_buyback,
+#btn_new,
+#btn_buy,
+#btn_checkout,
+#btn_buyback,
+#btn_back,
+#btn_next,
+#btn_logout_com {
+  width: 160px;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+}
+
+.btn_order {
+  width: 160px;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+}
+
+#btn_login {
+  padding: 15px 70px 0 70px;
+}
+
+#btn_buyback {
+  padding: 50px 260px 30px 270px;
+}
+
+#btn_buy,
+#btn_back {
+  padding: 0 110px 0 0;
+}
+
+#btn_login a,
+#btn_user a,
+#btn_guest a,
+#btn_buyback a,
+#btn_new a,
+#btn_buy a,
+#btn_checkout a,
+#btn_buyback a,
+#btn_back a,
+#btn_next a,
+#customers_logout a,
+#btn_logout_com a {
+  display: block;
+  width: 160px;
+  height: 30px;
+}
+
+.btn_order a {
+  display: block;
+  width: 160px;
+  height: 30px;
+}
+
+#btn_login a:link,
+#btn_login a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_login.jpg") no-repeat left top;
+}
+
+#btn_login a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_login.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_user a:link,
+#btn_user a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_user.jpg") no-repeat left top;
+}
+
+#btn_user a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_user.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_guest a:link,
+#btn_guest a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_guest.jpg") no-repeat left top;
+}
+
+#btn_guest a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_guest.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_buyback a:link,
+#btn_buyback a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_buyback.jpg") no-repeat left top;
+}
+
+#btn_buyback a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_buyback.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_new a:link,
+#btn_new a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_new.jpg") no-repeat left top;
+}
+
+#btn_new a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_new.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_buy a:link,
+#btn_buy a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_buy.jpg") no-repeat left top;
+}
+
+#btn_buy a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_buy.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_checkout a:link,
+#btn_checkout a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_checkout.jpg") no-repeat left top;
+}
+
+#btn_checkout a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_checkout.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_buyback a:link,
+#btn_buyback a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_buyback.jpg") no-repeat left top;
+}
+
+#btn_buyback a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_buyback.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_back a:link,
+#btn_back a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_back.jpg") no-repeat left top;
+}
+
+#btn_back a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_back.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_next a:link,
+#btn_next a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_next.jpg") no-repeat left top;
+}
+
+#btn_next a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_next.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#customers_logout a:link,
+#customers_logout a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_logout.jpg") no-repeat left top;
+}
+
+#customers_logout a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_logout.jpg") no-repeat left bottom;
+  display: block;
+}
+
+.btn_order a:link,
+.btn_order a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_order.jpg") no-repeat left top;
+}
+
+.btn_order a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_order.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_logout_com a:link,
+#btn_logout_com a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_logout_com.jpg") no-repeat left top;
+}
+
+#btn_logout_com a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_logout_com.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_del {
+  display: block;
+  width: 60px;
+  height: 20px;
+  float: left;
+  text-indent: -9999px;
+}
+
+#btn_del a {
+  display: block;
+  width: 60px;
+  height: 20px;
+}
+
+#btn_del a:link,
+#btn_del a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_del.jpg") no-repeat left top;
+}
+
+#btn_del a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_del.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_addto {
+  width: 170px;
+  height: 23px;
+  float: right;
+  margin-top: 2px;
+  *margin-top: 5px;
+  text-indent: -9999px;
+}
+
+#btn_addto a {
+  display: block;
+  width: 170px;
+  height: 20px;
+}
+
+#btn_addto a:link,
+#btn_addto a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_addto.jpg") no-repeat left top;
+}
+
+#btn_addto a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_addto.jpg") no-repeat left bottom;
+}
+
+.btn_home {
+  display: block;
+  width: 110px;
+  height: 20px;
+  text-indent: -9999px;
+}
+
+.btn_home a {
+  display: block;
+  width: 110px;
+  height: 20px;
+}
+
+.btn_home a:link,
+.btn_home a:visited {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_home.jpg") no-repeat left top;
+}
+
+.btn_home a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_home.jpg") no-repeat left bottom;
+  display: block;
+}
+
+#btn_item {
+  display: block;
+  float: right;
+  width: 190px;
+  height: 40px;
+  padding: 8px 10px 0 0;
+  text-indent: -9999px;
+}
+
+#btn_item a {
+  display: block;
+  width: 190px;
+  height: 40px;
+}
+
+#btn_item a:link,
+#btn_item a:visited {
+  background-image: url("https://kazurasei.itembox.design/item/images/common/item_btn01.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#btn_item a:hover {
+  display: block;
+  background-image: url("https://kazurasei.itembox.design/item/images/common/item_btn01.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+#item_btn2 {
+  display: block;
+  width: 240px;
+  height: 40px;
+  text-indent: -9999px;
+}
+
+#item_btn2 a {
+  display: block;
+  width: 240px;
+  height: 40px;
+}
+
+#item_btn2 a:link,
+#item_btn2 a:visited {
+  background-image: url("https://kazurasei.itembox.design/item/images/common/item_btn02.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#item_btn2 a:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/item_btn02.jpg") no-repeat left bottom;
+  display: block;
+}
+
+.content_box1,
+.content_box2 {
+  float: left;
+  width: 298px;
+  background-color: #F7F7F7;
+  border: 1px solid #D3D3CE;
+  padding: 15px;
+}
+
+.content_box1 {
+  margin: 0 10px 0 15px;
+  *margin: 0 10px 0 10px;
+}
+
+.contents_list_box #guid_th td {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+  background-color: #AC1700;
+  color: #fff;
+  font-size: 11px;
+  *font-size: 10px;
+}
+
+.contents_list_box #guid_tdname td {
+  text-align: center;
+  vertical-align: top;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 11px;
+  *font-size: 10px;
+  background-color: #CD7466;
+  color: #fff;
+}
+
+.contents_list_box .guid_tdmoney td {
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: #666;
+  font-size: 11px;
+  *font-size: 10px;
+  background-color: #E5E3E5;
+}
+
+#delivery_notice {
+  margin-top: 10px;
+}
+
+#delivery_notice ul {
+  display: block;
+  float: left;
+  width: 700px;
+}
+
+#delivery_notice li {
+  display: block;
+  float: left;
+  padding-bottom: 10px;
+  width: 680px;
+  list-style-type: none;
+  background-image: url("https://kazurasei.itembox.design/item/images/common/icon_disc.jpg");
+  padding-left: 15px;
+  background-repeat: no-repeat;
+  background-position: 6px 8px;
+  *background-position: 6px 5px;
+}
+
+#conteng_guid ul {
+  display: block;
+  float: left;
+  width: 700px;
+}
+
+#conteng_guid li {
+  display: block;
+  float: left;
+  padding-bottom: 10px;
+  width: 680px;
+  list-style-type: none;
+  background-image: url("https://kazurasei.itembox.design/item/images/common/icon_disc.jpg");
+  padding-left: 15px;
+  background-repeat: no-repeat;
+  background-position: 6px 8px;
+  *background-position: 6px 5px;
+}
+
+#content_box3 {
+  float: left;
+  width: 638px;
+  margin-top: 0px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  *margin-left: 8px;
+  background-color: #F7F7F7;
+  border: 1px solid #D3D4CE;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+#content_box3_img {
+  float: left;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.guid_btline {
+  float: left;
+  width: 700px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #CCC;
+}
+
+.guid_box h4 {
+  padding-left: 25px;
+  background-image: url("https://kazurasei.itembox.design/item/images/common/icon_line.jpg");
+  background-repeat: no-repeat;
+  background-position: 2px center;
+}
+
+#privacy_box ol {
+  list-style-type: decimal;
+  padding-left: 25px;
+}
+
+#privacy_box li {
+  list-style-type: decimal;
+  padding-bottom: 15px;
+}
+
+.privacy_litit {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.access_logo {
+  padding: 40px 0 15px;
+}
+
+.access_logo img {
+  width: 280px;
+  height: auto;
+}
+
+#access_list {
+  width: 700px;
+  float: left;
+}
+
+#access_list dd {
+  border-top: dotted 1px #CCC;
+  float: left;
+  display: block;
+  padding: 10px 0;
+  display: block;
+  float: left;
+}
+
+#access_list .access_list_tit {
+  display: block;
+  padding: 0 0 0 10px;
+  width: 110px;
+  font-weight: bold;
+  color: #666;
+  float: left;
+}
+
+#access_list .access_list_text {
+  display: block;
+  width: 580px;
+  float: left;
+}
+
+.access_shop,
+.access_map {
+  padding: 4px;
+  float: left;
+  height: 240px;
+  width: 335px;
+  border: 1px solid #CCC;
+}
+
+.access_shop {
+  margin-right: 10px;
+}
+
+#rule_box ul li {
+  padding-bottom: 25px;
+}
+
+#rule_box ul li p {
+  padding-left: 20px;
+}
+
+.red2 {
+  color: #AC1700;
+}
+
+#access_gotoppage {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 270px;
+  height: 20px;
+}
+
+#guid_top {
+  float: left;
+  height: 17px;
+  width: 699px;
+  color: #FFF;
+  background-color: #AC1700;
+  text-align: center;
+  border-bottom: 1px solid #FFF;
+  padding: 3px 0 0 0;
+}
+
+div.vi {
+  width: 740px;
+  /*margin-bottom: 20px;*/
+}
+
+div.vi div.img {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  width: 738px;
+  height: 298px;
+}
+
+div.vi div.img div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.vi ul.button li {
+  float: left;
+}
+
+div.vi ul.button li a {
+  display: block;
+  height: 66px;
+}
+
+div.vi ul.button li a.s01 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi01_s_off.jpg") 0 0 no-repeat;
+  width: 148px;
+}
+
+div.vi ul.button li a.s02 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi02_s_off.jpg") 0 0 no-repeat;
+  width: 148px;
+}
+
+div.vi ul.button li a.s03 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi03_s_off.jpg") 0 0 no-repeat;
+  width: 148px;
+}
+
+div.vi ul.button li a.s04 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi04_s_off.jpg") 0 0 no-repeat;
+  width: 148px;
+}
+
+div.vi ul.button li a.s05 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi05_s_off.jpg") 0 0 no-repeat;
+  width: 148px;
+}
+
+div.vi ul.button li.active a.s01 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi01_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li.active a.s02 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi02_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li.active a.s03 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi03_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li.active a.s04 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi04_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li.active a.s05 {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi05_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li a.s01:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi01_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li a.s02:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi02_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li a.s03:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi03_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li a.s04:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi04_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li a.s05:hover {
+  background: url("https://kazurasei.itembox.design/item/images/common/img_vi05_s_on.jpg") 0 0 no-repeat;
+}
+
+div.vi ul.button li a img {
+  display: none;
+}
+
+div.vi .active {
+  filter: alpha(opacity=100) !important;
+  -moz-opacity: 1 !important;
+  opacity: 1 !important;
+}
+
+div.vi ul.button {
+  display: none;
+}
+
+div.vibottom {
+  margin-bottom: 20px;
+}
+
+div.vibottom ul li {
+  float: left;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+div.Buttonstyle {
+  width: 700px;
+}
+
+div.Buttonstyle:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.Buttonstyle p {
+  width: 178px;
+  float: left;
+  margin: 5px;
+}
+
+.Buttonstyle a:link,
+.Buttonstyle a:visited {
+  text-decoration: none;
+}
+
+.Buttonstyle a:hover {
+  text-decoration: none;
+  color: #AC1700;
+  background-color: #FDF1F1;
+}
+
+.Buttonstyle p a {
+  display: block;
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+#contents_left .Buttonstyle .noline {
+  border-bottom-style: none;
+}
+
+.Buttonstyle h3 {
+  margin-top: 20px;
+}
+
+#charge_list table {
+  width: 350px;
+  margin-top: 5px;
+}
+
+#charge_list table th {
+  background-color: #AC1700;
+  border-top: 1px solid #AC1700;
+  border-bottom: 1px solid #AC1700;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 1px 0px 1px 5px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#charge_list table tr .first {
+  border-left: 1px solid #AC1700;
+}
+
+#charge_list table tr .last {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #AC1700;
+}
+
+#charge_list table td {
+  border: 1px solid #D3D4CE;
+  padding: 0px;
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+p#name_al {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#swf_ad_b {
+  float: left;
+  margin: 10px 0 15px 0;
+}
+
+/*brandingArea*/
+#brandingArea {
+  zoom: 100%;
+}
+
+#brandingArea:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+
+#brandingArea img#voice {
+  float: left;
+}
+
+#brandingArea p.kodawari {
+  float: right;
+  width: 210px;
+}
+
+#brandingArea p.kodawari a {
+  height: 240px;
+  background: url("https://kazurasei.itembox.design/item/images/common/bnr_kodawari.jpg") 0 0;
+  text-indent: -9999px;
+  display: block;
+}
+
+#brandingArea p.kodawari a:hover {
+  background-position: 0px -240px;
+}
+
+/*五島列島 goto-retto*/
+div#goto-retto h2 {
+  margin-bottom: 8px;
+}
+
+div#goto-retto h3 {
+  padding-bottom: 8px;
+  border-bottom: solid 3px #ac1700;
+  margin-bottom: 21px;
+}
+
+div#goto-retto p.ttl {
+  font-weight: bold;
+  padding-bottom: 13px;
+  border-bottom: 1px dotted #b2b2b2;
+  margin-bottom: 13px;
+}
+
+div#goto-retto div.box {
+  margin-bottom: 34px;
+}
+
+div#goto-retto div.text-box {
+  width: 406px;
+}
+
+* html div#goto-retto div.text-box {
+  width: 406px;
+}
+
+div#goto-retto div.l {
+  margin-right: 21px;
+  float: left;
+  display: inline;
+}
+
+div#goto-retto div.r {
+  margin-left: 21px;
+  float: right;
+  display: inline;
+}
+
+div#goto-retto div#content01 div.r div.sub {
+  zoom: 100%;
+  margin-top: 18px;
+}
+
+div#goto-retto div#content01 div.r div.sub:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+
+div#goto-retto div#content01 div.r div.sub div.subImg {
+  margin-right: 10px;
+  width: 206px;
+  float: left;
+  display: inline;
+}
+
+div#goto-retto div#content01 div.r div.sub p.exp {
+  background: #fffcf3;
+  border: solid 1px #d3d4ce;
+  padding: 13px;
+  font-size: 10px;
+  float: right;
+  width: 162px;
+  display: inline;
+}
+
+* html div#goto-retto div#content01 div.r div.sub p.exp {
+  width: 152px;
+}
+
+div#goto-retto div#content01 div.r div.sub p.exp span {
+  color: #d42a19;
+}
+
+div#goto-retto div.subImg p.caption {
+  text-align: center;
+}
+
+/*maker*/
+div#goto-retto div#maker {
+  background: #fffcf3;
+  border: solid 1px #d3d4ce;
+  padding: 13px;
+  margin-bottom: 34px;
+  zoom: 100%;
+}
+
+div#goto-retto div#maker:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+
+div#goto-retto div#maker img.img {
+  float: left;
+  width: 289px;
+  display: inline;
+}
+
+div#goto-retto div#maker div.maker-exp {
+  width: 373px;
+  float: right;
+  display: inline;
+}
+
+div#goto-retto div#maker div.maker-exp:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+
+div#goto-retto div#maker dl {
+  float: left;
+  width: 251px;
+  margin-right: 13px;
+  display: inline;
+}
+
+* html div#goto-retto div#maker dl {
+  width: 249px;
+}
+
+div#goto-retto div#maker dt {
+  font-weight: bold;
+  color: #d42a19;
+  margin-bottom: 21px;
+}
+
+div#goto-retto p.product-btn {
+  margin-bottom: 34px;
+}
+
+div#goto-retto div.box dl.exp {
+  margin-top: 21px;
+  background: #fffcf3;
+  border: solid 1px #d3d4ce;
+  padding: 8px;
+}
+
+div#goto-retto div.box dl.exp dt {
+  font-weight: bold;
+  color: #d42a19;
+  margin-bottom: 8px;
+}
+
+div#goto-retto div.box:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+
+#btn_item_cartadd {
+  display: block;
+  float: right;
+  width: 140px;
+  height: 25px;
+  padding: 8px 10px 0 0;
+  text-indent: -9999px;
+}
+
+#btn_item_cartadd a {
+  display: block;
+  width: 140px;
+  height: 25px;
+}
+
+#btn_item_cartadd a:link,
+#btn_item_cartadd a:visited {
+  background-image: url("https://kazurasei.itembox.design/item/images/common/btn_cartadd.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#btn_item_cartadd a:hover {
+  display: block;
+  background-image: url("https://kazurasei.itembox.design/item/images/common/btn_cartadd_on.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#item_topbox .product_status {
+  border-radius: 2px;
+  text-align: center;
+  margin: 3px;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+#item_topbox .wait {
+  background-color: #8AA642;
+}
+
+#item_topbox .out_of_stock {
+  background-color: #B3B3B3;
+}
+
+.stock_info {
+  padding: 3px 0;
+}
+
+.product_list_status .product_status {
+  border-radius: 2px;
+  text-align: center;
+  margin: 8px 10px 3px 10px;
+  padding: 2px 0;
+  font-size: 12px;
+  color: white;
+}
+
+.product_list_status .wait {
+  background-color: #8AA642;
+}
+
+.product_list_status .out_of_stock {
+  background-color: #B3B3B3;
+}
+
+#contacts_list .paymentTable th {
+  width: 30px;
+  padding: 15px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #AC1700;
+  color: #FFF;
+}
+
+#contacts_list .paymentTable td.sub {
+  width: 169px;
+  font-weight: bold;
+  color: #666;
+  padding: 15px;
+  text-align: left;
+  background-color: #E5E3E5;
+}
+
+#contacts_list .paymentTable td {
+  color: #666;
+  text-align: left;
+  line-height: 1.6;
+}
+
+#contacts_list .paymentTable td .cardOuter {
+  display: none;
+}
+
+#contacts_list .paymentTable td p {
+  margin-bottom: 0.75em;
+}
+
+#contacts_list .paymentTable td dl {
+  margin-bottom: 10px;
+}
+
+#contacts_list .paymentTable td dl dt {
+  padding: 8px 0;
+  width: 118px;
+  float: left;
+  clear: both;
+}
+
+#contacts_list .paymentTable td dl dd {
+  padding: 8px 0;
+  width: 300px;
+  margin-left: 120px;
+  position: relative;
+}
+
+#contacts_list .paymentTable td .secCode a {
+  margin-left: 10px;
+  font-size: 11px;
+  text-decoration: underline;
+  color: #666;
+}
+
+#contacts_list .paymentTable td .secCode a:hover {
+  text-decoration: none;
+}
+
+#contacts_list .paymentTable td th {
+  padding: 2px;
+  text-align: left;
+  width: 50%;
+}
+
+#contacts_list .paymentTable td td {
+  text-align: center;
+}
+
+#contacts_list .paymentTable td dl.creditcard {
+  margin: 0 10px;
+  display: table;
+}
+
+#contacts_list .paymentTable td dl.creditcard dt {
+  padding: 8px 0;
+  width: auto;
+  float: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#contacts_list .paymentTable td dl.creditcard dt img {
+  vertical-align: -2px;
+}
+
+#contacts_list .paymentTable td dl.creditcard dd {
+  padding: 8px 0 8px 20px;
+  width: auto;
+  margin-left: 0;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#contacts_list .paymentTable td dl.creditcard dd span.att {
+  color: #ff0000;
+}
+
+#contacts_list .paymentTable td dl.inputSecCode {
+  border-top: 1px solid #e2e2e2;
+  padding: 10px 10px 0;
+  margin: 0;
+  display: none;
+}
+
+#contacts_list .paymentTable td dl.inputSecCode dd {
+  width: 280px;
+}
+
+#secCodePop {
+  border: 2px solid #287a91;
+  padding: 15px 15px 0;
+  width: 300px;
+  background-color: #e9f5f5;
+  position: absolute;
+  bottom: 30px;
+  display: none;
+}
+
+#secCodePop p {
+  margin-bottom: 15px;
+}
+
+#secCodePop p.image {
+  text-align: center;
+}
+
+#secCodePop p.image img {
+  width: 260px;
+}
+
+.regCardTable {
+  margin: 45px 0 0;
+  width: 100%;
+}
+
+.regCardTable th.type {
+  background-color: #e5e3e5;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px 0;
+  border-bottom: 2px solid white;
+}
+
+.regCardTable td {
+  background-color: #f7f7f7;
+  vertical-align: middle;
+  padding: 30px 20px;
+  border-bottom: 2px solid white;
+  border-left: 1px solid white;
+  line-height: 1.8;
+}
+
+.regCardTable td.name {
+  white-space: nowrap;
+}
+
+.regCardTable td.until {
+  width: 280px;
+}
+
+.regCardTable td.until .att {
+  color: #ff0000;
+}
+
+.regCardTable td.delete {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.regCardTable td.delete a {
+  display: block;
+  width: 63px;
+  height: 30px;
+  background: url("https://kazurasei.itembox.design/item/images/common/btn_delete.png") no-repeat left top;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.regCardTable td.delete a:hover {
+  background-position: 0 bottom;
+}
+
+.input_security_code {
+  width: 50px;
+}
+
+/*------------------------------
+
+radius set
+
+------------------------------*/
+.radius01 {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #DBD9CC;
+  -moz-box-shadow: 0 0 10px #DBD9CC;
+  box-shadow: 0 0 10px #DBD9CC;
+  background: #FFF;
+  padding: 2px;
+}
+
+.radius02 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.radius03 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+/* guid */
+.content_box4 {
+  background-color: #F7F7F7;
+  border: 1px solid #D3D3CE;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.content_box4_ttl {
+  font-size: 15px;
+  padding-left: 1.5em;
+  background: url("https://kazurasei.itembox.design/item/images/common/guid_pdf_logo.png") no-repeat;
+  background-size: 20px;
+}
+
+.content_box4_txt {
+  font-size: 13px;
+}
+
+.content_box4_txt span {
+  font-size: 15px;
+}

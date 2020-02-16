@@ -1,0 +1,32 @@
+/*------------------------------ breadcrumbs ----------------------------------*/
+#breadcrumbs {
+    width: 1180px;
+    margin: 18px auto 0;
+
+    ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+
+        li {
+            font-weight: bold;
+            margin-right: 5px;
+
+            &:after {
+                content: '>';
+                margin-left: 5px;
+                font-weight: normal;
+            }
+
+            &:last-child:after {
+                content: none;
+            }
+
+            a {
+                font-weight: normal;
+            }
+        }
+    }
+}

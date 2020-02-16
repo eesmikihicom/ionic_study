@@ -1,0 +1,84 @@
+#vi {
+    display: block;
+    min-width: 1180px;
+
+    .slick-slider {
+        li {
+            background-size: cover;
+            background-position: center center;
+
+            a {
+                display: block;
+                height: 635px;
+            }
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 22px;
+            left: 0;
+            right: 0;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                width: auto;
+                padding: 0;
+                margin: 0 3px;
+
+                button {
+                    border: none;
+                    background-color: #e6e6e6;
+                    color: transparent;
+                    height: 5px;
+                    width: 27px;
+                    padding: 0;
+                    cursor: pointer;
+
+                    &::before {
+                        content: "";
+                        font-size: 0;
+                    }
+                }
+
+                &.slick-active {
+                    button {
+                        background-color: #991f1f;
+                    }
+                }
+            }
+        }
+    }
+
+    .fs-c-slick {
+        .slick-slide {
+            height: 635px;
+            position: relative;
+
+            &>div {
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+
+                figcaption {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .fs-pt-carousel--fitImage {
+        .fs-pt-carousel__slide {
+            img {
+                width: auto;
+                max-width: inherit;
+                height: 635px;
+
+                @media (min-width: (1200px)) {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

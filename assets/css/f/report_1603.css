@@ -1,0 +1,823 @@
+@charset "utf-8";
+
+/* --------------------------------------------------------------------------------
+	fs-l-main
+-------------------------------------------------------------------------------- */
+.fs-l-main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+}
+
+/* --------------------------------------------------------------------------------
+	fs-l-pageMain
+-------------------------------------------------------------------------------- */
+.fs-l-pageMain {
+   max-width: none;
+}
+
+
+/* --------------------------------------------------------------------------------
+	山本本家酒造レポート
+-------------------------------------------------------------------------------- */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ul,ol{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+img{vertical-align:bottom;}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/* 
+---------------------------------------------------------- */
+html { overflow-y: scroll;}
+body { text-align: ;}
+@media print {
+html,
+html body {}
+}
+
+/* body	 -------------------------------------------------------------- */
+body{
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
+	width:100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 15px;
+	line-height:2em;
+	color: #000;
+}
+
+/* fonts -------------------------------------------------------------- */
+a {
+	color: #000;
+	text-decoration: underline;
+}
+a:visited {}
+a:hover,
+a:active { text-decoration: none;}
+
+.txtC{text-align:center !important;}
+.txtR{text-align:right !important;}
+.txtL{text-align:left !important;}
+.bold{font-weight:bold !important;}
+.normal{font-weight:normal !important;}
+
+.f11 { font-size: 72%;} /* base 14px -> 10px */
+.f12 { font-size: 86%;} /* base 14px -> 12px */
+.f13 { font-size: 93%;} /* base 14px -> 13px */
+.f16 { font-size: 115%;} /* base 14px -> 16px */
+.f18 { font-size: 129%;} /* base 14px -> 18px */
+.f20 { font-size: 143%;} /* base 14px -> 20px */
+.f22 { font-size: 157%;} /* base 14px -> 22px */
+.f24 { font-size: 171%;} /* base 14px -> 24px */
+.f26 { font-size: 185%;} /* base 14px -> 26px */
+.f28 { font-size: 200%;} /* base 14px -> 28px */
+
+
+/* inline align ------------------------------------------------------------ */
+.taL {text-align: left   !important;}
+.taC {text-align: center !important;}
+.taR {text-align: right  !important;}
+.vaT {vertical-align: top    !important;}
+.vaM {vertical-align: middle !important;}
+.vaB {vertical-align: bottom !important;}
+
+
+/* float ------------------------------------------------------------------ */
+.flL    { display: inline; float: left;}
+.flR    { display: inline; float: right;}
+.flImgL { display: inline; float: left; margin-right: 20px;}
+.flImgR { display: inline; float: right; margin-left: 20px;}
+
+
+/* Img ------------------------------------------------------------------- */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.img-rp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* img hover */
+a:hover img{
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+}
+
+
+/* wrapper
+---------------------------------------------------------- */
+#wrapper {
+}
+@media screen and (max-width:767px){
+#wrapper {
+}
+}
+
+
+/* header
+---------------------------------------------------------- */
+header {
+	width: 100%;
+	min-width:980px;
+	padding:18px 0;
+	border-top:8px solid #cf120d;
+}
+
+@media screen and (max-width:767px){
+header {
+	min-width:100%;
+}
+
+}
+
+
+
+/* mainImg
+---------------------------------------------------------- */
+#mainImg {
+	position: relative;
+	height:700px;
+	min-width:980px;
+	overflow:hidden;
+	text-align:center;
+	background:url(https://kazurasei.itembox.design/item/images/f/report_1603/bg_main.jpg) no-repeat center top;
+	background-size:cover;
+}
+#mainImg .pc{
+	display:inline-block;
+	margin-top:35px;
+}
+#mainImg img{
+	max-width:inherit;
+}
+
+#mainC{
+    display: block;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+	}
+	.mainC{
+	width: 1092px !important;
+    position: absolute !important;
+    left: 50% !important;
+    margin-left: -546px !important;
+	}
+	
+@media screen and (max-width:767px) {
+#mainImg {
+	position: relative;
+	height:auto;
+	padding:20px 0;
+	min-width:100%;
+}
+#mainImg .pc{
+	display:none;
+}
+
+
+}
+
+
+/* contents
+---------------------------------------------------------- */
+#contents01,
+#contents02,
+#contents03,
+#contents04,
+#contents05,
+#contents06 {
+	position:relative;
+	margin: 0 auto;
+	width:100%;
+	text-align: left;
+}
+.boxDot img{
+	position:absolute;
+	width:14px;
+	height:14px;
+	top:-8px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+
+/* contents01
+--------------------- */
+#contents01 {
+	text-align: center;
+	padding: 60px 0;
+}
+p.lead {
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+	font-size:18px;
+	line-height:60px;
+}
+#boxDetail{
+	padding:28px;
+	border:1px solid #d3bb9d;
+	max-width:572px;
+	margin:50px auto 0;
+    box-sizing: content-box;
+}
+h2 {
+	text-align:center;
+	font-size:34px;
+	margin-bottom:50px;
+}
+h3 {
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+	color:#c59e2b;
+	font-size:20px;
+	margin-bottom:24px;
+}
+.comment{
+	display: block;
+	line-height: 14px;
+	font-size: 11px;
+	margin-top: 4px;
+}
+@media screen and (max-width:767px){
+#contents01 {
+	text-align: center;
+	padding: 35px 15px;
+	box-sizing:border-box;
+}
+#contents01 .lead {
+	font-size:115%;
+	line-height:40px;
+}
+#contents01 .flImgL{
+	width:100%;
+	text-align:center;
+	display:block;
+	margin-bottom:15px;
+}
+}
+
+/* contents02
+--------------------- */
+#contents02 {
+	padding:68px 0;
+	background:url(https://kazurasei.itembox.design/item/images/f/report_1603/bg01.jpg) repeat-x center top;
+}
+
+/* contents03
+--------------------- */
+#contents03 {
+	padding:68px 0 160px;
+	background:url(https://kazurasei.itembox.design/item/images/f/report_1603/bg02.jpg)  center top;
+}
+#contents03 h2{
+	margin-bottom:72px;
+}
+#contents03 .wrap {
+	width:820px;
+	margin: 0 auto;
+}
+.boxImg {
+	position:relative;
+}
+.repoBox{
+	margin-top:62px !important;
+}
+.repoBox .boxImg{
+	width:360px;
+	float:left;
+}
+.repoBox .boxTxt{
+	width:320px;
+	float:left;
+	margin-left:98px;
+}
+.repoBox2 .boxImg{
+	float:right;
+}
+.repoBox2 .boxTxt{
+	float:left;
+	margin:0;
+}
+
+@media screen and (max-width:767px){
+#contents03 .wrap {
+	width:100%;
+	margin: 0 auto;
+}
+.boxImg {
+	position:relative;
+}
+.repoBox{
+	margin-top:62px !important;
+}
+.repoBox .boxImg{
+	width:100%;
+	float:none;
+	text-align:center;
+}
+.repoBox .boxTxt{
+	width:100%;
+	float:none;
+	margin:0;
+	padding:25px 15px;
+	text-align:center;
+	box-sizing:border-box;
+}
+.repoBox2 .boxImg{
+	float:none;
+}
+.repoBox2 .boxTxt{
+	float:lnone;
+}
+}
+
+#contents03  p{
+}
+#contents03  span {
+	position:absolute;
+	display:inline-block;
+	text-align: center;
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+	padding:10px 25px;
+	font-weight:normal;
+	font-size: 20px;
+	color:#FFF;
+	background:#c59e2b;
+}
+span.centerTop { top:-25px; left:330px;}
+span.leftTop { top:-25px; left:-25px;}
+span.rightTop { top:-25px; right:-25px;}
+@media screen and (max-width:767px){
+
+#contents03  span {
+	font-size: 100%;
+	padding:10px;
+}
+
+span.centerTop,span.leftTop,span.rightTop { top:-25px; left:0; right:0; width:230px; margin:auto;}
+}
+/* contents04
+--------------------- */
+#contents04 {
+	padding:68px 0;
+}
+#contents04 .wrap{
+	margin-bottom:80px;
+}
+#contents04 >.inner{
+	max-width:730px;
+	margin:0 auto;
+}
+@media screen and (max-width:767px){
+#contents04 >.inner{
+	max-width:100%;
+	box-sizing:border-box;
+	padding:0 15px;
+}
+#contents04 .flR{
+	float:none;
+}
+#contents04 .w400 p{
+	text-align:left;
+}
+#contents04 h3{
+	text-align:center;
+	font-size:110%;
+	margin-top:15px;
+}
+#contents04 .spC{
+	width:100%;
+	display:block;
+	text-align:center;
+}
+}
+
+/* contents05
+--------------------- */
+#contents05  {
+	text-align:center;
+	padding:140px 0;
+	background:url(https://kazurasei.itembox.design/item/images/f/report_1603/bg_gldflower.jpg) no-repeat center top;
+	background-size:cover;
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+	color:#FFF;
+	letter-spacing:0.4em;
+}
+#contents05 p {
+	font-size:21px;
+	line-height:44px;
+}
+@media screen and (max-width:767px){
+#contents05  {
+	text-align:center;
+	padding:40px 15px;
+	background:url(https://kazurasei.itembox.design/item/images/f/report_1603/bg_gldflower.jpg) no-repeat center top;
+	background-size:cover;
+	font-family:"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+	color:#FFF;
+	box-sizing:border-box;
+	letter-spacing:0.2em;
+}
+#contents05 h2{
+	font-size:110%;
+	margin-bottom:30px;
+}
+#contents05 p {
+	font-size:14px;
+	line-height:44px;
+}
+
+}
+/* contents06
+--------------------- */
+#contents06 {
+	padding:68px 0;
+}
+#contents06  ul li{
+	margin-top:20px;
+}
+@media screen and (max-width:767px){
+#contents06 {
+	padding:68px 15px 0;
+	box-sizing:border-box;
+}
+}
+/* contents07
+--------------------- */
+#contents07 >.inner {
+	max-width:700px;
+	margin:0 auto;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	padding:30px 60px;
+	margin:60px auto;
+}
+#contents07 a{
+	color:#000;
+	text-decoration:underline;
+}
+#contents07 a:hover{
+	text-decoration:none;
+}
+#navShop{
+	text-align:center;
+	margin-bottom:60px;
+}
+
+
+
+
+@media screen and (max-width:767px){
+#navShop{
+	padding:0 15px;
+}
+
+#contents02 h2,#contents03 h2,#contents04 h2{
+	width:100%;
+	padding:0 15px;
+	box-sizing:border-box;
+}
+#contents02 .flL,#contents04 .flL{
+	width:100%;
+	margin-bottom:15px;
+	text-align:center;
+}
+#contents07{
+	padding:20px 15px;
+	box-sizing:border-box;
+}
+#contents07 >.inner {
+	max-width:100%;
+	width:100%;
+	padding:30px 0;
+}
+
+}
+
+
+/* layout
+---------------------------------------------------------- */
+.innerBasic{
+	max-width:980px;
+	margin:0 auto;
+}
+.txtInner{
+	margin:30px auto 100px;
+	width:760px;
+	
+}
+
+@media screen and (max-width:767px){
+.innerBasic{
+	max-width:100%;
+	margin:0 auto;
+}
+.txtInner{
+	margin:30px auto 100px;
+	width:100%;
+	padding:0 	15px;
+	box-sizing:border-box;
+}
+}
+
+
+/* pageTop
+---------------------------------------------------------- */
+.pageTop {
+	position:fixed;
+	right:10%;
+	bottom:5%;
+}
+@media screen and (max-width:767px){
+.pageTop {
+width: 15%;
+    position: fixed;
+    right: 0.5%;
+    bottom: 5%;
+}
+}
+
+
+/* footer
+---------------------------------------------------------- */
+footer {
+	box-sizing:border-box;
+	width: 100%;
+	padding:26px;
+	background:#333;
+	color:#FFF;
+}
+
+
+.footNav li {
+	float:left;
+}
+.footNav li a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:90%;
+}
+.footNav li:nth-of-type(n+X) {
+	margin-left:10px;
+}
+.footNav li:after {
+	content:"|";
+	margin:0 8px;
+}
+#copyright {
+}
+@media screen and (max-width:767px){
+footer {
+	box-sizing:border-box;
+	width: 100%;
+	padding:20px 15px;
+	background:#333;
+	color:#FFF;
+}
+.footNav{
+	float:none !important;
+}
+.footNav li a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:90%;
+}
+
+#copyRight {
+	display:block;
+	margin-top:20px;
+	float:none !important;
+	text-align:center;
+}
+}
+
+
+/* table
+---------------------------------------------------------- */
+.type01 {
+	width: 100%;
+	border-collapse: separate;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.type01 th,
+.type01 td {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 15px;
+}
+.type01 th {
+	background-color: #f3f3f3;
+}
+.type01 td {
+}
+@media screen and (max-width:767px){
+.table_basic01 {
+	width: 100%;
+}
+.table_basic01,
+.table_basic01 thead,
+.table_basic01 tbody,
+.table_basic01 tr,
+.table_basic01 th,
+.table_basic01 td {
+	width: 100%;
+	display: block;
+}
+.table_basic01 th,
+.table_basic01 td {
+	border-top: none;
+	border-left: none;
+}
+.table_basic01 th {
+}
+.table_basic01 td {
+}
+}
+
+
+/* clearfix ------------------------------------------------------------------- */
+.cf:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size:0;	
+    clear: both; 
+	visibility:hidden;
+}
+.cf{
+	display: inline-block;
+} 
+/* Hides from IE Mac */
+* html .cf{
+	height: 1%;
+}
+.cf{
+	display:block;
+}
+
+
+/* margin ------------------------------------------------------------------ */
+.mt00 { margin-top: 0   !important;}
+.mt05 { margin-top: 5px !important;}
+.mt10 { margin-top:10px !important;}
+.mt12 { margin-top:12px !important;}
+.mt15 { margin-top:15px !important;}
+.mt20 { margin-top:20px !important;}
+.mt25 { margin-top:25px !important;}
+.mt30 { margin-top:30px !important;}
+.mt35 { margin-top:35px !important;}
+.mt40 { margin-top:40px !important;}
+.mt45 { margin-top:45px !important;}
+.mt50 { margin-top:50px !important;}
+.mt100 { margin-top:100px !important;}
+.mr00 { margin-right: 0   !important;}
+.mr05 { margin-right: 5px !important;}
+.mr10 { margin-right:10px !important;}
+.mr12 { margin-right:12px !important;}
+.mr15 { margin-right:15px !important;}
+.mr20 { margin-right:20px !important;}
+.mr25 { margin-right:25px !important;}
+.mr30 { margin-right:30px !important;}
+.mr35 { margin-right:35px !important;}
+.mr40 { margin-right:40px !important;}
+.mr45 { margin-right:45px !important;}
+.mr50 { margin-right:50px !important;}
+.mb00 { margin-bottom: 0   !important;}
+.mb05 { margin-bottom: 5px !important;}
+.mb10 { margin-bottom:10px !important;}
+.mb12 { margin-bottom:12px !important;}
+.mb15 { margin-bottom:15px !important;}
+.mb20 { margin-bottom:20px !important;}
+.mb25 { margin-bottom:25px !important;}
+.mb30 { margin-bottom:30px !important;}
+.mb35 { margin-bottom:35px !important;}
+.mb40 { margin-bottom:40px !important;}
+.mb45 { margin-bottom:45px !important;}
+.mb50 { margin-bottom:50px !important;}
+.ml00 { margin-left: 0   !important;}
+.ml05 { margin-left: 5px !important;}
+.ml10 { margin-left:10px !important;}
+.ml12 { margin-left:12px !important;}
+.ml15 { margin-left:15px !important;}
+.ml20 { margin-left:20px !important;}
+.ml25 { margin-left:25px !important;}
+.ml30 { margin-left:30px !important;}
+.ml35 { margin-left:35px !important;}
+.ml40 { margin-left:40px !important;}
+.ml45 { margin-left:45px !important;}
+.ml50 { margin-left:50px !important;}
+
+/* padding  ---------------------------------------------------------------- */
+.pt00 { padding-top: 0   !important;}
+.pt05 { padding-top: 5px !important;}
+.pt10 { padding-top:10px !important;}
+.pt12 { padding-top:12px !important;}
+.pt15 { padding-top:15px !important;}
+.pt20 { padding-top:20px !important;}
+.pt25 { padding-top:25px !important;}
+.pt30 { padding-top:30px !important;}
+.pt35 { padding-top:35px !important;}
+.pt40 { padding-top:40px !important;}
+.pt45 { padding-top:45px !important;}
+.pt50 { padding-top:50px !important;}
+.pt60 { padding-top:60px !important;}
+.pt65 { padding-top:65px !important;}
+.pr00 { padding-right: 0   !important;}
+.pr05 { padding-right: 5px !important;}
+.pr10 { padding-right:10px !important;}
+.pr12 { padding-right:12px !important;}
+.pr15 { padding-right:15px !important;}
+.pr20 { padding-right:20px !important;}
+.pr25 { padding-right:25px !important;}
+.pr30 { padding-right:30px !important;}
+.pr35 { padding-right:35px !important;}
+.pr40 { padding-right:40px !important;}
+.pr45 { padding-right:45px !important;}
+.pr50 { padding-right:50px !important;}
+.pb00 { padding-bottom: 0   !important;}
+.pb05 { padding-bottom: 5px !important;}
+.pb10 { padding-bottom:10px !important;}
+.pb12 { padding-bottom:12px !important;}
+.pb15 { padding-bottom:15px !important;}
+.pb20 { padding-bottom:20px !important;}
+.pb25 { padding-bottom:25px !important;}
+.pb30 { padding-bottom:30px !important;}
+.pb35 { padding-bottom:35px !important;}
+.pb40 { padding-bottom:40px !important;}
+.pb45 { padding-bottom:45px !important;}
+.pb50 { padding-bottom:50px !important;}
+.pb60 { padding-bottom:60px !important;}
+.pb100 { padding-bottom:100px !important;}
+.pb110 { padding-bottom:110px !important;}
+.pb130 { padding-bottom:130px !important;}
+.pl00 { padding-left: 0   !important;}
+.pl03 { padding-left: 3px !important;}
+.pl05 { padding-left: 5px !important;}
+.pl10 { padding-left:10px !important;}
+.pl12 { padding-left:12px !important;}
+.pl15 { padding-left:15px !important;}
+.pl20 { padding-left:20px !important;}
+.pl25 { padding-left:25px !important;}
+.pl30 { padding-left:30px !important;}
+.pl35 { padding-left:35px !important;}
+.pl40 { padding-left:40px !important;}
+.pl45 { padding-left:45px !important;}
+.pl50 { padding-left:50px !important;}
+
+
+.pc{display:block;}
+.sp{display:none;}
+
+/* width ------------------------------------------------------------------- */
+.w960 { width: 960px;}
+.w800 { width: 800px;}
+.w740 { width: 740px;}
+.w700 { width: 700px;}
+.w640 { width: 640px;}
+.w600 { width: 600px;}
+.w590 { width: 590px;}
+.w480 { width: 480px;}
+.w400 { width: 400px;}
+.w320 { width: 320px;}
+.w280 { width: 280px;}
+.w160 { width: 160px;}
+.w60	{ width:60px;}
+
+
+
+@media screen and (max-width:767px) {
+	.pc{display:none;}
+	.sp{display:block;}
+.w960,.w800,.w740,.w700,.w640,.w600,.w590,.w480,.w400,.w320,.w280,.w160,.w60 { width: 100%;}
+
+}
+
+

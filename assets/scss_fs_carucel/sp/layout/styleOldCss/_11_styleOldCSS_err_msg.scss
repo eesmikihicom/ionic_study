@@ -1,0 +1,23 @@
+/* message */
+.ok-message {
+    background-color: #EDFEED;
+    display: block;
+    border: 1px solid #CFC;
+    line-height: 23px;
+    font-size: 10px;
+    *font-size: 9px;
+    padding-left: 10px;
+    margin-top: 5px;
+    color: #12DD11;
+}
+
+.error-message {
+    background-color: #FEEDED;
+    display: block;
+    border: 1px solid #FCC;
+    line-height: 23px;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    color: #DD1112;
+}

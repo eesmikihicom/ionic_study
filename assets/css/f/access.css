@@ -1,0 +1,80 @@
+/* compiled from ./scss/letter.scss */
+
+
+.fs-l-pageMain{
+	margin-left:0;
+}
+
+.contents-access {
+  margin-left: 39px !important;
+  width: 840px !important;
+}
+
+.contents-access #contents_white_sub {
+  width: 100%;
+}
+
+.contents-access .news_title {
+  width: 100%;
+  background: none;
+  font-size: 0;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.contents-access .contents_list_box {
+  width: 100%;
+  float: none;
+}
+
+.contents-access .store-ttl {
+  font-size: 18px;
+  line-height: 1.5556;
+  padding: 3px 0 3px 48px;
+  background: url(https://kazurasei.itembox.design/item/images/common/icon_flower.jpg) no-repeat;
+}
+
+.contents-access .store-ttl .small {
+  font-size: 16px;
+}
+
+.contents-access #access_list {
+  width: 100%;
+}
+
+.contents-access #access_list dd {
+  width: 100%;
+  font-size: 14px;
+}
+
+.contents-access #access_list dd:last-child {
+  border-bottom: dotted 1px #CCC;
+}
+
+.contents-access .access_map {
+  float: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: none;
+  margin-bottom: 80px;
+}
+
+.contents-access .attention {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.contents-access .link-btn {
+  text-align: center;
+}
+
+.contents-access .link-btn a:hover {
+  opacity: .8;
+}
+
+.contents-access #gotoppage {
+  padding: 30px 20px 20px 320px;
+}

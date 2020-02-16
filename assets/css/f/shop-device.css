@@ -1,0 +1,826 @@
+@charset "UTF-8";
+/* compiled from /scss/style.scss */
+/* ================================================== *
+ *    compass
+ * ================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+.mincho {
+	font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+}
+#vi-sp {
+	min-width: 100%;
+}
+#vi-sp .slick-slider li {
+	background-size: cover;
+	background-position: center center;
+}
+#vi-sp .slick-slider li a {
+	display: block;
+	height: 100vw;
+}
+#vi-sp .slick-slider .slick-arrow {
+	position: absolute;
+	left: 30px;
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	padding: 0;
+	cursor: pointer;
+	z-index: 2;
+	width: 28px;
+	height: 43px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#vi-sp .slick-slider .slick-arrow.slick-next {
+	left: auto;
+	right: 30px;
+	width: 28px;
+	height: 43px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -68px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#vi-sp .slick-slider .slick-arrow.slick-disabled {
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+}
+#vi-sp .slick-slider .slick-dots {
+	position: absolute;
+	bottom: 22px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+#vi-sp .slick-slider .slick-dots li {
+	display: inline-block;
+	width: auto;
+	padding: 0;
+	margin: 0 3px;
+}
+#vi-sp .slick-slider .slick-dots li button {
+	border: none;
+	background-color: #e6e6e6;
+	color: transparent;
+	height: 5px;
+	width: 27px;
+	padding: 0;
+	cursor: pointer;
+}
+#vi-sp .slick-slider .slick-dots li.slick-active button {
+	background-color: #991f1f;
+}
+section .announcement {
+	margin: 5vh 5vw;
+	text-align: center;
+}
+#topRecommend .inner {
+	padding: 45px 10px 15px;
+	width: auto;
+	margin: 0 auto;
+}
+#topRecommend .inner h2 {
+	margin-bottom: 14px;
+}
+#topRecommend .inner h2.seasonal {
+	margin: 0 auto 30px;
+	width: 231px;
+	height: 27.5px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -1373.5px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#topRecommend .inner h2.new {
+	margin: 0 auto 30px;
+	width: 110.5px;
+	height: 27.5px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -1222px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#topRecommend .inner ul {
+	margin: 0 -2px 20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+}
+#topRecommend .inner ul li {
+	width: calc(50% - 15px);
+	margin: 0 7.5px 20px;
+}
+#topRecommend .inner ul li figure {
+	text-align: center;
+	border: 1px solid #ededed;
+	padding: 1px 0;
+	margin-bottom: 12px;
+}
+#topRecommend .inner ul li figure img {
+	max-width: 99%;
+	vertical-align: bottom;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+	-webkit-backface-visibility: hidden;
+}
+#topRecommend .inner ul li figure img:hover {
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	text-decoration: inherit;
+}
+#topRecommend .inner ul li figcaption h3 {
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: normal;
+}
+#topRecommend .inner ul li figcaption p {
+	font-size: 12px;
+	line-height: 1.5;
+}
+#topBanner .inner {
+	padding: 25px 0 56px;
+}
+#topBanner .inner ul {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+}
+#topBanner .inner ul li {
+	width: 50%;
+}
+#topBanner .inner ul li a {
+	display: block;
+	margin: 0;
+	line-height: 0;
+}
+#topBanner .inner ul li a img {
+	max-width: 100%;
+}
+#topRanking {
+	padding: 30px 0 18px;
+	background-color: #f2ecda;
+}
+#topRanking .inner {
+	margin: 0 auto;
+}
+#topRanking .inner h3 {
+	width: 247px;
+	height: 21.5px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -1327px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 auto 15px;
+}
+#topRanking .inner .ranking_area {
+	overflow-x: scroll;
+}
+#topRanking .inner .ranking_area::-webkit-scrollbar {
+ width: 7px;
+ height: 7px;
+}
+#topRanking .inner .ranking_area::-webkit-scrollbar-thumb {
+ background: #ded4b9;
+ border-radius: 7px;
+}
+#topRanking .inner .ranking_area::-webkit-scrollbar-track {
+ background: #f2ecda;
+}
+#topRanking .inner ul {
+	counter-reset: ranking;
+	display: table;
+	padding-right: 10px;
+}
+#topRanking .inner ul li {
+	display: table-cell;
+	width: 220px;
+	padding: 10px 0px 10px 10px;
+	position: relative;
+}
+#topRanking .inner ul li:before {
+	counter-increment: ranking;
+	content: counter(ranking);
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 7px;
+	left: 7px;
+	width: 32px;
+	height: 36px;
+	background: url(https://kazurasei.itembox.design/item/images/common-device/ranking_bg_01.png) center center no-repeat;
+	background-size: 32px auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2px 1px 0 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+	font-weight: bold;
+}
+#topRanking .inner ul li:nth-child(n + 4):before {
+	background: url(https://kazurasei.itembox.design/item/images/common-device/ranking_bg_02.png) center center no-repeat;
+	background-size: 32px auto;
+}
+#topRanking .inner ul li a {
+	display: block;
+}
+#topRanking .inner ul li a figure {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+#topRanking .inner ul li a figure img {
+	width: 115px;
+	max-width: none;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+	-webkit-backface-visibility: hidden;
+}
+#topRanking .inner ul li a figure img:hover {
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	text-decoration: inherit;
+}
+#topRanking .inner ul li a figcaption {
+	font-size: 11px;
+	line-height: 1.6;
+	padding: 0 5px;
+}
+#topRanking .inner ul .slick-arrow {
+	position: absolute;
+	left: -30px;
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	padding: 0;
+	cursor: pointer;
+	width: 18.5px;
+	height: 29px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -136px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	top: 85px;
+}
+#topRanking .inner ul .slick-arrow.slick-next {
+	left: auto;
+	right: -30px;
+	width: 18.5px;
+	height: 29px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -190px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#topRanking .inner ul .slick-arrow.slick-disabled {
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+}
+#topFeatures {
+	margin-bottom: 15px;
+}
+#topFeatures h2 {
+	width: 33.5px;
+	height: 15.5px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -1901.5px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 auto 20px;
+	padding-bottom: 5px;
+}
+#topFeatures ul {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -7.5px;
+}
+#topFeatures ul li {
+	width: calc(50% - 15px);
+	margin: 0 7.5px 20px;
+}
+#topFeatures ul li .video {
+	width: 100%;
+	height: 25.1vw;
+	position: relative;
+	margin-bottom: 10px;
+}
+#topFeatures ul li .video iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+#topFeatures ul li a {
+	display: block;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+	-webkit-backface-visibility: hidden;
+}
+#topFeatures ul li a:hover {
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	text-decoration: inherit;
+}
+#topFeatures ul li a figure {
+	margin-bottom: 10px;
+	line-height: 0;
+}
+#topFeatures ul li a figure img {
+	max-width: 100%;
+}
+#topFeatures ul li figcaption h3 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #4c4c4c;
+	margin-bottom: 7px;
+}
+#topFeatures ul li figcaption p {
+	font-size: 12px;
+	line-height: 1.4;
+	color: #808080;
+}
+#topFeatures .all {
+	text-align: right;
+	font-size: 13px;
+}
+#topCategories h2 {
+	width: 111px;
+	height: 15px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -1735px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 auto 10px;
+	padding-bottom: 5px;
+}
+#topCategories ul {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -7.5px 30px;
+}
+#topCategories ul li {
+	width: calc((100% - 50px)/3);
+	padding: 0 7.5px;
+}
+#topCategories ul li a {
+	display: block;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+	-webkit-backface-visibility: hidden;
+}
+#topCategories ul li a:hover {
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	opacity: 0.7;
+	text-decoration: inherit;
+}
+#topCategories ul li a figure {
+	padding: 10px 10px 7px;
+	box-sizing: border-box;
+}
+#topCategories ul li a figure img {
+	max-width: 100%;
+}
+#topCategories ul li a figcaption h3 {
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #4c4c4c;
+}
+.header_search {
+	height: 0px;
+	position: relative;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.header_search .keyword {
+	top: -65px;
+	position: relative;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.header_search.active {
+	height: 65px;
+}
+.header_search.active .keyword {
+	top: 0px;
+}
+.keyword {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+	background-color: #f2ecda;
+	padding: 15px 10px;
+	height: 65px;
+	box-sizing: border-box;
+}
+.keyword h3 {
+	font-size: 13px;
+	font-weight: normal;
+	padding-right: 20px;
+}
+.keyword div {
+	width: 100%;
+	background-color: white;
+	position: relative;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px;
+	box-sizing: border-box;
+	line-height: 1;
+}
+.keyword div input[type="text"] {
+	border: none;
+	width: 350px;
+	background-color: transparent;
+}
+.keyword div button {
+	position: absolute;
+	color: transparent;
+	cursor: pointer;
+	top: 9px;
+	right: 14px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+	background-position: 0 -916.5px;
+	background-repeat: no-repeat;
+	-moz-background-size: 840px auto;
+	-o-background-size: 840px auto;
+	-webkit-background-size: 840px auto;
+	background-size: 840px auto;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.others .keyword {
+	padding: 20px 15px!important;
+	height: 75px!important;
+}
+.others .keyword > div {
+	border-radius: 6px!important;
+	border: 1px solid #999!important;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset!important;
+	/*padding: 8px 10px!important;*/
+	padding: 2px 10px!important;
+	font-size: 15px!important;
+}
+.others_link {
+	margin-top: 30px;
+}
+.others_link ul {
+	display: flex;
+	margin: 0 -8px;
+}
+.others_link ul li {
+	padding: 0 8px;
+	width: calc(50% - 16px);
+}
+.others_link ul li a {
+	display: block;
+}
+.others_link ul li a img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+#contents {
+	padding-top: 60px;
+}
+#contents_main {
+	margin: 0;
+	width: 100%;
+	float: none;
+}
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#Footer {
+	background: #595959;
+	color: #FFF;
+}
+#Footer h3 {
+	padding: 9px 15px;
+	background: #4a4a4a;
+	font-size: 12px;
+}
+#footNav {
+	margin-bottom: 30px;
+}
+#footNav dt {
+	padding: 15px 15px;
+	border: solid 1px #4b4b4b;
+	border-width: 0 0 1px;
+	text-align: left;
+	color: #FFF;
+	font-size: 12px;
+}
+#footNav dt a {
+	color: #fff;
+	display: block;
+	background: url("https://kazurasei.itembox.design/item/images/common-device/ico_rarrow_open.png") no-repeat right 50%;
+	padding-right: 15px;
+	background-size: 14px;
+}
+#footNav dt.open a {
+	background: url("https://kazurasei.itembox.design/item/images/common-device/ico_rarrow_close.png") no-repeat right 50%;
+	background-size: 14px;
+}
+#footNav dd {
+	background: #FFF;
+	padding: 15px 15px 30px;
+	color: #333;
+}
+#footNav dd.close {
+	display: none;
+}
+#footNav dd * + p, #footNav dd table {
+	margin-top: 1em;
+}
+#footNav dd table {
+	width: 100%;
+}
+#footNav dd table td, #footNav dd table th {
+	border: #DDDED9 solid 1px;
+	padding: 1em 0.5em;
+}
+#footNav dd table th {
+	background: #F3F3F1;
+	text-align: center;
+	font-weight: normal;
+}
+#footNav dd table td {
+	text-align: right;
+}
+#footNav dd img {
+	max-width: 100%;
+}
+#footInfo {
+	padding: 0 15px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#footInfo li:first-child {
+	padding-right: 4px;
+}
+#footInfo li:last-child {
+	padding-left: 4px;
+}
+#footInfo .freedial-box {
+	box-sizing: border-box;
+ width: calc(168*100vw/375);
+ height: calc(111*100vw/375);
+ padding: calc(10*100vw/375) calc(6*100vw/375)!important;
+	background: #fff;
+	border-radius: 5px;
+	text-align: center;
+}
+#footInfo .freedial-box__top {
+	margin: 0 auto;
+}
+#footInfo .freedial-box-txt, #footInfo .freedial-box-link {
+ font-size: calc(11*100vw/375);
+	color: #333;
+}
+#footInfo .freedial-box-txt {
+	margin: 5px 0 3px;
+	letter-spacing: -0.08em;
+}
+#footInfo .freedial-box-link {
+	color: #333;
+}
+#footSns, #menuSns {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#footSns li, #menuSns li {
+	display: inline-block;
+	margin: 0 10px;
+}
+#footSns li a, #menuSns li a {
+	display: block;
+	width: 66px;
+	height: 66px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 66px auto;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#footSns li a.fb, #menuSns li a.fb {
+	background-image: url("https://kazurasei.itembox.design/item/images/common-device/footer_sns_fb.png");
+}
+#footSns li a.twitter, #menuSns li a.twitter {
+	background-image: url("https://kazurasei.itembox.design/item/images/common-device/footer_sns_twitter.png");
+}
+#footSns li a.instagram, #menuSns li a.instagram {
+	background-image: url("https://kazurasei.itembox.design/item/images/common-device/footer_sns_instagram.png");
+}
+#menuSns li {
+	margin: 0 3px;
+}
+#goPc {
+	margin-bottom: 30px;
+}
+#goPc a, #goPc .btn a {
+	display: block;
+	width: 190px;
+	height: 40px;
+	line-height: 20px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #b2b2b2;
+	color: #FFF;
+	box-sizing: border-box;
+}
+#footLink {
+	width: 100%;
+	padding: 20px 25px 0;
+	word-break: break-all;
+	font-size: 60%;
+	display: table;
+	background-color: #1a1a1a;
+}
+#footLink li {
+	text-align: center;
+	padding: 0 0.5em;
+}
+#footLink li + li {
+	border-left: 1px solid #fff;
+}
+#footLink a {
+	color: #FFF;
+}
+#copy {
+	background-color: #1a1a1a;
+	padding: 12px 0 15px;
+	color: #f4f4f4;
+	text-align: center;
+	font-size: 10px;
+}
+.dCel {
+	display: table-cell;
+}
+.contain, .contain * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* image sizing */
+img.max {
+	width: 100%;
+	vertical-align: bottom;
+}
+/* and more */
+.and_more a {
+	display: block;
+	border-radius: 5px;
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #deded9;
+	margin: 15px auto;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+}
+.and_more a::before {
+	display: block;
+	content: '';
+	border-bottom: 2px solid #d0d0d0;
+	border-left: 2px solid #d0d0d0;
+	transform: rotate(-45deg);
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	left: 18px;
+	top: 35%;
+}

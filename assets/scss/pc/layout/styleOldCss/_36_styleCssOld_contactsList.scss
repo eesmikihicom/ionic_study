@@ -1,0 +1,118 @@
+#contacts_list {
+    .paymentTable {
+        th {
+            width: 30px;
+            padding: 15px;
+            vertical-align: middle;
+            text-align: center;
+            background-color: #AC1700;
+            color: #FFF;
+        }
+
+        th {
+            width: 30px;
+            padding: 15px;
+            vertical-align: middle;
+            text-align: center;
+            background-color: #AC1700;
+            color: #FFF;
+
+            padding: 2px;
+            text-align: left;
+            width: 50%;
+        }
+
+        td {
+            color: #666;
+            text-align: left;
+            line-height: 1.6;
+            text-align: center;
+
+            &.sub {
+                width: 169px;
+                font-weight: bold;
+                color: #666;
+                padding: 15px;
+                text-align: left;
+                background-color: #E5E3E5;
+            }
+
+            .cardOuter {
+                display: none;
+            }
+
+            p {
+                margin-bottom: 0.75em;
+            }
+
+            dl {
+                margin-bottom: 10px;
+
+                dt {
+                    padding: 8px 0;
+                    width: 118px;
+                    float: left;
+                    clear: both;
+                }
+
+                dd {
+                    padding: 8px 0;
+                    width: 300px;
+                    margin-left: 120px;
+                    position: relative;
+                }
+
+                &.creditcard {
+                    margin: 0 10px;
+                    display: table;
+
+                    dt {
+                        padding: 8px 0;
+                        width: auto;
+                        float: none;
+                        vertical-align: middle;
+                        display: table-cell;
+
+                        img {
+                            vertical-align: -2px;
+                        }
+                    }
+
+                    dd {
+                        padding: 8px 0 8px 20px;
+                        width: auto;
+                        margin-left: 0;
+                        vertical-align: middle;
+                        display: table-cell;
+
+                        span.att {
+                            color: #ff0000;
+                        }
+                    }
+                }
+
+                &.inputSecCode {
+                    border-top: 1px solid #e2e2e2;
+                    padding: 10px 10px 0;
+                    margin: 0;
+                    display: none;
+
+                    dd {
+                        width: 280px;
+                    }
+                }
+            }
+
+            .secCode a {
+                margin-left: 10px;
+                font-size: 11px;
+                text-decoration: underline;
+                color: #666;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

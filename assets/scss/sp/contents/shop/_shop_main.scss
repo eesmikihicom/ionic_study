@@ -1,0 +1,719 @@
+section .announcement {
+    margin: 3vh 5vw 1vh;
+    text-align: center;
+
+    img {
+        max-width: 320px;
+        width: 100%;
+    }
+}
+
+#topRecommend {
+
+    .topRecommend-inner,
+    .inner {
+        padding: 45px 10px 15px;
+        width: auto;
+        margin: 0 auto;
+
+        h2 {
+            margin-bottom: 14px;
+
+            &.seasonal {
+                margin: 0 auto 30px;
+                width: 231px;
+                height: 27.5px;
+                background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+                background-position: 0px -1853px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 200%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            &.new {
+                margin: 40px auto 30px;
+                width: 110.5px;
+                height: 27.5px;
+                background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+                background-position: 0 -1222px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 200%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+
+        ul {
+            margin: 0 -2px 20px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            -moz-justify-content: space-between;
+            justify-content: space-between;
+
+            li {
+                width: calc(50% - 15px);
+                margin: 0 7.5px 20px;
+
+                &.fs-c-productMark__item {
+                    margin: 0 2px 20px;
+                }
+
+                figure {
+                    text-align: center;
+                    border: 1px solid #ededed;
+                    padding: 1px 0;
+                    margin-bottom: 12px;
+
+                    img {
+                        //max-width: 99%;
+                        max-width: none;
+                        width: 100%;
+                        vertical-align: bottom;
+                        -moz-transition: opacity 0.2s linear;
+                        -o-transition: opacity 0.2s linear;
+                        -webkit-transition: opacity 0.2s linear;
+                        transition: opacity 0.2s linear;
+                        backface-visibility: hidden;
+
+                        &:hover {
+                            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                            opacity: 0.7;
+                            text-decoration: inherit;
+                        }
+                    }
+                }
+
+                figcaption {
+                    h3 {
+                        font-size: 12px;
+                        line-height: 1.5;
+                        font-weight: normal;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+        .fs-c-productListCarousel__list {
+            .slick-track {
+                width: 100% !important;
+                display: flex;
+                flex-wrap: wrap;
+                transform: none !important;
+
+
+                .slick-slide {
+                    width: calc(49.85% - 10px);
+                    position: relative;
+
+                    @media (min-width: (580px)) {
+                        width: calc(33% - 10px);
+                    }
+
+                    @media (min-width: (750px)) {
+                        width: calc(24.9% - 10px);
+                    }
+
+                    margin: 0 5px 20px;
+
+                    .fs-c-productListCarousel__list__item {
+                        min-width: calc(49.85% - 10px);
+                        max-width: 100%;
+                        height: calc(75vw - 10px);
+                        min-height: 280px;
+
+                        @media (min-width: (580px)) {
+                            min-width: calc(33% - 10px);
+                            max-width: 100%;
+                            height: calc(45vw - 10px);
+                        }
+
+                        @media (min-width: (750px)) {
+                            min-width: calc(24.9% - 10px);
+                            max-width: 100%;
+                            height: calc(37vw - 10px);
+                        }
+
+                        margin: 0;
+
+                        .fs-c-productListItem__productName {
+                            font-size: .7rem;
+                            margin: 5px auto 0;
+                            line-height: 1.5;
+                            font-weight: normal;
+                        }
+
+                        .fs-c-productListItem__image {
+                            margin-bottom: 5px;
+                            min-height: calc(50vw - 10px);
+
+
+                            @media (min-width: (580px)) {
+                                min-height: calc(33vw - 10px);
+                            }
+
+                            @media (min-width: (750px)) {
+                                min-height: calc(25vw - 10px);
+                            }
+
+                            position: relative;
+
+                            .fs-c-productListItem__image__image {
+                                position: absolute;
+                                width: calc(50vw - 40px);
+
+                                @media (min-width: (580px)) {
+                                    width: calc(33vw - 10px);
+                                }
+
+                                @media (min-width: (750px)) {
+                                    width: calc(25vw - 10px);
+                                }
+
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+
+                        .fs-c-productListItem__prices {
+                            .fs-c-productPrice__addon:not(.fs-c-productPrice__addon--listed) {
+                                font-size: 0.7em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#topBanner {
+    margin-bottom: 50px;
+
+    .inner {
+        margin: 25px 0 35px;
+    }
+
+    ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    li {
+        width: 50%;
+
+        a {
+            display: block;
+            margin: 0;
+            line-height: 0;
+
+            img {
+                min-width: 100%;
+            }
+        }
+    }
+
+    .slick-track {
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        transform: none !important;
+
+        .slick-cloned {
+            display: none;
+        }
+
+        .slick-slide {
+            width: 49.85% !important;
+
+            @media (min-width: (580px)) {
+                width: 33.2% !important;
+            }
+
+
+            .fs-pt-carousel__slide {
+                width: auto !important;
+                height: auto;
+                display: block !important;
+
+                img {
+                    max-width: initial;
+                    width: 100%;
+                }
+
+                figcaption {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+#topRanking {
+    padding: 30px 0 58px;
+    background-color: #f2ecda;
+    margin: 0 0 -50px;
+
+    .inner {
+        margin: 0 auto;
+        width: auto;
+
+        h3 {
+            width: 247px;
+            height: 21.5px;
+            background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+            background-position: 0 -1327px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto 15px;
+        }
+
+        ul {
+            counter-reset: ranking;
+            //display: table;
+            padding-right: 10px;
+
+            li {
+                //display: table-cell;
+                width: 220px;
+                padding: 10px 0px 10px 10px;
+                position: relative;
+
+                &:before {
+                    counter-increment: ranking;
+                    content: counter(ranking);
+                    display: block;
+                    position: absolute;
+                    z-index: 2;
+                    top: 7px;
+                    left: 7px;
+                    width: 32px;
+                    height: 36px;
+                    background: url('https://kazurasei.itembox.design/item/images/common-device/ranking_bg_01.png') center center no-repeat;
+                    background-size: 32px auto;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    padding: 2px 1px 0 0;
+                    color: white;
+                    font-size: 14px;
+                    text-align: center;
+                    //font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+                    font-weight: bold;
+                    line-height: 20px;
+                    text-indent: -3px;
+                }
+
+                &:nth-child(n + 4):before {
+                    background: url('https://kazurasei.itembox.design/item/images/common-device/ranking_bg_02.png') center center no-repeat;
+                    background-size: 32px auto;
+                }
+
+                a {
+                    display: block;
+
+                    figure {
+                        background-color: white;
+                        padding: 5px;
+                        margin-bottom: 5px;
+
+                        img {
+                            width: auto;
+                            -moz-transition: opacity 0.2s linear;
+                            -o-transition: opacity 0.2s linear;
+                            -webkit-transition: opacity 0.2s linear;
+                            transition: opacity 0.2s linear;
+                            backface-visibility: hidden;
+
+                            &:hover {
+                                filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+                                opacity: 0.7;
+                                text-decoration: inherit;
+                            }
+                        }
+                    }
+
+                    figcaption {
+                        font-size: 11px;
+                        line-height: 1.6;
+                        padding: 0 5px;
+                    }
+                }
+            }
+
+            .slick-list {
+                overflow-x: hidden;
+            }
+
+            .slick-arrow {
+                position: absolute;
+                left: -30px;
+                border: none;
+                background-color: transparent;
+                color: transparent;
+                padding: 0;
+                cursor: pointer;
+                width: 18.5px;
+                height: 29px;
+                background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+                background-position: 0 -136px;
+                background-repeat: no-repeat;
+                -moz-background-size: 840px auto;
+                -o-background-size: 840px auto;
+                -webkit-background-size: 840px auto;
+                background-size: 840px auto;
+                text-indent: 200%;
+                white-space: nowrap;
+                overflow: hidden;
+                top: 85px;
+
+                &.slick-next {
+                    left: auto;
+                    right: -30px;
+                    width: 18.5px;
+                    height: 29px;
+                    background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+                    background-position: 0 -190px;
+                    background-repeat: no-repeat;
+                    -moz-background-size: 840px auto;
+                    -o-background-size: 840px auto;
+                    -webkit-background-size: 840px auto;
+                    background-size: 840px auto;
+                    text-indent: 200%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+                &.slick-disabled {
+                    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+.topRanking_slider {
+    .fs-c-productListCarousel {
+        position: relative;
+
+        &__ctrl {
+            display: block !important;
+            width: 35%;
+            background: #ded4b9;
+            border-radius: 5px;
+            position: absolute;
+            bottom: -35px;
+
+            .fs-c-button--carousel {
+                height: auto;
+            }
+        }
+    }
+
+    //.ranking_area,
+    // .slick-list {
+    //     //.slick-list
+    //     overflow-x: scroll;
+    //     -webkit-overflow-scrolling: touch;
+
+    //     &::-webkit-scrollbar {
+    //         width: 7px !important;
+    //         height: 7px;
+    //     }
+
+    //     &::-webkit-scrollbar-thumb {
+    //         background: #ded4b9;
+    //         border-radius: 7px;
+    //     }
+
+    //     &::-webkit-scrollbar-track {
+    //         background: #f2ecda;
+    //     }
+    // }
+
+    .fs-c-productListCarousel__list__itemTrack {
+        .slick-track {
+            width: calc(350vw + 20px) !important;
+
+            @media (min-width: (580px)) {
+                width: calc(330vw + 20px) !important;
+            }
+
+            @media (min-width: (750px)) {
+                width: calc(220vw + 20px) !important;
+            }
+
+            .slick-slide {
+
+                width: 35vw;
+                padding: 10px 10px 5px;
+
+                @media (min-width: (580px)) {
+                    width: 30vw !important;
+                }
+
+                @media (min-width: (750px)) {
+                    width: 22vw !important;
+                }
+
+                .fs-c-productListCarousel__list__item {
+                    flex-basis: 200px;
+                    max-width: 30vw;
+                    min-width: 20vw;
+                    margin: 0 8px;
+
+                    @media (min-width: (580px)) {
+                        max-width: 30vw !important;
+                        min-width: 28vw !important;
+                    }
+
+                    @media (min-width: (750px)) {
+                        max-width: 22vw !important;
+                        min-width: 15vw !important;
+                    }
+
+                    .fs-c-productListItem__productName {
+                        font-size: .7rem;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header_search {
+    height: 0px;
+    position: relative;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+
+    .keyword {
+        top: -65px;
+        position: relative;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    &.active {
+        height: 65px;
+
+        .keyword {
+            top: 0px;
+        }
+    }
+}
+
+/*
+.keyword {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    background-color: #f2ecda;
+    padding: 15px 10px;
+    height: 65px;
+    box-sizing: border-box;
+
+    h3 {
+        font-size: 13px;
+        font-weight: normal;
+        padding-right: 20px;
+    }
+
+    div {
+        width: 100%;
+        background-color: white;
+        position: relative;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 1;
+
+        input[type="text"] {
+            border: none;
+            width: 350px;
+            background-color: transparent;
+        }
+
+        button {
+            position: absolute;
+            color: transparent;
+            cursor: pointer;
+            top: 9px;
+            right: 14px;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-image: url('https://kazurasei.itembox.design/item/images/common-device/replaces-s4879ce7107.png');
+            background-position: 0 -916.5px;
+            background-repeat: no-repeat;
+            -moz-background-size: 840px auto;
+            -o-background-size: 840px auto;
+            -webkit-background-size: 840px auto;
+            background-size: 840px auto;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+}
+
+.others {
+    .keyword {
+        padding: 20px 15px !important;
+        height: 75px !important;
+
+        &>div {
+            border-radius: 6px !important;
+            border: 1px solid #999 !important;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset !important;
+            //padding: 8px 10px!important;
+            padding: 2px 10px !important;
+            font-size: 15px !important;
+        }
+    }
+}
+
+.others_link {
+    margin-top: 30px;
+
+    ul {
+        display: flex;
+        margin: 0 -8px;
+
+        li {
+            padding: 0 8px;
+            width: calc(50% - 16px);
+
+            a {
+                display: block;
+
+                img {
+                    max-width: 100%;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+*/
+
+#contents {
+    padding-top: 60px;
+}
+
+#contents_main {
+    margin: 0;
+    width: 100%;
+    float: none;
+}
+
+
+.contain,
+.contain * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* image sizing */
+img.max {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* and more */
+.and_more a {
+    display: block;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #deded9;
+    margin: 15px auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+
+    &::before {
+        display: block;
+        content: '';
+        border-bottom: 2px solid #d0d0d0;
+        border-left: 2px solid #d0d0d0;
+        transform: rotate(-45deg);
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        left: 18px;
+        top: 35%;
+    }
+}
+
+#postContents {
+    &.main-fs {
+        margin: 65px 0 10px;
+    }
+}

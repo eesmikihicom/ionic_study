@@ -1,0 +1,27 @@
+.fs-c-productMarks {
+    margin-top: 0;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px !important;
+
+    /*--- 商品マーク ----*/
+    .fs-c-productMark {
+        display: flex !important;
+        position: relative;
+
+        .fs-c-productMark__item {
+            width: auto !important;
+            margin-bottom: 0px !important;
+            margin-right: 5px !important;
+            margin-left: 0 !important;
+        }
+
+    }
+
+    .newItem,
+    .recommendItem,
+    .limitedItem {
+        position: relative;
+        margin-right: 5px;
+    }
+}

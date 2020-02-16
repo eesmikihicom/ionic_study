@@ -1,0 +1,56 @@
+#rank_list {
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 40px;
+    float: left;
+    width: 700px;
+
+    .rank_num {
+        height: 290px;
+        width: 295px;
+        float: left;
+        padding: 20px;
+        border-bottom: 1px dashed #CCC;
+
+        .rank_no {
+            height: 140px;
+            width: 50px;
+            display: block;
+            float: left;
+        }
+
+        .rank_product {
+            width: 220px;
+            padding-left: 25px;
+            display: block;
+            float: left;
+        }
+
+        h2 {
+            display: block;
+            float: left;
+            width: 295px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            width: 295px;
+            float: left;
+        }
+
+        &.noline {
+            border-bottom-style: none;
+        }
+    }
+
+    #rank_money img {
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
+
+}
+
+#rank_mgl40 {
+    margin-left: 30px;
+}

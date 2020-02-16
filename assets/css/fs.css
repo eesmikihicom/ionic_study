@@ -1,0 +1,1036 @@
+@charset "utf-8";
+
+/* --------------------------------------------------------------------------------
+	fs-l-header
+-------------------------------------------------------------------------------- */
+.fs-l-header {
+	position: inherit;
+	top: auto;
+	padding: 0;
+	border: 0;
+}
+
+/*パンくず*/
+.fs-c-breadcrumb {
+	width: 1180px;
+	margin: 10px auto 0;
+}
+
+.fs-c-breadcrumb ol li.fs-c-breadcrumb__listItem {
+	font-size: 0.875rem;
+	font-weight: normal;
+	margin-right: 20px;
+	position: relative;
+	display: inline;
+	/*display: inline-block;*/
+}
+
+.fs-c-breadcrumb ol li.fs-c-breadcrumb__listItem::after {
+	display: block;
+	content: ">";
+	position: absolute;
+	right: -17px;
+	top: 50%;
+	transform: translateY(-56%);
+}
+
+.fs-c-breadcrumb ol li.fs-c-breadcrumb__listItem:last-child {
+	font-weight: bold;
+}
+
+.fs-c-breadcrumb ol li.fs-c-breadcrumb__listItem:last-child::after {
+	display: none;
+}
+
+/*サブグループ　パンくず*/
+.fs-c-breadcrumb__list--subgroup {
+	display: none;
+}
+
+/* --------------------------------------------------------------------------------
+	fs-l-main
+-------------------------------------------------------------------------------- */
+.fs-l-main {
+	margin: 0 auto;
+	padding: 35px 0 0;
+	max-width: none;
+}
+
+/* --------------------------------------------------------------------------------
+	fs-l-pageMain
+-------------------------------------------------------------------------------- */
+.fs-l-pageMain {
+	max-width: none;
+}
+
+.fs-c-heading--page {
+	display: none;
+}
+
+#contents_white_sub {
+	width: 700px;
+}
+
+#original_comment3 * {
+	box-sizing: content-box;
+}
+
+/* --------------------------------------------------------------------------------
+	カテゴリページ
+-------------------------------------------------------------------------------- */
+/*並び替え*/
+#fs_ProductCategory .fs-c-sortItems,
+#fs_ProductSearch .fs-c-sortItems {
+	margin: 0;
+	background: #F3F3F1;
+	padding: 10px 3px;
+}
+
+#fs_ProductCategory .fs-c-productList__controller,
+#fs_ProductSearch .fs-c-productList__controller {
+	display: block;
+	width: 700px;
+}
+
+#fs_ProductCategory span.fs-c-sortItems__label,
+#fs_ProductSearch span.fs-c-sortItems__label {
+	font-size: 13px;
+	color: #666666;
+	border: 0;
+}
+
+#fs_ProductCategory li.fs-c-sortItems__list__item,
+#fs_ProductSearch li.fs-c-sortItems__list__item {
+	color: #333333;
+	border: 1px solid #dddddd;
+	background: #ffffff;
+	margin: 0 5px 0 0;
+}
+
+#fs_ProductCategory .fs-c-sortItems__list__item.is-active,
+#fs_ProductSearch .fs-c-sortItems__list__item.is-active {
+	background: #595959;
+	color: #ffffff;
+}
+
+#fs_ProductCategory a.fs-c-sortItems__list__item__label,
+#fs_ProductSearch a.fs-c-sortItems__list__item__label {
+	padding: 4px 17px;
+}
+
+#fs_ProductCategory ul.fs-c-sortItems__list,
+#fs_ProductSearch ul.fs-c-sortItems__list {
+	font-size: 13px;
+}
+
+#fs_ProductCategory .fs-c-productList__list,
+#fs_ProductSearch .fs-c-productList__list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+#fs_ProductCategory article.fs-c-productList__list__item.fs-c-productListItem,
+#fs_ProductSearch article.fs-c-productList__list__item.fs-c-productListItem {
+	width: 25%;
+	border: none;
+}
+
+/*サムネイル*/
+#fs_ProductCategory img.fs-c-productListItem__image__image.fs-c-productImage__image,
+#fs_ProductSearch img.fs-c-productListItem__image__image.fs-c-productImage__image {
+	border: 1px solid #ededed;
+}
+
+/*プレビューボタン*/
+#fs_ProductCategory .fs-c-productListItem__viewMoreImageButton.fs-c-buttonContainer,
+#fs_ProductSearch .fs-c-productListItem__viewMoreImageButton.fs-c-buttonContainer {
+	display: none;
+}
+
+/*商品名*/
+#fs_ProductCategory .fs-c-productListItem__productName,
+#fs_ProductSearch .fs-c-productListItem__productName {
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 1.4;
+	margin: 8px 0 0;
+}
+
+/*価格全体*/
+#fs_ProductCategory .fs-c-productListItem__prices.fs-c-productPrices,
+#fs_ProductSearch .fs-c-productListItem__prices.fs-c-productPrices {
+	display: table-cell;
+	width: 141px;
+	vertical-align: middle;
+}
+
+/*価格タイトル*/
+#fs_ProductCategory .fs-c-productPrice__main__label,
+#fs_ProductSearch .fs-c-productPrice__main__label {
+	display: none;
+}
+
+/*価格*/
+#fs_ProductCategory .fs-c-productPrice__main__price {
+	font-size: 13px;
+	color: #991f1f;
+}
+
+/*税*/
+#fs_ProductCategory span.fs-c-productPrice__addon {
+	font-size: 13px;
+	color: #991f1f;
+}
+
+/*販売期間*/
+#fs_ProductCategory .fs-c-salesPeriod__date {
+	font-size: 11px;
+}
+
+/*販売を終了しました。*/
+#fs_ProductCategory .fs-c-productListItem__salesPeriodNotice.fs-c-productListItem__notice {
+	font-size: 11px;
+	background: #b2b2b2;
+	border-radius: 3px;
+	padding: 6px 0;
+}
+
+/*カートに入れる・お気に入り*/
+#fs_ProductCategory .fs-c-productListItem__control.fs-c-buttonContainer,
+#fs_ProductSearch .fs-c-productListItem__control.fs-c-buttonContainer {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*詳細を見るアイコン*/
+#fs_ProductCategory a.fs-c-button--viewProductDetail.fs-c-button--plain {
+	display: none;
+}
+
+/*詳細を見る*/
+#fs_ProductCategory span.fs-c-button__label {
+	display: none;
+}
+
+/*カートに入れる*/
+#fs_ProductCategory button.fs-c-button--addToCart--list.fs-c-button--plain,
+#fs_ProductSearch button.fs-c-button--addToCart--list.fs-c-button--plain {
+	font-size: 10px;
+	display: none;
+}
+
+/*お気に入り*/
+#fs_ProductCategory .fs-c-button--particular.fs-c-button--addToWishList--icon::before,
+#fs_ProductDetails .fs-c-button--particular.fs-c-button--addToWishList--icon::before,
+#fs_ProductSearch .fs-c-button--particular.fs-c-button--addToWishList--icon::before {
+	font-size: 18px;
+	color: #b2b2b2;
+}
+
+/* --------------------------------------------------------------------------------
+	商品ページ
+-------------------------------------------------------------------------------- */
+/*サムネイルプレビュー*/
+#fs_ProductDetails .fs-c-productImageModal {
+	display: flex;
+	align-items: center;
+}
+
+#fs_ProductDetails .product-name-dokuji3 {
+	font-size: 16px;
+	margin: 0 0 20px;
+	font-weight: bold;
+}
+
+#fs_ProductDetails #original_comment2 * {
+	box-sizing: content-box;
+}
+
+/*商品画像*/
+#fs_ProductDetails .fs-c-productMainImage__image {
+	width: 400px;
+	border: 1px solid #EEEEEE;
+}
+
+/*商品画像拡大ボタン*/
+#fs_ProductDetails .fs-c-productMainImage__expandButton.fs-c-buttonContainer {
+	display: none;
+}
+
+/*商品画像サムネイル*/
+#fs_ProductDetails .fs-c-productThumbnail {
+	width: 400px;
+}
+
+#fs_ProductDetails .fs-c-productThumbnail__image {
+	flex-basis: auto;
+	width: 70px;
+}
+
+#fs_ProductDetails .fs-c-productThumbnail__image:nth-child(1) {
+	margin: 4px 6px 4px 0;
+}
+
+#fs_ProductDetails .fs-c-productThumbnail__image:nth-child(5n) {
+	margin: 4px 0 4px 6px;
+}
+
+#fs_ProductDetails .fs-c-productThumbnail__image:nth-child(5n+1) {
+	margin: 4px 6px 4px 0;
+}
+
+/*商品名*/
+#fs_ProductDetails h1.fs-c-productNameHeading.fs-c-heading {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+/*商品番号*/
+#fs_ProductDetails .fs-c-productNumber {
+	font-size: 13px;
+}
+
+#fs_ProductDetails .fs-c-productNumber__number {
+	font-weight: normal;
+}
+
+/*original_comment1*/
+#fs_ProductDetails #original_comment1 {
+	font-size: 14px;
+	border-bottom: 1px solid #eeeeee;
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+}
+
+/*のところ*/
+#fs_ProductDetails .fs-c-productPrice--listed .fs-c-productPrice__addon {
+	font-size: 12px;
+}
+
+/*価格タイトル*/
+#fs_ProductDetails .fs-c-productPrice--selling .fs-c-productPrice__main__label {
+	background: #73890D;
+	color: #fff;
+	padding: 2px 10px;
+	font-size: 15px;
+}
+
+/*￥価格*/
+#fs_ProductDetails .fs-c-productPrice__main__price.fs-c-price {
+	padding: 0 7px;
+}
+
+/*￥*/
+#fs_ProductDetails .fs-c-productPrice__main__price .fs-c-price__currencyMark {
+	color: #991f1f;
+	font-size: 16px;
+}
+
+/*価格*/
+#fs_ProductDetails .fs-c-productPrice__main__price .fs-c-price__value {
+	color: #991f1f;
+	font-size: 16px;
+}
+
+/*税*/
+#fs_ProductDetails .fs-c-productPrice--selling .fs-c-productPrice__addon {
+	color: #333333;
+	font-size: 12px;
+}
+
+/*税価格*/
+#fs_ProductDetails span.fs-c-productPrice__addon__price .fs-c-price__currencyMark {
+	color: #333333;
+	font-size: 12px;
+}
+
+/*数量・お気に入り*/
+#fs_ProductDetails .fs-c-productQuantityAndWishlist {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 !important;
+}
+
+/*数量*/
+#fs_ProductDetails span.fs-c-productQuantityAndWishlist__quantity.fs-c-quantity.fs-system-assistTarget {
+	-webkit-box-ordinal-group: 1;
+	-ms-flex-order: 1;
+	-webkit-order: 1;
+	order: 1;
+	display: block;
+	width: 100%;
+	position: relative;
+	left: 50px;
+}
+
+#fs_ProductDetails span.fs-c-productQuantityAndWishlist__quantity.fs-c-quantity.fs-system-assistTarget::before {
+	content: "個数";
+	font-size: 14px;
+	position: absolute;
+	top: 2px;
+	left: -50px;
+}
+
+
+/*お気に入り*/
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist {
+	-webkit-box-ordinal-group: 2;
+	-ms-flex-order: 2;
+	-webkit-order: 2;
+	order: 2;
+	width: 100%;
+	display: block;
+}
+
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist button.fs-c-button--addToWishList--detail.fs-c-button--particular {
+	box-shadow: none;
+	width: 270px;
+	padding: 0;
+	position: relative;
+}
+
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist .fs-c-button__label {
+	height: 35px;
+	font-size: 15px;
+	display: block;
+	padding: 10px 0 0 90px;
+}
+
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist .fs-c-button--particular.fs-c-button--addToWishList--detail::after {
+	position: absolute;
+	left: 50px;
+	top: 5px;
+	color: #bbbbbb;
+	font-size: 27px;
+}
+
+
+
+/*お気に入りを解除する*/
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist button.fs-c-button--removeFromWishList--detail {
+	box-shadow: none;
+	width: 270px;
+	padding: 0;
+	position: relative;
+}
+
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist button.fs-c-button--removeFromWishList--detail .fs-c-button__label {
+	height: 35px;
+	font-size: 15px;
+	display: block;
+	padding: 10px 0 0 80px;
+}
+
+#fs_ProductDetails .fs-c-productQuantityAndWishlist__wishlist .fs-c-button--particular.fs-c-button--removeFromWishList--detail::after {
+	position: absolute;
+	left: 40px;
+	top: 5px;
+	font-size: 27px;
+}
+
+
+
+
+/*カートに入れる*/
+#fs_ProductDetails button.fs-c-button--addToCart--detail.fs-c-button--primary {
+	background: #991F1F;
+	border: 0;
+	box-shadow: none;
+	border-radius: 5px;
+	padding: 17px 0 !important;
+}
+
+/*返品特約について*/
+#fs_ProductDetails .fs-c-returnedSpecialContract a {
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+/*商品についてのお問い合わせ*/
+#fs_ProductDetails .fs-c-inquiryAboutProduct {
+	margin: 0;
+	padding: 8px 0 0;
+}
+
+#fs_ProductDetails .fs-c-inquiryAboutProduct .fs-c-button--plain {
+	color: #333333;
+}
+
+#fs_ProductDetails .fs-c-inquiryAboutProduct .fs-c-button__label {
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+/*レビュー表示*/
+#fs_ProductDetails .fs-c-productReview-outer {
+	margin: 0 0 42px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview {
+	width: 700px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .review_title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	border-bottom: 1px solid #333333;
+	padding: 0 0 10px;
+	margin: 0 0 20px;
+	width: 700px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .review_txt-main {
+	width: 700px;
+	font-size: 14px;
+	padding: 0 0 16px;
+	line-height: 1.57;
+}
+
+#fs_ProductDetails .fs-c-productReview__aggregateRating.fs-c-aggregateRating {
+	padding: 0 0 20px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview .fs-c-reviewer__name {
+	font-size: 1.5em;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview .fs-c-reviewer__profile {
+	margin-left: 1em;
+	font-size: 1em;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview .fs-c-reviewInfo__date {
+	font-size: 1em;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview .fs-c-rating,
+.fs-c-productReview .fs-c-aggregateRating__count {
+	font-size: 1.5em;
+	line-height: 200%;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview .fs-c-aggregateRating__rating::before {
+	font-size: 16px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview .fs-c-aggregateRating__count {
+	display: none;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item:first-child {
+	border-top: 1px solid #eeeeee;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item {
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item .fs-c-reviewList__item__info {
+	padding: 10px 15px 0;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item .fs-c-reviewList__item__info .fs-c-reviewInfo__reviewer {
+	font-size: 12px;
+	color: #666666;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item span.fs-c-reviewer__name__nickname {
+	font-size: 12px;
+	color: #666666;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item .fs-c-reviewList__item__info .fs-c-reviewer__name a {
+	font-size: 12px;
+	color: #666666;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item .fs-c-reviewList__item__info .fs-c-reviewInfo__date {
+	font-size: 12px;
+	color: #666666;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview li.fs-c-reviewList__item .fs-c-reviewList__item__body {
+	font-size: 14px;
+	line-height: 1.57;
+	border: none;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview a.fs-c-button--viewAllReviews.fs-c-button--plain {
+	text-align: right;
+	width: 700px;
+	text-decoration: underline;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview a.fs-c-button--viewAllReviews.fs-c-button--plain::before {
+	content: none;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview a.fs-c-button--viewAllReviews.fs-c-button--plain::after {
+	content: "\03e \03e";
+	font-size: 14px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-productReview a.fs-c-button--addReview--detail.fs-c-button--plain::before {
+	content: "この商品について、お客さまのご意見・ご感想をお聞かせください。";
+	font-size: 14px;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-buttonContainer--addReview--detail .fs-c-button__label {
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+#fs_ProductDetails .fs-c-productReview-outer .fs-c-buttonContainer--addReview--detail .fs-c-button__label::before {
+	content: url(https://kazurasei.itembox.design/item/images/common/icon-review.png);
+}
+
+/*商品詳細*/
+#fs_ProductDetails #original_comment2 {
+	font-size: 14px;
+	line-height: 1.57;
+	margin: 0 0 50px;
+}
+
+#fs_ProductDetails #original_comment2 .original_comment2_title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	border-bottom: 1px solid #333333;
+	padding: 0 0 10px;
+	margin: 0 0 20px;
+}
+
+/*おすすめ商品*/
+#fs_ProductDetails .fs-c-featuredProduct {
+	font-size: 14px;
+	line-height: 1.42;
+	margin: 0 0 50px;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-featuredProduct__title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	border-bottom: 1px solid #333333;
+	padding: 0 0 10px;
+	margin: 0 0 20px;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productListCarousel__list {
+	width: 636px;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productListCarousel__list .slick-slide {
+	width: 150px;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productListCarousel__list__item {
+	flex-basis: 150px;
+	max-width: 150px;
+	min-width: 150px;
+	margin: 0;
+	padding: 0 6px;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productListItem__image__image {
+	border: 1px solid #EEEEEE;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productPrice__main__label {
+	display: none;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productListItem__control.fs-c-buttonContainer {
+	display: none;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-button--carousel--prev::before {
+	font-size: 60px;
+	color: #A5A5A5 !important;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-button--carousel--next::before {
+	font-size: 60px;
+	color: #A5A5A5 !important;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .slick-disabled .fs-c-button--carousel--prev::before {
+	font-size: 60px;
+	color: #A5A5A5 !important;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct .slick-disabled .fs-c-button--carousel--next::before {
+	font-size: 60px;
+	color: #A5A5A5 !important;
+}
+
+/*￥*/
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productPrice__main__price .fs-c-price__currencyMark {
+	color: #991f1f;
+	font-size: 13px;
+}
+
+/*価格*/
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productPrice__main__price .fs-c-price__value {
+	color: #991f1f;
+	font-size: 13px;
+}
+
+/*税*/
+#fs_ProductDetails .fs-c-featuredProduct .fs-c-productPrice--selling .fs-c-productPrice__addon {
+	color: #991f1f;
+	font-size: 13px;
+}
+
+/* --------------------------------------------------------------------------------
+	検索ページ
+-------------------------------------------------------------------------------- */
+#fs_ProductSearch span.fs-c-sortItems__label {
+	font-size: 14px;
+}
+
+#fs_ProductSearch ul.fs-c-sortItems__list {
+	font-size: 14px;
+}
+
+/*商品名*/
+#fs_ProductSearch .fs-c-productListItem__productName {
+	font-size: 14px;
+}
+
+/*価格*/
+#fs_ProductSearch .fs-c-productPrice__main__price {
+	color: #d11;
+}
+
+/*税*/
+#fs_ProductSearch span.fs-c-productPrice__addon {
+	font-size: 12px;
+	color: #d11;
+}
+
+/*販売期間*/
+#fs_ProductSearch .fs-c-salesPeriod__date {
+	font-size: 11px;
+}
+
+/*販売を終了しました。*/
+#fs_ProductSearch .fs-c-productListItem__salesPeriodNotice.fs-c-productListItem__notice {
+	font-size: 11px;
+}
+
+/*カートに入れる*/
+#fs_ProductSearch button.fs-c-button--addToCart--list.fs-c-button--plain {
+	font-size: 10px;
+}
+
+/*お気に入り*/
+#fs_ProductSearch .fs-c-button--particular.fs-c-button--addToWishList--icon::before {
+	font-size: 18px;
+}
+
+/* --------------------------------------------------------------------------------
+	フリーページ
+-------------------------------------------------------------------------------- */
+#fs_CustomPage .fs-l-pageMain {
+	margin-left: 0;
+}
+
+/* --------------------------------------------------------------------------------
+	ログイン /p/login
+-------------------------------------------------------------------------------- */
+#fs_Login h2.fs-c-registeredUsers__title.fs-c-subSection__title {
+	font-size: 20px;
+}
+
+#fs_Login section.fs-c-newUsers.fs-c-subSection {
+	margin-left: 40px;
+	width: 350px;
+}
+
+#fs_Login h2.fs-c-newUsers__title.fs-c-subSection__title {
+	font-size: 20px;
+	margin: 0 0 20px;
+}
+
+#fs_Login .fs-c-newUsers__message.fs-c-subSection__message {
+	margin: 0 0 10px;
+	font-size: 14px;
+}
+
+#fs_Login a.fs-c-button--memberRegister.fs-c-button--primary {
+	color: #ffffff;
+}
+
+/* --------------------------------------------------------------------------------
+	ログイン /p/login?type=cart
+-------------------------------------------------------------------------------- */
+#fs_ShoppingCartLogin .fs-l-pageMain {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------------
+	お客様情報入力 /p/customer-details
+-------------------------------------------------------------------------------- */
+#fs_CustomerDetails .fs-l-pageMain {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------------
+	シンプルフッター
+-------------------------------------------------------------------------------- */
+.fs-p-footerPageTop__link::before {
+	font-size: 1.6rem;
+}
+
+.fs-p-footerCopyright__text {
+	font-size: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------------
+	ショッピングカート
+-------------------------------------------------------------------------------- */
+.fs-c-cartDiscountInfo__body {
+	font-size: 1.2rem;
+}
+
+#fs_ShoppingCart span.fs-c-productPrice__addon {
+	font-size: 12px;
+}
+
+.fs-c-button--primary {
+	padding: 1em 0;
+}
+
+.fs-c-wishlistProduct {
+	margin: 7vh auto;
+}
+
+/* --------------------------------------------------------------------------------
+	動的ページ　ボタンのテキストサイズ
+-------------------------------------------------------------------------------- */
+.fs-c-button__label {
+	font-size: 85%;
+}
+
+.fs-c-button--plain .fs-c-button__label {
+	font-size: 120%;
+}
+
+/* --------------------------------------------------------------------------------
+	動的ページ　h2のマージン
+-------------------------------------------------------------------------------- */
+.fs-p-announcement__title {
+	margin-bottom: 20px;
+}
+
+/* --------------------------------------------------------------------------------
+	ボタン設定
+-------------------------------------------------------------------------------- */
+#fs_ShoppingCart .fs-c-button--primary span,
+#fs_MyAddressBook a.fs-c-button--secondary,
+#fs_MyAddressBook a.fs-c-button--change,
+#fs_WishListLogin .fs-c-button--primary,
+#fs_ReviewLogin .fs-c-button--secondary,
+#fs_ReviewLogin .fs-c-button--primary {
+	color: #fff;
+	background: #444444;
+	border: 1px solid #444444;
+}
+
+/* --------------------------------------------------------------------------------
+	table設定
+-------------------------------------------------------------------------------- */
+.fs-c-cartTable th,
+.fs-c-cartTable td,
+#fs_MyAddressBook .fs-c-listTable th,
+#fs_MyAddressBook .fs-c-listTable td {
+	vertical-align: middle;
+}
+
+/* --------------------------------------------------------------------------------
+	マイページ&お気に入りリスト
+-------------------------------------------------------------------------------- */
+#fs_ProductDetails .fs-c-productName__name,
+.fs-c-wishlistProduct .fs-c-productName__name,
+#fs_MyPageTop .fs-c-productName__name,
+#fs_MyWishList .fs-c-productName__name {
+	font-size: 14px;
+}
+
+.fs-c-wishlistProduct .fs-c-productPrice__main__label,
+#fs_MyPageTop .fs-c-productPrice__main__label,
+#fs_MyWishList .fs-c-productPrice__main__label {
+	display: none;
+}
+
+#fs_ProductDetails .fs-c-button--particular.fs-c-button--removeFromWishList--icon::before,
+.fs-c-wishlistProduct .fs-c-button--particular.fs-c-button--removeFromWishList--icon::before,
+#fs_ProductCategory .fs-c-button--particular.fs-c-button--removeFromWishList--icon::before,
+#fs_MyPageTop .fs-c-button--particular.fs-c-button--removeFromWishList--icon::before,
+#fs_MyWishList .fs-c-button--particular.fs-c-button--removeFromWishList--icon::before,
+#fs_ProductSearch .fs-c-button--particular.fs-c-button--removeFromWishList--icon::before {
+	font-size: 18px;
+}
+
+/* --------------------------------------------------------------------------------
+	マイページ
+-------------------------------------------------------------------------------- */
+#fs_MyPageTop .fs-l-account {
+	justify-content: space-between;
+}
+
+#fs_MyPageTop .fs-c-accountService {
+	flex-basis: 100%;
+}
+
+#fs_MyPageTop .fs-c-accountService__page {
+	flex-basis: 18em;
+}
+
+#fs_ProductDetails .fs-c-featuredProduct,
+#fs_ShoppingCart .fs-c-wishlistProduct .fs-c-productListCarousel,
+#fs_MyPageTop .fs-c-productListCarousel {
+	margin: 3vh auto 5vh;
+}
+
+#fs_MyPageTop .fs-c-productPrice__main__label {
+	display: none;
+}
+
+#fs_Checkout .fs-c-productPrice__main__price,
+#fs_Checkout .fs-c-productPrice__addon,
+#fs_ShoppingCart .fs-c-wishlistProduct .fs-c-productPrice__main__price,
+#fs_ShoppingCart .fs-c-productPrice__main__price,
+#fs_ShoppingCart .fs-c-productPrice__addon,
+#fs_MyPageTop .fs-c-productPrice__main__price,
+#fs_MyPageTop .fs-c-productPrice__addon,
+#fs_MyPageTop .fs-c-productPrice__main__price,
+#fs_MyPageTop .fs-c-productPrice__addon,
+#fs_MyWishList .fs-c-productPrice__main__price,
+#fs_MyWishList .fs-c-productPrice__addon,
+#fs_MyPageTop .fs-c-productPrice__main__price,
+#fs_MyPageTop .fs-c-productPrice__addon {
+	font-size: 14px;
+	color: #991f1f;
+}
+
+#fs_MyPageTop .fs-c-accountService__logout {
+	font-size: 1.2rem;
+	box-shadow: 0 0 2px #b2b2b2;
+	background: #f7f7f7;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	color: #3c3c3c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	width: 40%;
+	margin: -50px auto 100px;
+	padding: 10px 0;
+}
+
+/* --------------------------------------------------------------------------------
+	お気に入り
+-------------------------------------------------------------------------------- */
+#fs_MyWishList .fs-c-rating {
+	text-align: center;
+}
+
+#fs_MyWishList .fs-c-aggregateRating__rating::before,
+#fs_MyWishList .fs-c-reviewStars,
+#fs_MyWishList .fs-c-rating__value {
+	font-size: 16px;
+}
+
+/* --------------------------------------------------------------------------------
+	会員情報詳細
+-------------------------------------------------------------------------------- */
+#fs_MyAccountSettings .fs-c-inputTable th,
+#fs_MyAccountSettings .fs-c-inputTable td {
+	font-size: 125%;
+}
+
+#fs_MyAccountSettings .fs-c-inputTable td {
+	padding-top: 0.5em;
+}
+
+#fs_MyAccountSettings .fs-c-button--change {
+	color: #fff;
+}
+
+/* --------------------------------------------------------------------------------
+	ログイン
+-------------------------------------------------------------------------------- */
+#fs_WishListLogin .fs-c-registeredUsers,
+#fs_ReviewLogin .fs-c-registeredUsers {
+	flex-basis: 60%;
+}
+
+.fs-body-wishlist-login .fs-c-newUsers,
+.fs_ReviewLogin .fs-c-newUsers {
+	margin-left: 5em;
+}
+
+.fs-c-subSection__title {
+	font-size: 1.5em;
+}
+
+/* --------------------------------------------------------------------------------
+	購入履歴
+-------------------------------------------------------------------------------- */
+.fs-body-my-orders .fs-c-history,
+.fs-body-my-storeOrders .fs-c-history {
+	display: block;
+}
+
+.fs-body-my-orders .fs-c-history__listContainer,
+.fs-body-my-storeOrders .fs-c-history__listContainer {
+	margin-top: 50px;
+}
+
+.fs-c-productPrice__addon:not(.fs-c-productPrice__addon--listed) {
+	font-size: 12px;
+}
+
+/* --------------------------------------------------------------------------------
+	在庫切れメッセージ
+-------------------------------------------------------------------------------- */
+.fs-c-productStock,
+.fs-c-productNotice--outOfStock {
+	padding: 0.5em;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background-color: #b2b2b2;
+	border: none;
+	border-radius: 5px;
+}
+
+.fs-c-button--viewProductDetail {
+	display: none;
+}
+
+.fs-c-productNotice--outOfStock {
+	padding: 1em;
+	font-size: 14px;
+}
+
+/* カルーセル VI */
+#vi .fs-c-slick .slick-dots li button:before {
+	content: "";
+}
+
+#vi .fs-pt-carousel{
+
+}

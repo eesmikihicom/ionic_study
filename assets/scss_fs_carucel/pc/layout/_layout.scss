@@ -1,0 +1,113 @@
+body {
+    box-sizing: content-box;
+    background-color: white;
+    background-image: none;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    min-width: 1180px;
+}
+
+//images
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+
+//h size
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 0.825rem;
+}
+
+h3,
+h4 {
+    font-size: 0.75rem;
+}
+
+h5,
+h6 {
+    font-size: 0.625rem;
+}
+
+/*------------------------------ style.css ----------------------------------*/
+
+
+//container size
+#container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px;
+}
+
+/*------------------------------ Section ----------------------------------*/
+section {
+    .announcement {
+        margin: 5vh auto;
+        text-align: center;
+    }
+}
+
+/*------------------------------ contents Layout ----------------------------------*/
+#contents,
+.fs-l-main {
+    display: block;
+    padding: 35px 0 75px;
+    width: 1180px;
+    margin: 0 auto;
+    float: none;
+    top: auto;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+#contentsLeft {
+    width: 300px;
+    float: left;
+}
+
+#container {
+    width: auto;
+    padding: 0;
+}
+
+//#contents_main {
+//    margin-left: 40px;
+//    width: 840px;
+//    float: left;
+//}
+
+#fs_CustomPage {
+    .fs-l-pageMain {
+        margin-left: 40px;
+        width: 840px;
+        float: left;
+    }
+
+}
+
+//FS用
+//#contents_main,
+//.fs-l-pageMain {
+//    margin-left: 110px;
+//    width: 700px;
+//}
+//
+//#fs_Checkout .fs-l-pageMain,
+//#fs_ShoppingCart .fs-l-pageMain {
+//    width: 1000px;
+//}
+
+#contents_white_sub {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+    float: none;
+    padding: 0;
+    width: 700px;
+}
