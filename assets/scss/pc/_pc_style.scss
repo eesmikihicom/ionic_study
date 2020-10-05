@@ -1,4 +1,7 @@
 @import "fs/fs_base";
+//@import "fs/fs_itemtag";
+@import "fs/fs_amazonpay";
+@import "fs/fs_category_group_link";
 
 @import "layout/layout";
 @import "layout/gnav";
@@ -12,5 +15,7 @@
 @import "contents/shop/vi";
 @import "contents/cate_feature";
 
+//category css
+@import "contents/category/mothersday";
 
 @import "contents/wp";

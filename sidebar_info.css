@@ -37,7 +37,6 @@
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: all .3s linear;
   transition: all .3s linear; }
 
 .cat_tips.prod_info {

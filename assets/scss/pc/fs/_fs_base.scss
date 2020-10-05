@@ -248,7 +248,7 @@
     img {
         &.fs-c-productListItem__image__image {
             &.fs-c-productImage__image {
-                border: 1px solid #ededed;
+                border: 5px solid #fff;
             }
         }
     }
@@ -373,9 +373,10 @@
 
                     a {
                         display: block;
-                        transform: scale(1.1) translate(-50%, -50%);
-                        top: 55%;
-                        left: 55%;
+                        //transform: scale(1.1) translate(-50%, -50%);
+                        transform: scale(1.0) translate(-50%, -50%);
+                        top: 50%;
+                        left: 50%;
                         position: relative;
                     }
                 }
@@ -575,7 +576,7 @@
                 font-size: 1.2rem;
                 line-height: 1.4;
                 margin: 5px 0 25px;
-                border-bottom: 3px solid #ededed;
+                //border-bottom: 3px solid #ededed;
                 padding-bottom: 20px;
             }
         }
@@ -596,7 +597,7 @@
 
     .fs-c-productPrices {
         &.fs-c-productPrices--productDetail {
-            border-top: 1px solid #ccc;
+            //border-top: 1px solid #ccc;
             padding: 10px 0;
         }
     }
@@ -736,7 +737,7 @@ span {
 
 .fs-c-productReview-outer {
     margin: 0 0 42px;
-    grid-row: 2 / 3;
+    grid-row: 3 / 3;
     grid-column: 1 / 3;
 
     .fs-c-productReview {
@@ -948,9 +949,9 @@ span {
         }
     }
 
-    .fs-c-productListItem__image__image {
-        border: 1px solid #EEEEEE;
-    }
+    // .fs-c-productListItem__image__image {
+    //     border: 1px solid #EEEEEE;
+    // }
 
     .fs-c-productPrice__main__label {
         display: none;
@@ -1089,7 +1090,7 @@ span {
 
     #fs_ProductDetails &,
     #fs_ShoppingCart & {
-        position: relative;
+        position: absolute;
 
         .fs-c-productMark {
 
@@ -1098,6 +1099,10 @@ span {
             }
         }
 
+    }
+
+    #sp_productName_top & {
+        position: relative;
     }
 }
 
@@ -1173,7 +1178,7 @@ button {
             &:before {
                 position: absolute;
                 font-size: 1rem;
-                left: 14%;
+                left: 4%;
                 top: 50%;
                 transform: translateY(-50%);
             }
@@ -1195,7 +1200,7 @@ button {
 
 
             &:before {
-                left: 7%;
+                left: 4%;
                 color: rgb(240, 109, 185);
             }
 
@@ -1286,7 +1291,7 @@ button {
 
 #original_comment1 {
     font-size: 14px;
-    border-bottom: 1px solid #eeeeee;
+    //border-bottom: 1px solid #eeeeee;
     padding: 0 0 20px;
     margin: 0 0 20px;
 
@@ -1294,7 +1299,7 @@ button {
         font-size: 1.1rem;
         padding: 5px 0;
         margin: 0 0 15px;
-        border-bottom: 1px solid #333333;
+        //border-bottom: 1px solid #333333;
         font-weight: bold;
     }
 }
@@ -1316,6 +1321,23 @@ button {
         border-bottom: 1px solid #333333;
         padding: 0 0 10px;
         margin: 0 0 20px;
+    }
+
+    &_grid {
+        grid-row: 2/3;
+        grid-column: 1/3;
+        font-size: 14px;
+        line-height: 1.57;
+        margin: 0 0 50px;
+
+        .original_comment2_title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333333;
+            border-bottom: 1px solid #333333;
+            padding: 0 0 10px;
+            margin: 0 0 20px;
+        }
     }
 }
 
@@ -2066,7 +2088,8 @@ button {
     トップ 左カラム無し
 -------------------------------------------------------------------------------- */
 #fs_ShoppingCart,
-#fs_Checkout {
+#fs_Checkout,
+#fs_CheckoutWithAmazon {
     .fs-l-pageMain {
         width: 100%;
         float: inherit;
@@ -2092,3 +2115,32 @@ button {
 /* --------------------------------------------------------------------------------
 	カテゴリ
 -------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------
+	タグ
+-------------------------------------------------------------------------------- */
+
+.fs-c-mark--preorder {
+    &.fs-c-mark {
+        border-radius: 0;
+        font-weight: 700;
+        padding: 0 10px;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+}
+
+
+/* --------------------------------------------------------------------------------
+	子グループ　ボタン
+-------------------------------------------------------------------------------- */
+.fs-c-subgroupList__link {
+    margin: 0 4px;
+    padding: 10px 4px;
+    border-radius: 5px;
+    border: 1px solid #c9d0d6;
+
+    .fs-c-subgroupList__label {
+        font-size: .8rem;
+    }
+}

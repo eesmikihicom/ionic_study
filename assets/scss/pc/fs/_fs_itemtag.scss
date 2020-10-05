@@ -1,7 +1,7 @@
 .fs-c-productMarks {
     margin-top: 0;
     height: auto;
-    position: relative;
+    position: absolute;
     margin-bottom: 10px !important;
 
     /*--- 商品マーク ----*/
@@ -20,7 +20,8 @@
 
     .newItem,
     .recommendItem,
-    .limitedItem {
+    .limitedItem,
+    .preparationItem {
         position: relative;
         margin-right: 5px;
     }

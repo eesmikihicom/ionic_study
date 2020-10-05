@@ -1,0 +1,20 @@
+.cat_container {
+    text-align: center;
+    margin: 30px auto;
+
+    p {
+        line-height: 2;
+    }
+
+    .term_md {
+        color: #991f1f;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    figure {
+        img {
+            transform: scale(0.75);
+        }
+    }
+}

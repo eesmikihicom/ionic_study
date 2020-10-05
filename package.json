@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "kazurasei for FS",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-header": "^2.0.9",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sass-glob": "^1.1.0",
     "gulp-strip-comments": "^2.5.2",
     "node-pre-gyp": "^0.13.0",

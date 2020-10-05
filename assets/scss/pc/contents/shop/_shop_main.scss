@@ -549,6 +549,13 @@
                         padding: 10px 10px;
                         position: relative;
 
+                        .fs-c-productListItem {
+                            .fs-c-productMarks {
+                                display: none;
+                            }
+
+                        }
+
                         &:before {
                             counter-increment: ranking;
                             content: counter(ranking);
