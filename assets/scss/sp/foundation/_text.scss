@@ -1,0 +1,73 @@
+#fs_PrivacyPolicy,
+#fs_AboutShippingAndPayment {
+    h1 {
+        &.fs-c-heading--page {
+            margin: 40px -20px 50px;
+            background: none;
+        }
+    }
+
+    h2 {
+        &.fs-c-documentArticle__heading {
+            margin: 0 -30px 20px;
+        }
+    }
+
+    h3 {
+        &.fs-c-documentColumn__heading {
+            margin: 50px 0 20px;
+        }
+
+    }
+
+    dl {
+        &.fs-c-explainList {
+            font-size: .75rem;
+
+            dt {
+                float: left;
+                margin-right: 10px;
+            }
+
+        }
+    }
+
+    .fs-c-orderedList {
+        margin: 20px 0;
+        list-style: none;
+        counter-reset: number;
+
+        li {
+            &::before {
+                counter-increment: number;
+                content: counter(number) ".";
+                display: inline-block;
+                color: #333333;
+                text-align: right;
+                width: 1em;
+                padding-right: 1em;
+                box-sizing: content-box;
+            }
+        }
+    }
+
+    .fs-c-orderedList {
+        margin: 0;
+    }
+
+    p {
+        .fs-c-note & {
+            &::before {}
+
+        }
+
+        .fs-c-postage & {
+            font-size: .875rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    .fs-p-privacyPolicy {
+        border-bottom: 1px solid #B3B2B1;
+    }
+}

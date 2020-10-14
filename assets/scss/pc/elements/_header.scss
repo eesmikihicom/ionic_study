@@ -417,6 +417,10 @@ header {
                     position: absolute;
                     right: -5px;
                     top: -10px;
+
+                    &.fs-client-cart-count--0 {
+                        display: none;
+                    }
                 }
             }
         }

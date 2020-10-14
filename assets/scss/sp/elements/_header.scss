@@ -212,6 +212,9 @@ header {
                             right: 10px;
                             top: -14px;
                             pointer-events: none;
+                            &.fs-client-cart-count--0{
+                                display: none;
+                            }
                         }
                     }
                 }

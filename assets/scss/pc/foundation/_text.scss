@@ -1,0 +1,118 @@
+#fs_PrivacyPolicy,
+#fs_AboutShippingAndPayment {
+    h1 {
+        &.fs-c-heading--page {
+            border-bottom: none;
+            font-weight: 500;
+            font-size: 1.625rem;
+            line-height: 1.5;
+            margin: 0 0 30px;
+            padding: 10px 0 10px;
+            text-align: center;
+            color: #333;
+            letter-spacing: 2.8px;
+        }
+    }
+
+    h2 {
+        &.fs-c-documentArticle__heading {
+            background: #585858;
+            color: #ffffff;
+            font-size: 1.125rem;
+            font-weight: 400;
+            margin: 0 0 20px;
+            padding: 14px 0;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+    }
+
+    h3 {
+        &.fs-c-documentColumn__heading {
+            font-weight: 700;
+            margin: 40px 0 20px;
+            font-size: 1rem;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #B3B2B1;
+            color: #333333;
+            border-left: none;
+            padding: 0 0 15px;
+            line-height: 1.5rem;
+        }
+    }
+
+
+    dl {
+        &.fs-c-explainList {
+            font-size: .75rem;
+
+            dt {
+                float: left;
+                margin-right: 10px;
+            }
+
+        }
+    }
+
+    .fs-c-documentColumn__content {
+        //padding: 8px 0;
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+        font-weight: 400;
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .fs-p-address {
+            margin-top: 20px;
+            font-style: normal;
+
+            &__companyName {
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            &__zipCode {
+                height: 20px;
+                pointer-events: none;
+            }
+        }
+    }
+
+    .fs-c-orderedList {
+        margin: 10px 0 20px;
+        list-style: none;
+        counter-reset: number;
+
+        li {
+            &::before {
+                counter-increment: number;
+                content: counter(number) ".";
+                display: inline-block;
+                color: #333333;
+                text-align: right;
+                width: 1em;
+                padding-right: 1em;
+                box-sizing: content-box;
+            }
+        }
+    }
+
+    p {
+        .fs-c-note & {
+            &::before {}
+
+        }
+
+        .fs-c-postage & {
+            font-size: .875rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    .fs-p-privacyPolicy{
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+}

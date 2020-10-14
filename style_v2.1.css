@@ -643,6 +643,15 @@ li.fs-c-breadcrumb__listItem {
 .wp-block-gallery .blocks-gallery-image figure, .wp-block-gallery .blocks-gallery-item figure {
   height: auto; }
 
+dl.fs-c-postage__list {
+  grid-column-gap: 8px; }
+
+#fs_AboutShippingAndPayment main, #fs_PrivacyPolicy main {
+  font-family: 'Noto sans JP',sans-serif; }
+
+#fs_AboutShippingAndPayment .mincho, #fs_PrivacyPolicy .mincho {
+  font-family: 'Noto serif JP',serif; }
+
 .fs-l-header {
   position: inherit;
   top: auto;
@@ -2424,6 +2433,9 @@ header .inner .cart .tocart span {
   right: -5px;
   top: -10px; }
 
+header .inner .cart .tocart span.fs-client-cart-count--0 {
+  display: none; }
+
 #vi {
   display: none;
   border-top: 5px solid #f5f5f5; }
@@ -3527,252 +3539,87 @@ footer .bottom .inner .copyright {
 .cat_container figure img {
   transform: scale(0.75); }
 
-#postContents .post_archive_header, #postContents .post_header, #postContents .post_index_header {
-  height: 30px;
-  border-bottom: #666 1px solid;
-  margin: 0 0 32px; }
-
-#postContents .post_archive_header h2, #postContents .post_header h2, #postContents .post_index_header h2 {
-  width: 300px;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  text-indent: -500%;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-bottom: 18px;
-  background-size: contain; }
-
-#postContents .post_archive_header h2 {
-  text-indent: 0;
-  font-size: 1rem;
-  line-height: 1.4rem; }
-
-#postContents .post_header h2 {
-  background-image: url(../images/common/info_detail_title.png); }
-
-#postContents .post_index_header h2 {
-  background-image: url(../images/common/info_list_title.png); }
-
-#postMain {
-  padding: 0 4px 20px; }
-
-#postMain .post_info {
-  margin-bottom: 44px;
-  padding-bottom: 27px;
-  border-bottom: 1px #d0d0d0 solid; }
-
-#postMain .post_info .article-date {
-  margin-right: 11px;
-  color: #666;
-  font-size: .85rem; }
-
-#postMain h1 {
-  border-left: #b21816 solid 8px;
-  padding-left: .825rem;
-  line-height: 1;
-  font-size: 1.8rem;
-  border-bottom: 0;
-  margin: 50px 0 30px;
-  text-indent: 0; }
-
-#postMain h1.post_title {
-  font-size: 1.8rem;
-  border-left: 0;
-  line-height: 1.4;
-  padding-left: 0;
-  text-indent: 0;
-  margin: 0 0 21px; }
-
-#postMain h2 {
+#fs_AboutShippingAndPayment h1.fs-c-heading--page, #fs_PrivacyPolicy h1.fs-c-heading--page {
+  border-bottom: none;
+  font-weight: 500;
   font-size: 1.625rem;
-  border-left: #b21815 solid 6px;
-  padding-left: .8rem;
-  line-height: 1.9rem;
-  margin: 55px 0 30px; }
+  line-height: 1.5;
+  margin: 0 0 30px;
+  padding: 10px 0 10px;
+  text-align: center;
+  color: #333;
+  letter-spacing: 2.8px; }
 
-#postMain h3 {
-  font-size: 1.5rem;
-  border-left: #b21815 solid 6px;
-  padding-left: .8rem;
-  line-height: 1.75rem;
-  margin: 55px 0 30px; }
+#fs_AboutShippingAndPayment h2.fs-c-documentArticle__heading, #fs_PrivacyPolicy h2.fs-c-documentArticle__heading {
+  background: #585858;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0 0 20px;
+  padding: 14px 0;
+  text-align: center;
+  letter-spacing: 1px; }
 
-#postMain h4 {
-  font-size: 1.3rem;
-  border-left: #b21815 solid 4px;
-  padding-left: .7rem;
-  line-height: 1.4rem;
-  margin: 50px 0 30px; }
-
-#postMain h5 {
-  font-size: 1.1rem;
-  border-left: #595959 solid 4px;
-  padding-left: .7rem;
-  line-height: 1.3rem;
-  margin: 55px 0 30px; }
-
-#postMain h6 {
-  margin: 50px 0 30px;
-  font-size: 1.1rem; }
-
-#postMain p {
-  line-height: 2.15;
-  margin-bottom: 20px; }
-
-#postMain ol, #postMain ul {
-  margin-bottom: 20px; }
-
-#postMain ol li, #postMain ul li {
-  margin-bottom: 10px;
-  font-size: 1rem; }
-
-#postMain ol li > ol, #postMain ul li > ol {
-  margin-top: 10px; }
-
-#postMain ul {
-  list-style: none;
-  padding-left: 0; }
-
-#postMain ul li {
-  position: relative;
-  padding-left: 15px; }
-
-#postMain ul li::before {
-  margin-right: .25rem;
-  content: "・";
+#fs_AboutShippingAndPayment h3.fs-c-documentColumn__heading, #fs_PrivacyPolicy h3.fs-c-documentColumn__heading {
   font-weight: 700;
-  position: absolute;
-  left: 0; }
+  margin: 40px 0 20px;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #b3b2b1;
+  color: #333;
+  border-left: none;
+  padding: 0 0 15px;
+  line-height: 1.5rem; }
 
-#postMain ul li > ul {
-  margin-top: 10px; }
-
-#postMain ul li > ul li {
-  margin-bottom: 5px;
-  padding-left: 0; }
-
-#postMain ul li > ul li::before {
-  content: ""; }
-
-#postMain ul.wp-block-gallery li::before {
-  content: ""; }
-
-#postMain ol {
-  counter-reset: li;
-  list-style: none;
-  padding-left: 20px; }
-
-#postMain ol li {
-  position: relative; }
-
-#postMain ol li::before {
-  margin-right: .25rem;
-  content: counter(li) ".";
-  counter-increment: li;
-  font-weight: 700;
-  position: absolute;
-  left: -20px; }
-
-#postMain ol li > ol {
-  padding-left: 20px; }
-
-#postMain table {
-  width: 100%; }
-
-#postMain table tr td {
-  padding: 8px 10px;
-  border: #cdcdcd 1px solid;
-  box-sizing: border-box; }
-
-#postMain table tr td:first-child {
-  background: #f5f5f5; }
-
-#postMain nav.post-navigation {
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-  margin-top: 30px; }
-
-#postMain nav.post-navigation h2 {
-  display: none; }
-
-#postMain nav.post-navigation .nav-links {
-  display: flex;
-  justify-content: space-between;
+#fs_AboutShippingAndPayment dl.fs-c-explainList, #fs_PrivacyPolicy dl.fs-c-explainList {
   font-size: .75rem; }
 
-#postMain nav.post-navigation .nav-links a:link, #postMain nav.post-navigation .nav-links a:visited {
-  color: #333;
-  font-weight: 400; }
-
-#postMain nav.post-navigation .nav-links .nav-previous {
-  flex-basis: 300px; }
-
-#postMain nav.post-navigation .nav-links .nav-previous a {
-  display: block;
-  padding: 10px 15px;
-  background: 0 0;
-  border-radius: 5px;
-  text-decoration: none;
-  min-height: 90px;
-  background: #f6f6f6;
-  transition: all .2s linear; }
-
-#postMain nav.post-navigation .nav-links .nav-previous a:hover {
-  background: #eee; }
-
-#postMain nav.post-navigation .nav-links .nav-previous a:hover p:first-child {
-  left: -5px; }
-
-#postMain nav.post-navigation .nav-links .nav-previous p {
-  margin-bottom: 0; }
-
-#postMain nav.post-navigation .nav-links .nav-previous p:first-child {
-  font-weight: 700;
-  position: relative;
-  left: 0;
-  transition: all .2s linear; }
-
-#postMain nav.post-navigation .nav-links .nav-previous p:last-child {
-  line-height: 1.5; }
-
-#postMain nav.post-navigation .nav-links .nav-previous p i {
+#fs_AboutShippingAndPayment dl.fs-c-explainList dt, #fs_PrivacyPolicy dl.fs-c-explainList dt {
+  float: left;
   margin-right: 10px; }
 
-#postMain nav.post-navigation .nav-links .nav-next {
-  flex-basis: 300px;
-  margin-left: auto; }
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content, #fs_PrivacyPolicy .fs-c-documentColumn__content {
+  font-size: .9rem;
+  line-height: 1.9rem;
+  font-weight: 400; }
 
-#postMain nav.post-navigation .nav-links .nav-next a {
-  display: block;
-  background: 0 0;
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  min-height: 90px;
-  background: #f6f6f6;
-  transition: all .2s linear; }
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content p, #fs_PrivacyPolicy .fs-c-documentColumn__content p {
+  margin-bottom: 15px; }
 
-#postMain nav.post-navigation .nav-links .nav-next a:hover {
-  background: #eee; }
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address {
+  margin-top: 20px;
+  font-style: normal; }
 
-#postMain nav.post-navigation .nav-links .nav-next a:hover p:first-child {
-  right: -5px; }
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__companyName, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__companyName {
+  font-size: 16px;
+  font-weight: 500; }
 
-#postMain nav.post-navigation .nav-links .nav-next a p {
-  margin-bottom: 0; }
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__zipCode {
+  height: 20px;
+  pointer-events: none; }
 
-#postMain nav.post-navigation .nav-links .nav-next a p:first-child {
+#fs_AboutShippingAndPayment .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList {
+  margin: 10px 0 20px;
+  list-style: none;
+  counter-reset: number; }
+
+#fs_AboutShippingAndPayment .fs-c-orderedList li::before, #fs_PrivacyPolicy .fs-c-orderedList li::before {
+  counter-increment: number;
+  content: counter(number) ".";
+  display: inline-block;
+  color: #333;
   text-align: right;
-  font-weight: 700;
-  position: relative;
-  right: 0;
-  transition: all .2s linear; }
+  width: 1em;
+  padding-right: 1em;
+  box-sizing: content-box; }
 
-#postMain nav.post-navigation .nav-links .nav-next a p:last-child {
-  line-height: 1.5; }
+.fs-c-postage #fs_AboutShippingAndPayment p, .fs-c-postage #fs_PrivacyPolicy p {
+  font-size: .875rem;
+  margin-bottom: 20px; }
 
-#postMain nav.post-navigation .nav-links .nav-next a p i {
-  margin-left: 10px; }
+#fs_AboutShippingAndPayment .fs-p-privacyPolicy, #fs_PrivacyPolicy .fs-p-privacyPolicy {
+  margin-bottom: 30px;
+  padding-bottom: 40px; }
 
 @media screen and (max-width: 800px) {
   .fs-l-header {
@@ -4621,7 +4468,8 @@ footer .bottom .inner .copyright {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: inherit; }
+    width: inherit;
+    margin-top: 70px; }
   #contents {
     padding: 35px 15px 75px;
     width: 100%;
@@ -4693,9 +4541,13 @@ footer .bottom .inner .copyright {
     color: #800d0d;
     background: #fff;
     font-weight: 700; }
+  #gnav-sp .menu_login .logout {
+    display: block; }
   #gnav-sp .menu_login .logout.my-false {
     display: none; }
-  #gnav-sp .menu_login .logout.my-true {
+  #gnav-sp .menu_login .login {
+    display: block; }
+  #gnav-sp .menu_login .login.my-true {
     display: none; }
   #gnav-sp .menu_login .regist.my-true {
     display: none; }
@@ -5123,6 +4975,8 @@ footer .bottom .inner .copyright {
     right: 10px;
     top: -14px;
     pointer-events: none; }
+  header .inner .header_ground li.cart .tocart span.fs-client-cart-count--0 {
+    display: none; }
   header .inner nav ul {
     display: -moz-flex;
     display: flex;
@@ -5194,8 +5048,7 @@ footer .bottom .inner .copyright {
     margin-bottom: 30px; }
   #leftNews dl dt {
     font-size: .8rem;
-    margin-bottom: 3px;
-    width: 77px; }
+    margin-bottom: 3px; }
   #leftNews dl dd {
     font-size: 14px;
     line-height: 1.5;
@@ -6211,130 +6064,35 @@ footer .bottom .inner .copyright {
     margin-bottom: 30px; }
   .cat_container figure img {
     transform: scale(1); }
-  #postContents {
-    margin: 0 0 20px; }
-  #postContents .post_header, #postContents .post_index_header {
-    margin: 10px auto 36px;
-    height: 32px; }
-  #postContents .post_header h2, #postContents .post_index_header h2 {
-    background-size: cover;
-    margin: auto; }
-  #postContents .post_header {
-    width: 135px; }
-  #postContents .post_header h2 {
-    width: 130px; }
-  #postContents .post_index_header {
-    width: 116px; }
-  #postContents .post_index_header h2 {
-    width: 116px; }
-  #postContents article {
-    padding: 0 5px 25px;
-    margin: 0 0 20px; }
-  #postContents h1 {
-    white-space: normal;
-    overflow: auto; }
-  .post_info {
-    margin-bottom: 10px; }
-  .post_info .article-date {
-    margin-right: 6px;
+  #fs_AboutShippingAndPayment h1.fs-c-heading--page, #fs_PrivacyPolicy h1.fs-c-heading--page {
+    margin: 40px -20px 50px;
+    background: 0 0; }
+  #fs_AboutShippingAndPayment h2.fs-c-documentArticle__heading, #fs_PrivacyPolicy h2.fs-c-documentArticle__heading {
+    margin: 0 -30px 20px; }
+  #fs_AboutShippingAndPayment h3.fs-c-documentColumn__heading, #fs_PrivacyPolicy h3.fs-c-documentColumn__heading {
+    margin: 50px 0 20px; }
+  #fs_AboutShippingAndPayment dl.fs-c-explainList, #fs_PrivacyPolicy dl.fs-c-explainList {
     font-size: .75rem; }
-  .post_info a {
-    font-size: 0.75rem !important;
-    width: 80px;
-    font-weight: 400; }
-  .postLink a .text h2 {
-    font-size: 1rem;
-    font-weight: 400; }
-  #contentsLeft {
-    padding: 30px 15px 50px;
-    border-top: 1px solid #ccc;
-    margin-top: 50px; }
-  #postMain {
-    padding: 0 4px 20px; }
-  #postMain .wp-block-image img {
-    height: auto; }
-  #postMain .wp-block-quote {
-    color: #444; }
-  #postMain .wp-block-quote cite {
-    font-size: .825rem; }
-  #postMain .post_info {
-    margin: 0 -5px 27px;
-    padding: 0 7px 20px;
-    border-bottom: 1px #d0d0d0 solid; }
-  #postMain .post_info .article-date {
-    margin-right: 5px; }
-  #postMain h1 {
-    white-space: normal;
-    overflow: auto;
-    font-size: 1.3rem;
-    padding-left: 10px;
-    line-height: 1.4;
-    margin: 35px 0 15px; }
-  #postMain h1.post_title {
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-    margin: 0 0 13px;
-    padding: 0; }
-  #postMain h2 {
-    font-size: 1.2rem;
-    border-left: #b21815 solid 7px;
-    padding-left: 11px;
-    line-height: 1.7rem;
-    margin: 35px 0 15px; }
-  #postMain h3 {
-    height: auto;
-    font-size: 1.1rem;
-    padding-left: 10px;
-    line-height: 1.65rem;
-    margin: 35px 0 15px; }
-  #postMain h4 {
-    height: auto;
-    font-size: 1.1rem;
-    padding-left: 13px;
-    line-height: 1.4rem;
-    margin: 35px 0 15px; }
-  #postMain h5 {
-    font-size: 1rem;
-    padding-left: 14px;
-    line-height: 1.4;
-    margin: 35px 0 15px; }
-  #postMain h6 {
-    margin: 35px 0 15px;
-    font-size: 1rem; }
-  #postMain p {
-    line-height: 1.6;
+  #fs_AboutShippingAndPayment dl.fs-c-explainList dt, #fs_PrivacyPolicy dl.fs-c-explainList dt {
+    float: left;
+    margin-right: 10px; }
+  #fs_AboutShippingAndPayment .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList {
+    margin: 20px 0;
+    list-style: none;
+    counter-reset: number; }
+  #fs_AboutShippingAndPayment .fs-c-orderedList li::before, #fs_PrivacyPolicy .fs-c-orderedList li::before {
+    counter-increment: number;
+    content: counter(number) ".";
+    display: inline-block;
+    color: #333;
+    text-align: right;
+    width: 1em;
+    padding-right: 1em;
+    box-sizing: content-box; }
+  #fs_AboutShippingAndPayment .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList {
+    margin: 0; }
+  .fs-c-postage #fs_AboutShippingAndPayment p, .fs-c-postage #fs_PrivacyPolicy p {
+    font-size: .875rem;
     margin-bottom: 20px; }
-  #postMain ol, #postMain ul {
-    margin-bottom: 20px; }
-  #postMain ol li, #postMain ul li {
-    margin-bottom: 12px;
-    font-size: 1rem; }
-  #postMain ol li > ol, #postMain ul li > ol {
-    margin-top: 10px; }
-  #postMain table {
-    font-size: .825rem; }
-  #postMain nav.post-navigation .nav-links {
-    flex-direction: column; }
-  #postMain nav.post-navigation .nav-links .nav-next, #postMain nav.post-navigation .nav-links .nav-previous {
-    flex-basis: auto;
-    margin-left: 0; }
-  #postMain nav.post-navigation .nav-links .nav-next a, #postMain nav.post-navigation .nav-links .nav-previous a {
-    min-height: auto;
-    margin-bottom: 10px; }
-  #postMain nav.post-navigation .nav-links .nav-next a p:last-child {
-    text-align: end; }
-  #leftNews h2 {
-    margin: 0 auto 35px; }
-  #leftNews dl dt {
-    width: auto;
-    padding: 0 5px;
-    margin-bottom: 8px; }
-  #leftNews dl dt .newsDate {
-    width: 70px;
-    font-size: .7rem; }
-  #leftNews dl dd {
-    padding: 0 5px 11px;
-    font-size: 1.125rem;
-    margin-bottom: 16px; }
-  #contents, .fs-l-main {
-    margin-top: 40px; } }
+  #fs_AboutShippingAndPayment .fs-p-privacyPolicy, #fs_PrivacyPolicy .fs-p-privacyPolicy {
+    border-bottom: 1px solid #b3b2b1; } }

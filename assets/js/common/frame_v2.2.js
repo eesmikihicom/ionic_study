@@ -30,7 +30,7 @@ $(document).ready(function () {
 		$(window).bind('scroll load', function () {
 			if ($(this).scrollTop() > 0) {
 				$($header).addClass('fixed');
-				if (($gnavT - $(this).scrollTop()) < $headH) {
+				if (($gnavT + $headH - $(this).scrollTop()) < $headH) {
 					$('body').css('padding-top', $headH);
 					$($gnav).addClass('fixed').css('top', $headH);
 					$('#vi').css('padding-bottom', $gnavH);
@@ -535,3 +535,9 @@ $(window).on('load', function () {
 // 		}
 // 	}
 // });
+
+$(window).on("resize load", function () {
+	if (window.matchMedia('(max-width: 799px)').matches) {
+		$("#fs_PrivacyPolicy").find(".fs-c-heading--page").html("個人情報の<br>取り扱いについて")
+	}
+});

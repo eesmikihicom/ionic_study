@@ -2407,6 +2407,9 @@ header .inner .cart .tocart span {
   right: -5px;
   top: -10px; }
 
+header .inner .cart .tocart span.fs-client-cart-count--0 {
+  display: none; }
+
 #vi {
   display: none;
   border-top: 5px solid #f5f5f5; }
@@ -4526,7 +4529,8 @@ footer .bottom .inner .copyright {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: inherit; }
+    width: inherit;
+    margin-top: 70px; }
   #contents {
     padding: 35px 15px 75px;
     width: 100%;
@@ -4598,9 +4602,13 @@ footer .bottom .inner .copyright {
     color: #800d0d;
     background: #fff;
     font-weight: 700; }
+  #gnav-sp .menu_login .logout {
+    display: block; }
   #gnav-sp .menu_login .logout.my-false {
     display: none; }
-  #gnav-sp .menu_login .logout.my-true {
+  #gnav-sp .menu_login .login {
+    display: block; }
+  #gnav-sp .menu_login .login.my-true {
     display: none; }
   #gnav-sp .menu_login .regist.my-true {
     display: none; }
@@ -5028,6 +5036,8 @@ footer .bottom .inner .copyright {
     right: 10px;
     top: -14px;
     pointer-events: none; }
+  header .inner .header_ground li.cart .tocart span.fs-client-cart-count--0 {
+    display: none; }
   header .inner nav ul {
     display: -moz-flex;
     display: flex;
@@ -5099,8 +5109,7 @@ footer .bottom .inner .copyright {
     margin-bottom: 30px; }
   #leftNews dl dt {
     font-size: .8rem;
-    margin-bottom: 3px;
-    width: 77px; }
+    margin-bottom: 3px; }
   #leftNews dl dd {
     font-size: 14px;
     line-height: 1.5;

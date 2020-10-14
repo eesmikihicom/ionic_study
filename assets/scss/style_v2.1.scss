@@ -7,10 +7,13 @@
 @import "foundation/common";
 @import "foundation/mixin";
 @import "foundation/wp_common";
+@import "foundation/conponent/table";
+@import "foundation/conponent/text";
 @import "pc/pc_style";
 
 @media screen and (max-width: 800px) {
     @import "sp/sp_style";
 }
+
 
 //@import "pc/fs/fs_itemtag"

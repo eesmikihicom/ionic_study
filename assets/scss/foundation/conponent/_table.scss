@@ -1,0 +1,25 @@
+$tablebg:#F5F4F0;
+$tableline:#B3B2B1;
+
+dl {
+    &.fs-c-postage__list {
+        grid-column-gap: 8px;
+
+        dd {}
+
+        dt {}
+    }
+    &.fs-c-postage__list--prefecture>*:nth-child(1){
+
+    }
+}
+
+table {
+    tbody {}
+
+    th {}
+
+    tr {
+        td {}
+    }
+}
