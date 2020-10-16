@@ -1,10 +1,18 @@
 #fs_PrivacyPolicy,
-#fs_AboutShippingAndPayment {
+#fs_AboutShippingAndPayment,
+#fs_ReturnPolicy,
+#fs_AboutTerms,
+#fs_MemberAgreement {
     main {
         font-family: 'Noto sans JP', sans-serif;
     }
 
     .mincho {
         font-family: 'Noto serif JP', serif;
+    }
+
+    .fs-c-note {
+        font-size: 0.8rem;
+        font-weight: 300;
     }
 }

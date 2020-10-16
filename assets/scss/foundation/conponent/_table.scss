@@ -1,25 +1,98 @@
 $tablebg:#F5F4F0;
 $tableline:#B3B2B1;
 
-dl {
-    &.fs-c-postage__list {
-        grid-column-gap: 8px;
+#fs_PrivacyPolicy,
+#fs_AboutShippingAndPayment,
+#fs_ReturnPolicy,
+#fs_AboutTerms,
+#fs_MemberAgreement {
+    dl {
+        &.fs-c-postage__list {
+            grid-column-gap: 8px;
+            line-height: 1.2rem;
+            font-size: 0.825rem;
 
-        dd {}
+            dd,
+            dt {
+                padding: 5px 5px 5px 10px;
+                border: 1px solid $tableline;
+            }
 
-        dt {}
+            dt {
+                background: $tablebg;
+            }
+
+            dd {
+                border-top: none;
+            }
+        }
+
     }
-    &.fs-c-postage__list--prefecture>*:nth-child(1){
 
+    table {
+        &.fs-c-specTable {
+            border: 1px solid $tableline;
+            margin-bottom: 20px;
+
+            .fs-c-specTable__headerCell {
+                background: $tablebg;
+                line-height: 1.2rem;
+                font-size: 0.825rem;
+            }
+
+            .fs-c-specTable__headerCell,
+            .fs-c-specTable__dataCell {
+                text-align: left;
+                padding: 5px 10px;
+                border: 1px solid $tableline;
+            }
+        }
     }
 }
 
-table {
-    tbody {}
-
-    th {}
-
-    tr {
-        td {}
+#fs_AboutShippingAndPayment {
+    #fs_anchor_cashOnDelivery {
+        .fs-c-specTable {
+            tbody {
+                tr:last-child {
+                    display: none;
+                }
+            }
+        }
     }
 }
+
+/*#fs_AboutTerms {
+    .fs-p-aboutTerms {
+        dl {
+            &.fs-c-explainList {
+
+                dd,
+                dt {
+                    padding: 5px 10px;
+                    border: 1px solid $tableline;
+                }
+
+                dt {
+                    font-weight: 700;
+                    background: $tablebg;
+                }
+
+                dd {
+                    border-left: none;
+                    margin-bottom: 0;
+                }
+            }
+
+            dd,
+            dt {
+                padding: 5px 10px;
+                border: 1px solid $tableline;
+            }
+
+            dt {
+                background: $tablebg;
+            }
+        }
+    }
+}*/

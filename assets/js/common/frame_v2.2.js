@@ -541,3 +541,9 @@ $(window).on("resize load", function () {
 		$("#fs_PrivacyPolicy").find(".fs-c-heading--page").html("個人情報の<br>取り扱いについて")
 	}
 });
+$(window).on("resize load", function () {
+	if (window.matchMedia('(max-width: 799px)').matches) {
+		$("#fs_AboutShippingAndPayment").find(".fs-c-heading--page").html("送料とお支払い方法<br>について")
+	}
+});
+

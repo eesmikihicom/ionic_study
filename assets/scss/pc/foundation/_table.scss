@@ -1,0 +1,51 @@
+#fs_PrivacyPolicy {
+    dl {
+        &.fs-c-explainList {
+            font-size: .75rem;
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: auto 1fr;
+            grid-template-columns: auto 1fr;
+            grid-column-gap: 24px;
+            grid-row-gap: 8px;
+        }
+    }
+}
+
+#fs_AboutTerms {
+    .fs-p-aboutTerms {
+        dl {
+            &.fs-c-explainList {
+                grid-column-gap: 0;
+                grid-row-gap: 0;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+
+                dt,
+                dd {
+                    //margin-right: 10px;
+                    font-size: 0.9rem;
+                    padding: 20px 10px;
+                }
+
+                dt {
+                    font-weight: 700;
+
+                    &:not(:nth-last-child(2)) {
+                        border-bottom: 1px solid #ddd;
+                    }
+
+                }
+
+                dd {
+                    font-weight: 400;
+
+                    &:not(:last-child) {
+                        border-bottom: 1px solid #ddd;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

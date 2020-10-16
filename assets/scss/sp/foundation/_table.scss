@@ -1,0 +1,73 @@
+#fs_PrivacyPolicy,
+#fs_AboutShippingAndPayment,
+#fs_ReturnPolicy,
+#fs_AboutTerms,
+#fs_MemberAgreement {
+    .fs-c-specTableContainer {
+        margin-top: 30px;
+    }
+
+    dl {
+        &.fs-c-postage__list {
+            grid-column-gap: 8px;
+            line-height: 1.2rem;
+            font-size: 0.825rem;
+
+
+            dd,
+            dt {
+                padding: 5px 5px 5px 10px;
+                border: 1px solid $tableline;
+            }
+
+            dt {
+                background: $tablebg;
+            }
+
+            dd {
+                border-top: none;
+            }
+        }
+    }
+}
+
+#fs_PrivacyPolicy {
+    dl {
+        &.fs-c-explainList {
+            font-size: .75rem;
+        }
+    }
+}
+
+#fs_AboutTerms {
+    .fs-p-aboutTerms {
+        margin-top: 40px;
+
+        dl {
+            &.fs-c-explainList {
+                margin-top: 40px;
+                grid-template-columns: auto;
+
+                dt,
+                dd {}
+
+                dt {
+                    padding: 15px 0 5px 10px;
+
+                    &:not(:nth-last-child(2)) {
+                        border-bottom: none;
+                    }
+                }
+
+                dd {
+                    margin-bottom: 10px;
+                    padding: 0 0 15px 10px;
+
+                    &:not(:last-child) {
+                        border-bottom: 1px solid #ddd;
+                    }
+                }
+            }
+        }
+    }
+}

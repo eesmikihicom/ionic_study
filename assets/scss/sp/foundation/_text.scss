@@ -1,5 +1,22 @@
 #fs_PrivacyPolicy,
-#fs_AboutShippingAndPayment {
+#fs_AboutShippingAndPayment,
+#fs_ReturnPolicy,
+#fs_AboutTerms,
+#fs_MemberAgreement,
+#fs_NewsletterSubscribe {
+
+    //text area space
+    .fs-l-pageMain {
+        .fs-c-documentArticle {
+            //&> :nth-child(2)
+            padding: 0 20px 40px;
+
+            &__content {
+                padding: 0;
+            }
+        }
+    }
+
     h1 {
         &.fs-c-heading--page {
             margin: 40px -20px 50px;
@@ -9,27 +26,16 @@
 
     h2 {
         &.fs-c-documentArticle__heading {
-            margin: 0 -30px 20px;
+            margin: 0 -30px 10px;
         }
     }
 
+    h2,
     h3 {
         &.fs-c-documentColumn__heading {
             margin: 50px 0 20px;
         }
 
-    }
-
-    dl {
-        &.fs-c-explainList {
-            font-size: .75rem;
-
-            dt {
-                float: left;
-                margin-right: 10px;
-            }
-
-        }
     }
 
     .fs-c-orderedList {

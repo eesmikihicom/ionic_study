@@ -643,14 +643,47 @@ li.fs-c-breadcrumb__listItem {
 .wp-block-gallery .blocks-gallery-image figure, .wp-block-gallery .blocks-gallery-item figure {
   height: auto; }
 
-dl.fs-c-postage__list {
-  grid-column-gap: 8px; }
+#fs_AboutShippingAndPayment dl.fs-c-postage__list, #fs_AboutTerms dl.fs-c-postage__list, #fs_MemberAgreement dl.fs-c-postage__list, #fs_PrivacyPolicy dl.fs-c-postage__list, #fs_ReturnPolicy dl.fs-c-postage__list {
+  grid-column-gap: 8px;
+  line-height: 1.2rem;
+  font-size: .825rem; }
 
-#fs_AboutShippingAndPayment main, #fs_PrivacyPolicy main {
+#fs_AboutShippingAndPayment dl.fs-c-postage__list dd, #fs_AboutShippingAndPayment dl.fs-c-postage__list dt, #fs_AboutTerms dl.fs-c-postage__list dd, #fs_AboutTerms dl.fs-c-postage__list dt, #fs_MemberAgreement dl.fs-c-postage__list dd, #fs_MemberAgreement dl.fs-c-postage__list dt, #fs_PrivacyPolicy dl.fs-c-postage__list dd, #fs_PrivacyPolicy dl.fs-c-postage__list dt, #fs_ReturnPolicy dl.fs-c-postage__list dd, #fs_ReturnPolicy dl.fs-c-postage__list dt {
+  padding: 5px 5px 5px 10px;
+  border: 1px solid #b3b2b1; }
+
+#fs_AboutShippingAndPayment dl.fs-c-postage__list dt, #fs_AboutTerms dl.fs-c-postage__list dt, #fs_MemberAgreement dl.fs-c-postage__list dt, #fs_PrivacyPolicy dl.fs-c-postage__list dt, #fs_ReturnPolicy dl.fs-c-postage__list dt {
+  background: #f5f4f0; }
+
+#fs_AboutShippingAndPayment dl.fs-c-postage__list dd, #fs_AboutTerms dl.fs-c-postage__list dd, #fs_MemberAgreement dl.fs-c-postage__list dd, #fs_PrivacyPolicy dl.fs-c-postage__list dd, #fs_ReturnPolicy dl.fs-c-postage__list dd {
+  border-top: none; }
+
+#fs_AboutShippingAndPayment table.fs-c-specTable, #fs_AboutTerms table.fs-c-specTable, #fs_MemberAgreement table.fs-c-specTable, #fs_PrivacyPolicy table.fs-c-specTable, #fs_ReturnPolicy table.fs-c-specTable {
+  border: 1px solid #b3b2b1;
+  margin-bottom: 20px; }
+
+#fs_AboutShippingAndPayment table.fs-c-specTable .fs-c-specTable__headerCell, #fs_AboutTerms table.fs-c-specTable .fs-c-specTable__headerCell, #fs_MemberAgreement table.fs-c-specTable .fs-c-specTable__headerCell, #fs_PrivacyPolicy table.fs-c-specTable .fs-c-specTable__headerCell, #fs_ReturnPolicy table.fs-c-specTable .fs-c-specTable__headerCell {
+  background: #f5f4f0;
+  line-height: 1.2rem;
+  font-size: .825rem; }
+
+#fs_AboutShippingAndPayment table.fs-c-specTable .fs-c-specTable__dataCell, #fs_AboutShippingAndPayment table.fs-c-specTable .fs-c-specTable__headerCell, #fs_AboutTerms table.fs-c-specTable .fs-c-specTable__dataCell, #fs_AboutTerms table.fs-c-specTable .fs-c-specTable__headerCell, #fs_MemberAgreement table.fs-c-specTable .fs-c-specTable__dataCell, #fs_MemberAgreement table.fs-c-specTable .fs-c-specTable__headerCell, #fs_PrivacyPolicy table.fs-c-specTable .fs-c-specTable__dataCell, #fs_PrivacyPolicy table.fs-c-specTable .fs-c-specTable__headerCell, #fs_ReturnPolicy table.fs-c-specTable .fs-c-specTable__dataCell, #fs_ReturnPolicy table.fs-c-specTable .fs-c-specTable__headerCell {
+  text-align: left;
+  padding: 5px 10px;
+  border: 1px solid #b3b2b1; }
+
+#fs_AboutShippingAndPayment #fs_anchor_cashOnDelivery .fs-c-specTable tbody tr:last-child {
+  display: none; }
+
+#fs_AboutShippingAndPayment main, #fs_AboutTerms main, #fs_MemberAgreement main, #fs_PrivacyPolicy main, #fs_ReturnPolicy main {
   font-family: 'Noto sans JP',sans-serif; }
 
-#fs_AboutShippingAndPayment .mincho, #fs_PrivacyPolicy .mincho {
+#fs_AboutShippingAndPayment .mincho, #fs_AboutTerms .mincho, #fs_MemberAgreement .mincho, #fs_PrivacyPolicy .mincho, #fs_ReturnPolicy .mincho {
   font-family: 'Noto serif JP',serif; }
+
+#fs_AboutShippingAndPayment .fs-c-note, #fs_AboutTerms .fs-c-note, #fs_MemberAgreement .fs-c-note, #fs_PrivacyPolicy .fs-c-note, #fs_ReturnPolicy .fs-c-note {
+  font-size: .8rem;
+  font-weight: 300; }
 
 .fs-l-header {
   position: inherit;
@@ -3539,7 +3572,16 @@ footer .bottom .inner .copyright {
 .cat_container figure img {
   transform: scale(0.75); }
 
-#fs_AboutShippingAndPayment h1.fs-c-heading--page, #fs_PrivacyPolicy h1.fs-c-heading--page {
+#fs_AboutShippingAndPayment .fs-l-pageMain .fs-c-documentArticle, #fs_AboutTerms .fs-l-pageMain .fs-c-documentArticle, #fs_MemberAgreement .fs-l-pageMain .fs-c-documentArticle, #fs_NewsletterSubscribe .fs-l-pageMain .fs-c-documentArticle, #fs_PrivacyPolicy .fs-l-pageMain .fs-c-documentArticle, #fs_ReturnPolicy .fs-l-pageMain .fs-c-documentArticle {
+  padding: 0; }
+
+#fs_AboutShippingAndPayment .fs-l-pageMain .fs-c-documentArticle__content, #fs_AboutTerms .fs-l-pageMain .fs-c-documentArticle__content, #fs_MemberAgreement .fs-l-pageMain .fs-c-documentArticle__content, #fs_NewsletterSubscribe .fs-l-pageMain .fs-c-documentArticle__content, #fs_PrivacyPolicy .fs-l-pageMain .fs-c-documentArticle__content, #fs_ReturnPolicy .fs-l-pageMain .fs-c-documentArticle__content {
+  padding: 10px; }
+
+#fs_AboutShippingAndPayment .fs-l-pageMain > :nth-child(2), #fs_AboutTerms .fs-l-pageMain > :nth-child(2), #fs_MemberAgreement .fs-l-pageMain > :nth-child(2), #fs_NewsletterSubscribe .fs-l-pageMain > :nth-child(2), #fs_PrivacyPolicy .fs-l-pageMain > :nth-child(2), #fs_ReturnPolicy .fs-l-pageMain > :nth-child(2) {
+  padding: 0; }
+
+#fs_AboutShippingAndPayment h1.fs-c-heading--page, #fs_AboutTerms h1.fs-c-heading--page, #fs_MemberAgreement h1.fs-c-heading--page, #fs_NewsletterSubscribe h1.fs-c-heading--page, #fs_PrivacyPolicy h1.fs-c-heading--page, #fs_ReturnPolicy h1.fs-c-heading--page {
   border-bottom: none;
   font-weight: 500;
   font-size: 1.625rem;
@@ -3550,7 +3592,7 @@ footer .bottom .inner .copyright {
   color: #333;
   letter-spacing: 2.8px; }
 
-#fs_AboutShippingAndPayment h2.fs-c-documentArticle__heading, #fs_PrivacyPolicy h2.fs-c-documentArticle__heading {
+#fs_AboutShippingAndPayment h2.fs-c-documentArticle__heading, #fs_AboutTerms h2.fs-c-documentArticle__heading, #fs_MemberAgreement h2.fs-c-documentArticle__heading, #fs_NewsletterSubscribe h2.fs-c-documentArticle__heading, #fs_PrivacyPolicy h2.fs-c-documentArticle__heading, #fs_ReturnPolicy h2.fs-c-documentArticle__heading {
   background: #585858;
   color: #fff;
   font-size: 1.125rem;
@@ -3560,7 +3602,10 @@ footer .bottom .inner .copyright {
   text-align: center;
   letter-spacing: 1px; }
 
-#fs_AboutShippingAndPayment h3.fs-c-documentColumn__heading, #fs_PrivacyPolicy h3.fs-c-documentColumn__heading {
+#fs_AboutShippingAndPayment h2.fs-c-documentColumn__heading, #fs_AboutTerms h2.fs-c-documentColumn__heading, #fs_MemberAgreement h2.fs-c-documentColumn__heading, #fs_NewsletterSubscribe h2.fs-c-documentColumn__heading, #fs_PrivacyPolicy h2.fs-c-documentColumn__heading, #fs_ReturnPolicy h2.fs-c-documentColumn__heading {
+  margin: 40px 0 10px; }
+
+#fs_AboutShippingAndPayment h2.fs-c-documentColumn__heading, #fs_AboutShippingAndPayment h3.fs-c-documentColumn__heading, #fs_AboutTerms h2.fs-c-documentColumn__heading, #fs_AboutTerms h3.fs-c-documentColumn__heading, #fs_MemberAgreement h2.fs-c-documentColumn__heading, #fs_MemberAgreement h3.fs-c-documentColumn__heading, #fs_NewsletterSubscribe h2.fs-c-documentColumn__heading, #fs_NewsletterSubscribe h3.fs-c-documentColumn__heading, #fs_PrivacyPolicy h2.fs-c-documentColumn__heading, #fs_PrivacyPolicy h3.fs-c-documentColumn__heading, #fs_ReturnPolicy h2.fs-c-documentColumn__heading, #fs_ReturnPolicy h3.fs-c-documentColumn__heading {
   font-weight: 700;
   margin: 40px 0 20px;
   font-size: 1rem;
@@ -3571,39 +3616,37 @@ footer .bottom .inner .copyright {
   padding: 0 0 15px;
   line-height: 1.5rem; }
 
-#fs_AboutShippingAndPayment dl.fs-c-explainList, #fs_PrivacyPolicy dl.fs-c-explainList {
-  font-size: .75rem; }
-
-#fs_AboutShippingAndPayment dl.fs-c-explainList dt, #fs_PrivacyPolicy dl.fs-c-explainList dt {
-  float: left;
-  margin-right: 10px; }
-
-#fs_AboutShippingAndPayment .fs-c-documentColumn__content, #fs_PrivacyPolicy .fs-c-documentColumn__content {
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content, #fs_AboutTerms .fs-c-documentColumn__content, #fs_MemberAgreement .fs-c-documentColumn__content, #fs_NewsletterSubscribe .fs-c-documentColumn__content, #fs_PrivacyPolicy .fs-c-documentColumn__content, #fs_ReturnPolicy .fs-c-documentColumn__content {
   font-size: .9rem;
   line-height: 1.9rem;
   font-weight: 400; }
 
-#fs_AboutShippingAndPayment .fs-c-documentColumn__content p, #fs_PrivacyPolicy .fs-c-documentColumn__content p {
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content p, #fs_AboutTerms .fs-c-documentColumn__content p, #fs_MemberAgreement .fs-c-documentColumn__content p, #fs_NewsletterSubscribe .fs-c-documentColumn__content p, #fs_PrivacyPolicy .fs-c-documentColumn__content p, #fs_ReturnPolicy .fs-c-documentColumn__content p {
   margin-bottom: 15px; }
 
-#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address {
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address, #fs_AboutTerms .fs-c-documentColumn__content .fs-p-address, #fs_MemberAgreement .fs-c-documentColumn__content .fs-p-address, #fs_NewsletterSubscribe .fs-c-documentColumn__content .fs-p-address, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address, #fs_ReturnPolicy .fs-c-documentColumn__content .fs-p-address {
   margin-top: 20px;
   font-style: normal; }
 
-#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__companyName, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__companyName {
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__title, #fs_AboutTerms .fs-c-documentColumn__content .fs-p-address__title, #fs_MemberAgreement .fs-c-documentColumn__content .fs-p-address__title, #fs_NewsletterSubscribe .fs-c-documentColumn__content .fs-p-address__title, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__title, #fs_ReturnPolicy .fs-c-documentColumn__content .fs-p-address__title {
+  font-size: .825rem;
+  font-weight: 600;
+  color: #585858; }
+
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__companyName, #fs_AboutTerms .fs-c-documentColumn__content .fs-p-address__companyName, #fs_MemberAgreement .fs-c-documentColumn__content .fs-p-address__companyName, #fs_NewsletterSubscribe .fs-c-documentColumn__content .fs-p-address__companyName, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__companyName, #fs_ReturnPolicy .fs-c-documentColumn__content .fs-p-address__companyName {
   font-size: 16px;
   font-weight: 500; }
 
-#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__zipCode {
+#fs_AboutShippingAndPayment .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_AboutTerms .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_MemberAgreement .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_NewsletterSubscribe .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_PrivacyPolicy .fs-c-documentColumn__content .fs-p-address__zipCode, #fs_ReturnPolicy .fs-c-documentColumn__content .fs-p-address__zipCode {
   height: 20px;
   pointer-events: none; }
 
-#fs_AboutShippingAndPayment .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList {
+#fs_AboutShippingAndPayment .fs-c-orderedList, #fs_AboutTerms .fs-c-orderedList, #fs_MemberAgreement .fs-c-orderedList, #fs_NewsletterSubscribe .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList, #fs_ReturnPolicy .fs-c-orderedList {
   margin: 10px 0 20px;
   list-style: none;
   counter-reset: number; }
 
-#fs_AboutShippingAndPayment .fs-c-orderedList li::before, #fs_PrivacyPolicy .fs-c-orderedList li::before {
+#fs_AboutShippingAndPayment .fs-c-orderedList li::before, #fs_AboutTerms .fs-c-orderedList li::before, #fs_MemberAgreement .fs-c-orderedList li::before, #fs_NewsletterSubscribe .fs-c-orderedList li::before, #fs_PrivacyPolicy .fs-c-orderedList li::before, #fs_ReturnPolicy .fs-c-orderedList li::before {
   counter-increment: number;
   content: counter(number) ".";
   display: inline-block;
@@ -3613,13 +3656,75 @@ footer .bottom .inner .copyright {
   padding-right: 1em;
   box-sizing: content-box; }
 
-.fs-c-postage #fs_AboutShippingAndPayment p, .fs-c-postage #fs_PrivacyPolicy p {
+#fs_AboutShippingAndPayment .fs-c-orderedList > li .fs-c-orderedList, #fs_AboutTerms .fs-c-orderedList > li .fs-c-orderedList, #fs_MemberAgreement .fs-c-orderedList > li .fs-c-orderedList, #fs_NewsletterSubscribe .fs-c-orderedList > li .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList > li .fs-c-orderedList, #fs_ReturnPolicy .fs-c-orderedList > li .fs-c-orderedList {
+  padding-left: 0;
+  border-left: none; }
+
+#fs_AboutShippingAndPayment .fs-c-orderedList > li + li, #fs_AboutTerms .fs-c-orderedList > li + li, #fs_MemberAgreement .fs-c-orderedList > li + li, #fs_NewsletterSubscribe .fs-c-orderedList > li + li, #fs_PrivacyPolicy .fs-c-orderedList > li + li, #fs_ReturnPolicy .fs-c-orderedList > li + li {
+  margin-top: 0; }
+
+.fs-c-postage #fs_AboutShippingAndPayment p, .fs-c-postage #fs_AboutTerms p, .fs-c-postage #fs_MemberAgreement p, .fs-c-postage #fs_NewsletterSubscribe p, .fs-c-postage #fs_PrivacyPolicy p, .fs-c-postage #fs_ReturnPolicy p {
   font-size: .875rem;
   margin-bottom: 20px; }
 
-#fs_AboutShippingAndPayment .fs-p-privacyPolicy, #fs_PrivacyPolicy .fs-p-privacyPolicy {
+#fs_AboutShippingAndPayment .fs-p-privacyPolicy, #fs_AboutTerms .fs-p-privacyPolicy, #fs_MemberAgreement .fs-p-privacyPolicy, #fs_NewsletterSubscribe .fs-p-privacyPolicy, #fs_PrivacyPolicy .fs-p-privacyPolicy, #fs_ReturnPolicy .fs-p-privacyPolicy {
   margin-bottom: 30px;
   padding-bottom: 40px; }
+
+#fs_AboutShippingAndPayment .fs-c-list li, #fs_AboutTerms .fs-c-list li, #fs_MemberAgreement .fs-c-list li, #fs_NewsletterSubscribe .fs-c-list li, #fs_PrivacyPolicy .fs-c-list li, #fs_ReturnPolicy .fs-c-list li {
+  margin-left: 10px;
+  text-indent: 5px;
+  padding-left: 0;
+  position: relative;
+  line-height: 1.5rem;
+  margin-bottom: 10px; }
+
+#fs_AboutShippingAndPayment .fs-c-list li::before, #fs_AboutTerms .fs-c-list li::before, #fs_MemberAgreement .fs-c-list li::before, #fs_NewsletterSubscribe .fs-c-list li::before, #fs_PrivacyPolicy .fs-c-list li::before, #fs_ReturnPolicy .fs-c-list li::before {
+  display: inline-block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  margin: auto 0 auto -10px;
+  border-radius: 50%;
+  background: #656e75;
+  background-origin: padding-box;
+  border: none;
+  box-sizing: content-box;
+  position: absolute;
+  top: 15px;
+  transform: translateY(-50%); }
+
+#fs_PrivacyPolicy dl.fs-c-explainList {
+  font-size: .75rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 8px; }
+
+#fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList {
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  display: grid;
+  grid-template-columns: 150px 1fr; }
+
+#fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dd, #fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dt {
+  font-size: .9rem;
+  padding: 20px 10px; }
+
+#fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dt {
+  font-weight: 700; }
+
+#fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dt:not(:nth-last-child(2)) {
+  border-bottom: 1px solid #ddd; }
+
+#fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dd {
+  font-weight: 400; }
+
+#fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dd:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0; }
 
 @media screen and (max-width: 800px) {
   .fs-l-header {
@@ -5048,7 +5153,7 @@ footer .bottom .inner .copyright {
     margin-bottom: 30px; }
   #leftNews dl dt {
     font-size: .8rem;
-    margin-bottom: 3px; }
+    margin-bottom: 15px; }
   #leftNews dl dd {
     font-size: 14px;
     line-height: 1.5;
@@ -6064,23 +6169,22 @@ footer .bottom .inner .copyright {
     margin-bottom: 30px; }
   .cat_container figure img {
     transform: scale(1); }
-  #fs_AboutShippingAndPayment h1.fs-c-heading--page, #fs_PrivacyPolicy h1.fs-c-heading--page {
+  #fs_AboutShippingAndPayment .fs-l-pageMain .fs-c-documentArticle, #fs_AboutTerms .fs-l-pageMain .fs-c-documentArticle, #fs_MemberAgreement .fs-l-pageMain .fs-c-documentArticle, #fs_NewsletterSubscribe .fs-l-pageMain .fs-c-documentArticle, #fs_PrivacyPolicy .fs-l-pageMain .fs-c-documentArticle, #fs_ReturnPolicy .fs-l-pageMain .fs-c-documentArticle {
+    padding: 0 20px 40px; }
+  #fs_AboutShippingAndPayment .fs-l-pageMain .fs-c-documentArticle__content, #fs_AboutTerms .fs-l-pageMain .fs-c-documentArticle__content, #fs_MemberAgreement .fs-l-pageMain .fs-c-documentArticle__content, #fs_NewsletterSubscribe .fs-l-pageMain .fs-c-documentArticle__content, #fs_PrivacyPolicy .fs-l-pageMain .fs-c-documentArticle__content, #fs_ReturnPolicy .fs-l-pageMain .fs-c-documentArticle__content {
+    padding: 0; }
+  #fs_AboutShippingAndPayment h1.fs-c-heading--page, #fs_AboutTerms h1.fs-c-heading--page, #fs_MemberAgreement h1.fs-c-heading--page, #fs_NewsletterSubscribe h1.fs-c-heading--page, #fs_PrivacyPolicy h1.fs-c-heading--page, #fs_ReturnPolicy h1.fs-c-heading--page {
     margin: 40px -20px 50px;
     background: 0 0; }
-  #fs_AboutShippingAndPayment h2.fs-c-documentArticle__heading, #fs_PrivacyPolicy h2.fs-c-documentArticle__heading {
-    margin: 0 -30px 20px; }
-  #fs_AboutShippingAndPayment h3.fs-c-documentColumn__heading, #fs_PrivacyPolicy h3.fs-c-documentColumn__heading {
+  #fs_AboutShippingAndPayment h2.fs-c-documentArticle__heading, #fs_AboutTerms h2.fs-c-documentArticle__heading, #fs_MemberAgreement h2.fs-c-documentArticle__heading, #fs_NewsletterSubscribe h2.fs-c-documentArticle__heading, #fs_PrivacyPolicy h2.fs-c-documentArticle__heading, #fs_ReturnPolicy h2.fs-c-documentArticle__heading {
+    margin: 0 -30px 10px; }
+  #fs_AboutShippingAndPayment h2.fs-c-documentColumn__heading, #fs_AboutShippingAndPayment h3.fs-c-documentColumn__heading, #fs_AboutTerms h2.fs-c-documentColumn__heading, #fs_AboutTerms h3.fs-c-documentColumn__heading, #fs_MemberAgreement h2.fs-c-documentColumn__heading, #fs_MemberAgreement h3.fs-c-documentColumn__heading, #fs_NewsletterSubscribe h2.fs-c-documentColumn__heading, #fs_NewsletterSubscribe h3.fs-c-documentColumn__heading, #fs_PrivacyPolicy h2.fs-c-documentColumn__heading, #fs_PrivacyPolicy h3.fs-c-documentColumn__heading, #fs_ReturnPolicy h2.fs-c-documentColumn__heading, #fs_ReturnPolicy h3.fs-c-documentColumn__heading {
     margin: 50px 0 20px; }
-  #fs_AboutShippingAndPayment dl.fs-c-explainList, #fs_PrivacyPolicy dl.fs-c-explainList {
-    font-size: .75rem; }
-  #fs_AboutShippingAndPayment dl.fs-c-explainList dt, #fs_PrivacyPolicy dl.fs-c-explainList dt {
-    float: left;
-    margin-right: 10px; }
-  #fs_AboutShippingAndPayment .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList {
+  #fs_AboutShippingAndPayment .fs-c-orderedList, #fs_AboutTerms .fs-c-orderedList, #fs_MemberAgreement .fs-c-orderedList, #fs_NewsletterSubscribe .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList, #fs_ReturnPolicy .fs-c-orderedList {
     margin: 20px 0;
     list-style: none;
     counter-reset: number; }
-  #fs_AboutShippingAndPayment .fs-c-orderedList li::before, #fs_PrivacyPolicy .fs-c-orderedList li::before {
+  #fs_AboutShippingAndPayment .fs-c-orderedList li::before, #fs_AboutTerms .fs-c-orderedList li::before, #fs_MemberAgreement .fs-c-orderedList li::before, #fs_NewsletterSubscribe .fs-c-orderedList li::before, #fs_PrivacyPolicy .fs-c-orderedList li::before, #fs_ReturnPolicy .fs-c-orderedList li::before {
     counter-increment: number;
     content: counter(number) ".";
     display: inline-block;
@@ -6089,10 +6193,39 @@ footer .bottom .inner .copyright {
     width: 1em;
     padding-right: 1em;
     box-sizing: content-box; }
-  #fs_AboutShippingAndPayment .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList {
+  #fs_AboutShippingAndPayment .fs-c-orderedList, #fs_AboutTerms .fs-c-orderedList, #fs_MemberAgreement .fs-c-orderedList, #fs_NewsletterSubscribe .fs-c-orderedList, #fs_PrivacyPolicy .fs-c-orderedList, #fs_ReturnPolicy .fs-c-orderedList {
     margin: 0; }
-  .fs-c-postage #fs_AboutShippingAndPayment p, .fs-c-postage #fs_PrivacyPolicy p {
+  .fs-c-postage #fs_AboutShippingAndPayment p, .fs-c-postage #fs_AboutTerms p, .fs-c-postage #fs_MemberAgreement p, .fs-c-postage #fs_NewsletterSubscribe p, .fs-c-postage #fs_PrivacyPolicy p, .fs-c-postage #fs_ReturnPolicy p {
     font-size: .875rem;
     margin-bottom: 20px; }
-  #fs_AboutShippingAndPayment .fs-p-privacyPolicy, #fs_PrivacyPolicy .fs-p-privacyPolicy {
-    border-bottom: 1px solid #b3b2b1; } }
+  #fs_AboutShippingAndPayment .fs-p-privacyPolicy, #fs_AboutTerms .fs-p-privacyPolicy, #fs_MemberAgreement .fs-p-privacyPolicy, #fs_NewsletterSubscribe .fs-p-privacyPolicy, #fs_PrivacyPolicy .fs-p-privacyPolicy, #fs_ReturnPolicy .fs-p-privacyPolicy {
+    border-bottom: 1px solid #b3b2b1; }
+  #fs_AboutShippingAndPayment .fs-c-specTableContainer, #fs_AboutTerms .fs-c-specTableContainer, #fs_MemberAgreement .fs-c-specTableContainer, #fs_PrivacyPolicy .fs-c-specTableContainer, #fs_ReturnPolicy .fs-c-specTableContainer {
+    margin-top: 30px; }
+  #fs_AboutShippingAndPayment dl.fs-c-postage__list, #fs_AboutTerms dl.fs-c-postage__list, #fs_MemberAgreement dl.fs-c-postage__list, #fs_PrivacyPolicy dl.fs-c-postage__list, #fs_ReturnPolicy dl.fs-c-postage__list {
+    grid-column-gap: 8px;
+    line-height: 1.2rem;
+    font-size: .825rem; }
+  #fs_AboutShippingAndPayment dl.fs-c-postage__list dd, #fs_AboutShippingAndPayment dl.fs-c-postage__list dt, #fs_AboutTerms dl.fs-c-postage__list dd, #fs_AboutTerms dl.fs-c-postage__list dt, #fs_MemberAgreement dl.fs-c-postage__list dd, #fs_MemberAgreement dl.fs-c-postage__list dt, #fs_PrivacyPolicy dl.fs-c-postage__list dd, #fs_PrivacyPolicy dl.fs-c-postage__list dt, #fs_ReturnPolicy dl.fs-c-postage__list dd, #fs_ReturnPolicy dl.fs-c-postage__list dt {
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #b3b2b1; }
+  #fs_AboutShippingAndPayment dl.fs-c-postage__list dt, #fs_AboutTerms dl.fs-c-postage__list dt, #fs_MemberAgreement dl.fs-c-postage__list dt, #fs_PrivacyPolicy dl.fs-c-postage__list dt, #fs_ReturnPolicy dl.fs-c-postage__list dt {
+    background: #f5f4f0; }
+  #fs_AboutShippingAndPayment dl.fs-c-postage__list dd, #fs_AboutTerms dl.fs-c-postage__list dd, #fs_MemberAgreement dl.fs-c-postage__list dd, #fs_PrivacyPolicy dl.fs-c-postage__list dd, #fs_ReturnPolicy dl.fs-c-postage__list dd {
+    border-top: none; }
+  #fs_PrivacyPolicy dl.fs-c-explainList {
+    font-size: .75rem; }
+  #fs_AboutTerms .fs-p-aboutTerms {
+    margin-top: 40px; }
+  #fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList {
+    margin-top: 40px;
+    grid-template-columns: auto; }
+  #fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dt {
+    padding: 15px 0 5px 10px; }
+  #fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dt:not(:nth-last-child(2)) {
+    border-bottom: none; }
+  #fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dd {
+    margin-bottom: 10px;
+    padding: 0 0 15px 10px; }
+  #fs_AboutTerms .fs-p-aboutTerms dl.fs-c-explainList dd:not(:last-child) {
+    border-bottom: 1px solid #ddd; } }
